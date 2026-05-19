@@ -142,17 +142,6 @@ MARKET_ASSESSMENTS = {
             "公开搜索可见咪小窝色号贴、套装与清仓信息。",
         ],
     },
-    "xiaowu-291": {
-        "tier": "B-",
-        "score": 3.1,
-        "label": "平价补充品牌",
-        "summary": "小舞家在平价材料包和通用色卡贴中可见，公开源码也收录完整色卡；但主流工具直接支持和媒体声量少于 COCO/漫漫/盼盼/咪小窝。",
-        "evidence": [
-            "电商/代购搜索结果中常见 MARD、黄豆豆、DODO、小舞、COCO 同款材料包描述。",
-            "公开源码库收录小舞 291 色完整色卡。",
-            "选购文章把小舞家列为 1.3-1.4 元/1000 颗价位段的性价比选择。",
-        ],
-    },
     "manman-278": {
         "tier": "B+",
         "score": 3.7,
@@ -164,17 +153,6 @@ MARKET_ASSESSMENTS = {
             "入门/教程类页面称漫漫家是拼豆圈启蒙老店、图纸资源丰富。",
         ],
     },
-    "huangdoudou-291": {
-        "tier": "B",
-        "score": 3.5,
-        "label": "新手/平价常见品牌",
-        "summary": "黄豆豆在材料包、通用色卡贴和新手工具中常见，适合作为平价/入门备选；图纸工具覆盖不如 MARD/COCO/漫漫/盼盼/咪小窝稳定。",
-        "evidence": [
-            "拼豆酱内置 Mard、优肯、黄豆豆色卡，并将黄豆豆标注为新手友好。",
-            "多个商品标题把黄豆豆与 MARD、DODO、COCO、小舞同列为同款/通用体系。",
-            "公开源码库收录黄豆豆 291 色完整色卡。",
-        ],
-    },
     "youken-public-174": {
         "tier": "B-",
         "score": 3.0,
@@ -184,17 +162,6 @@ MARKET_ASSESSMENTS = {
             "Artkal 在比特拼豆和多个工具中被列为主流或常见品牌。",
             "该表来自公开源码库的旧优肯数据，和官方 C197/M221 口径不完全一致。",
             "当前采购和对色更应看 Artkal 官方 C197、M221 或 C+M418。",
-        ],
-    },
-    "youken-mard-221-public": {
-        "tier": "A-",
-        "score": 3.8,
-        "label": "MARD 兼容补充体系",
-        "summary": "优肯 MARD 同款 221 色承接 MARD 色号体系的需求，适合已经按 MARD 做图纸但想用优肯/Artkal 供应链的场景。",
-        "evidence": [
-            "抖音搜索结果可见“优肯拼豆推出 Mard 同款 221 个色号，加上之前 197 个色号共 418 个色号”的内容摘要。",
-            "Artkal M 系列官方页写明 M-2.6mm 与 C 系列同材质同尺寸，并提供 221 色 RGB chart。",
-            "公开源码库收录优肯Mard-221 色卡。",
         ],
     },
     "artkal-c-197-official": {
@@ -903,6 +870,33 @@ def read_palette(directory: Path) -> tuple[dict[str, Any], list[dict[str, Any]],
     return info, rows, groups
 
 
+RELATION_NOTES = [
+    {
+        "title": "MARD 221 两个来源不是完全重复",
+        "items": [
+            "`mard-221-alfonse-doudou`（MARD家）与 `mard-221-github`（MARD家源码版）都是 MARD 221 色号体系，221 个色号集合完全一致。",
+            "两者颜色数据不完全一致：逐色号对比后有 77 个 HEX/RGB 不同，144 个一致。因此两者都保留；默认建议优先看 `mard-221-alfonse-doudou`，源码版用于交叉校验。",
+            "差异明细保留在 `Mard-221-source-differences.json`。",
+        ],
+    },
+    {
+        "title": "优肯 MARD 同款 221 与优肯 M221",
+        "items": [
+            "原 `youken-mard-221-public` 与 `artkal-m-221-official` 规范化色号后颜色数据完全重复：`A1` 对应 `MA1`，`H1[透明]` 对应 `MH1`。",
+            "因此不再保留 `youken-mard-221-public` 独立目录；需要优肯 MARD 同款 221 时直接使用 `artkal-m-221-official`。它是优肯/Artkal M 系列官方口径，不是 MARD 原厂色卡。",
+        ],
+    },
+    {
+        "title": "黄豆豆、小舞家与 MARD 291",
+        "items": [
+            "当前公开源码数据中，`huangdoudou-291`、`xiaowu-291` 与 `mard-291-github` 的 291 个色号、HEX、RGB 完全一致。",
+            "为避免把完全重复数据列成独立系列，当前仓库不再保留黄豆豆、小舞家独立目录；需要这两者公开源码口径时可暂按 `mard-291-github` 读取。",
+            "这只说明当前已收录公开数据完全重复，不代表品牌实物或其他未收录官方色卡一定没有差异；后续拿到可信独立色卡后可恢复独立目录。",
+        ],
+    },
+]
+
+
 def make_index(manifest: list[dict[str, Any]]) -> None:
     lines = [
         "# 拼豆色卡四件套交付目录",
@@ -922,9 +916,14 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
         lines.append(
             f"| [{item['title']}]({item['id']}/) | {item['mainstream_tier']} / {item['mainstream_score']} | {item['mainstream_label']} | `{item['id']}` | {item['count']} | {item['rows_with_rgb']} | {item['rows_without_rgb']} |"
         )
+    lines.extend(["", "## 数据关系与去重说明", ""])
+    for note in RELATION_NOTES:
+        lines.extend([f"### {note['title']}", ""])
+        for item in note["items"]:
+            lines.append(f"- {item}")
+        lines.append("")
     lines.extend(
         [
-            "",
             "## 主流度评级口径",
             "",
             "- S：国内手工小店/玩家图纸交流中的默认或最主流体系。",

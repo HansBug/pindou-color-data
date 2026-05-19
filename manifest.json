@@ -106,36 +106,6 @@
     }
   },
   {
-    "id": "huangdoudou-291",
-    "title": "黄豆豆",
-    "description": "黄豆豆 291色",
-    "path": "huangdoudou-291",
-    "count": 291,
-    "rows_with_rgb": 291,
-    "rows_without_rgb": 0,
-    "mainstream_tier": "B",
-    "mainstream_score": 3.5,
-    "mainstream_label": "新手/平价常见品牌",
-    "mainstream_summary": "黄豆豆在材料包、通用色卡贴和新手工具中常见，适合作为平价/入门备选；图纸工具覆盖不如 MARD/COCO/漫漫/盼盼/咪小窝稳定。",
-    "groups": {
-      "A": 26,
-      "B": 32,
-      "C": 29,
-      "D": 26,
-      "E": 24,
-      "F": 25,
-      "G": 21,
-      "H": 23,
-      "M": 15,
-      "P": 23,
-      "R": 28,
-      "T": 1,
-      "Y": 5,
-      "ZG": 8,
-      "Q": 5
-    }
-  },
-  {
     "id": "manman-278",
     "title": "漫漫家",
     "description": "漫漫 278色",
@@ -288,60 +258,6 @@
       "紫": 35,
       "绿": 30,
       "青蓝": 51
-    }
-  },
-  {
-    "id": "xiaowu-291",
-    "title": "小舞家",
-    "description": "小舞 291色",
-    "path": "xiaowu-291",
-    "count": 291,
-    "rows_with_rgb": 291,
-    "rows_without_rgb": 0,
-    "mainstream_tier": "B-",
-    "mainstream_score": 3.1,
-    "mainstream_label": "平价补充品牌",
-    "mainstream_summary": "小舞家在平价材料包和通用色卡贴中可见，公开源码也收录完整色卡；但主流工具直接支持和媒体声量少于 COCO/漫漫/盼盼/咪小窝。",
-    "groups": {
-      "A": 26,
-      "B": 32,
-      "C": 29,
-      "D": 26,
-      "E": 24,
-      "F": 25,
-      "G": 21,
-      "H": 23,
-      "M": 15,
-      "P": 23,
-      "R": 28,
-      "T": 1,
-      "Y": 5,
-      "ZG": 8,
-      "Q": 5
-    }
-  },
-  {
-    "id": "youken-mard-221-public",
-    "title": "优肯MARD同款221色",
-    "description": "优肯 MARD同款 221色（公开源码库版）",
-    "path": "youken-mard-221-public",
-    "count": 221,
-    "rows_with_rgb": 221,
-    "rows_without_rgb": 0,
-    "mainstream_tier": "A-",
-    "mainstream_score": 3.8,
-    "mainstream_label": "MARD 兼容补充体系",
-    "mainstream_summary": "优肯 MARD 同款 221 色承接 MARD 色号体系的需求，适合已经按 MARD 做图纸但想用优肯/Artkal 供应链的场景。",
-    "groups": {
-      "A": 26,
-      "B": 32,
-      "C": 29,
-      "D": 26,
-      "E": 24,
-      "F": 25,
-      "G": 21,
-      "H": 23,
-      "M": 15
     }
   },
   {

@@ -17,13 +17,29 @@
 | [优肯197色](artkal-c-197-official/) | A / 4.1 | 官方稳定/进阶常用 | `artkal-c-197-official` | 197 | 174 | 23 |
 | [优肯M221色](artkal-m-221-official/) | A- / 3.9 | 官方 MARD 兼容新体系 | `artkal-m-221-official` | 221 | 220 | 1 |
 | [COCO](coco-291/) | A- / 3.9 | 常见性价比品牌 | `coco-291` | 291 | 291 | 0 |
-| [优肯MARD同款221色](youken-mard-221-public/) | A- / 3.8 | MARD 兼容补充体系 | `youken-mard-221-public` | 221 | 221 | 0 |
 | [漫漫家](manman-278/) | B+ / 3.7 | 老牌/图纸生态常见 | `manman-278` | 278 | 278 | 0 |
 | [盼盼家](panpan-289/) | B+ / 3.6 | 工具生态常见品牌 | `panpan-289` | 289 | 289 | 0 |
-| [黄豆豆](huangdoudou-291/) | B / 3.5 | 新手/平价常见品牌 | `huangdoudou-291` | 291 | 291 | 0 |
 | [咪小窝](mixiaowo-290/) | B / 3.4 | 常见但偏工具/玩家圈 | `mixiaowo-290` | 290 | 290 | 0 |
-| [小舞家](xiaowu-291/) | B- / 3.1 | 平价补充品牌 | `xiaowu-291` | 291 | 291 | 0 |
 | [优肯174色旧表](youken-public-174/) | B- / 3.0 | 旧公开表/参考价值高于采购价值 | `youken-public-174` | 174 | 174 | 0 |
+
+## 数据关系与去重说明
+
+### MARD 221 两个来源不是完全重复
+
+- `mard-221-alfonse-doudou`（MARD家）与 `mard-221-github`（MARD家源码版）都是 MARD 221 色号体系，221 个色号集合完全一致。
+- 两者颜色数据不完全一致：逐色号对比后有 77 个 HEX/RGB 不同，144 个一致。因此两者都保留；默认建议优先看 `mard-221-alfonse-doudou`，源码版用于交叉校验。
+- 差异明细保留在 `Mard-221-source-differences.json`。
+
+### 优肯 MARD 同款 221 与优肯 M221
+
+- 原 `youken-mard-221-public` 与 `artkal-m-221-official` 规范化色号后颜色数据完全重复：`A1` 对应 `MA1`，`H1[透明]` 对应 `MH1`。
+- 因此不再保留 `youken-mard-221-public` 独立目录；需要优肯 MARD 同款 221 时直接使用 `artkal-m-221-official`。它是优肯/Artkal M 系列官方口径，不是 MARD 原厂色卡。
+
+### 黄豆豆、小舞家与 MARD 291
+
+- 当前公开源码数据中，`huangdoudou-291`、`xiaowu-291` 与 `mard-291-github` 的 291 个色号、HEX、RGB 完全一致。
+- 为避免把完全重复数据列成独立系列，当前仓库不再保留黄豆豆、小舞家独立目录；需要这两者公开源码口径时可暂按 `mard-291-github` 读取。
+- 这只说明当前已收录公开数据完全重复，不代表品牌实物或其他未收录官方色卡一定没有差异；后续拿到可信独立色卡后可恢复独立目录。
 
 ## 主流度评级口径
 
