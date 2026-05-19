@@ -1,0 +1,31 @@
+# scripts
+
+这个目录保留数据重生成脚本，方便后续维护色卡 JSON 后重新生成 XLSX/PDF/README。
+
+## generate_deliverables.py
+
+从 `output/*.json` 源数据生成完整四件套：`colors.json`、`colors.xlsx`、`legend.pdf`、`README.md`、`manifest.json`。
+
+当前发布仓库根目录已经是生成后的结构；如果需要重新生成，建议在维护工作区保留 `output/` 源数据后运行：
+
+```bash
+python scripts/generate_deliverables.py
+```
+
+依赖：
+
+```bash
+python -m pip install openpyxl pillow
+```
+
+## build_tables.js
+
+从原始公开 JSON / PDF 抽取结果构建 `output/` 源数据。这个脚本更偏上游采集与清洗，正常只改现有系列 JSON 时不需要运行。
+
+依赖：Node.js；优肯官方 PDF 的文本抽取依赖 `pdftotext`。
+
+## 维护建议
+
+- 常规小改：改对应系列 `colors.json`，然后同步更新 XLSX/PDF/README。
+- 大规模重建：在完整维护工作区用 `output/` 源数据运行 `generate_deliverables.py`。
+- 如果新增系列，需要同时补 `SERIES` 与 `MARKET_ASSESSMENTS`。

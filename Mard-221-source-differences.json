@@ -1,0 +1,387 @@
+[
+  {
+    "code": "A5",
+    "getColors": "#FFE44B",
+    "alfonse": "#F0D83A"
+  },
+  {
+    "code": "A8",
+    "getColors": "#F9E045",
+    "alfonse": "#FBDA4D"
+  },
+  {
+    "code": "A9",
+    "getColors": "#F99C5F",
+    "alfonse": "#F79D5F"
+  },
+  {
+    "code": "A10",
+    "getColors": "#F47E36",
+    "alfonse": "#F47E38"
+  },
+  {
+    "code": "A14",
+    "getColors": "#F85842",
+    "alfonse": "#F75842"
+  },
+  {
+    "code": "A20",
+    "getColors": "#F9D66E",
+    "alfonse": "#F9D666"
+  },
+  {
+    "code": "A23",
+    "getColors": "#E1C9BD",
+    "alfonse": "#E4C8BA"
+  },
+  {
+    "code": "A25",
+    "getColors": "#FFD785",
+    "alfonse": "#FDF785"
+  },
+  {
+    "code": "A26",
+    "getColors": "#FEC832",
+    "alfonse": "#FFC734"
+  },
+  {
+    "code": "B1",
+    "getColors": "#DFF139",
+    "alfonse": "#DFF13B"
+  },
+  {
+    "code": "B3",
+    "getColors": "#9FF685",
+    "alfonse": "#A1F586"
+  },
+  {
+    "code": "B7",
+    "getColors": "#3FAE7C",
+    "alfonse": "#3EAE7C"
+  },
+  {
+    "code": "B8",
+    "getColors": "#1D9E54",
+    "alfonse": "#1D9B54"
+  },
+  {
+    "code": "B14",
+    "getColors": "#ACE84C",
+    "alfonse": "#ABE84F"
+  },
+  {
+    "code": "B20",
+    "getColors": "#CAEDCF",
+    "alfonse": "#CBECCF"
+  },
+  {
+    "code": "B21",
+    "getColors": "#176268",
+    "alfonse": "#18616A"
+  },
+  {
+    "code": "B31",
+    "getColors": "#B2E694",
+    "alfonse": "#B4E691"
+  },
+  {
+    "code": "C1",
+    "getColors": "#E8FFE7",
+    "alfonse": "#F0FEE4"
+  },
+  {
+    "code": "C3",
+    "getColors": "#9EE0F8",
+    "alfonse": "#A2E0F7"
+  },
+  {
+    "code": "C5",
+    "getColors": "#06ABE3",
+    "alfonse": "#06AADF"
+  },
+  {
+    "code": "C7",
+    "getColors": "#3977CC",
+    "alfonse": "#3977CA"
+  },
+  {
+    "code": "C10",
+    "getColors": "#3DBBE3",
+    "alfonse": "#3CBCE3"
+  },
+  {
+    "code": "C14",
+    "getColors": "#D6FDFC",
+    "alfonse": "#D5FCF7"
+  },
+  {
+    "code": "C19",
+    "getColors": "#188690",
+    "alfonse": "#18869D"
+  },
+  {
+    "code": "C21",
+    "getColors": "#BEDDFC",
+    "alfonse": "#BCDDFC"
+  },
+  {
+    "code": "C23",
+    "getColors": "#C8E2F9",
+    "alfonse": "#C8E2FD"
+  },
+  {
+    "code": "C26",
+    "getColors": "#42ADD1",
+    "alfonse": "#42ADCF"
+  },
+  {
+    "code": "C27",
+    "getColors": "#D0DEEF",
+    "alfonse": "#D0DEF9"
+  },
+  {
+    "code": "C28",
+    "getColors": "#BDCEED",
+    "alfonse": "#BDCEE8"
+  },
+  {
+    "code": "D3",
+    "getColors": "#3653AF",
+    "alfonse": "#3554AF"
+  },
+  {
+    "code": "D4",
+    "getColors": "#162C7E",
+    "alfonse": "#162D7B"
+  },
+  {
+    "code": "D9",
+    "getColors": "#D6BAF5",
+    "alfonse": "#D5B9F4"
+  },
+  {
+    "code": "D11",
+    "getColors": "#BCBAE2",
+    "alfonse": "#BEB9E2"
+  },
+  {
+    "code": "D13",
+    "getColors": "#B5038F",
+    "alfonse": "#B5038D"
+  },
+  {
+    "code": "D14",
+    "getColors": "#882893",
+    "alfonse": "#862993"
+  },
+  {
+    "code": "D15",
+    "getColors": "#2F1E8E",
+    "alfonse": "#2F1F8C"
+  },
+  {
+    "code": "D20",
+    "getColors": "#9C34AD",
+    "alfonse": "#9A35AD"
+  },
+  {
+    "code": "D22",
+    "getColors": "#383995",
+    "alfonse": "#38389A"
+  },
+  {
+    "code": "D23",
+    "getColors": "#FADBF8",
+    "alfonse": "#EADBF8"
+  },
+  {
+    "code": "E4",
+    "getColors": "#E9639E",
+    "alfonse": "#E8649E"
+  },
+  {
+    "code": "E5",
+    "getColors": "#F1559F",
+    "alfonse": "#F0569F"
+  },
+  {
+    "code": "E6",
+    "getColors": "#EC4072",
+    "alfonse": "#EB4172"
+  },
+  {
+    "code": "E7",
+    "getColors": "#C63674",
+    "alfonse": "#C53674"
+  },
+  {
+    "code": "E9",
+    "getColors": "#E575C7",
+    "alfonse": "#E376C7"
+  },
+  {
+    "code": "E10",
+    "getColors": "#D33997",
+    "alfonse": "#D13B95"
+  },
+  {
+    "code": "E12",
+    "getColors": "#F893BF",
+    "alfonse": "#F693BF"
+  },
+  {
+    "code": "E18",
+    "getColors": "#FBCBDB",
+    "alfonse": "#F9C8DB"
+  },
+  {
+    "code": "E22",
+    "getColors": "#B58B9F",
+    "alfonse": "#B38C9F"
+  },
+  {
+    "code": "F1",
+    "getColors": "#FF9280",
+    "alfonse": "#FE9381"
+  },
+  {
+    "code": "F2",
+    "getColors": "#F73D48",
+    "alfonse": "#F63D4B"
+  },
+  {
+    "code": "F3",
+    "getColors": "#EF4D3E",
+    "alfonse": "#EE4E3E"
+  },
+  {
+    "code": "F4",
+    "getColors": "#F92B40",
+    "alfonse": "#FB2A40"
+  },
+  {
+    "code": "F5",
+    "getColors": "#E30328",
+    "alfonse": "#E10328"
+  },
+  {
+    "code": "F11",
+    "getColors": "#6F321D",
+    "alfonse": "#592323"
+  },
+  {
+    "code": "F12",
+    "getColors": "#F8516D",
+    "alfonse": "#F3536B"
+  },
+  {
+    "code": "F18",
+    "getColors": "#D07E4A",
+    "alfonse": "#D07F4A"
+  },
+  {
+    "code": "F21",
+    "getColors": "#F2BBC6",
+    "alfonse": "#F2B8C6"
+  },
+  {
+    "code": "F23",
+    "getColors": "#EC806D",
+    "alfonse": "#ED806C"
+  },
+  {
+    "code": "G6",
+    "getColors": "#F3A014",
+    "alfonse": "#E3A014"
+  },
+  {
+    "code": "G7",
+    "getColors": "#98503A",
+    "alfonse": "#985C3A"
+  },
+  {
+    "code": "G8",
+    "getColors": "#4B2B1C",
+    "alfonse": "#713D2F"
+  },
+  {
+    "code": "G15",
+    "getColors": "#FCF9E0",
+    "alfonse": "#F6F8E3"
+  },
+  {
+    "code": "G17",
+    "getColors": "#79544E",
+    "alfonse": "#77544E"
+  },
+  {
+    "code": "G18",
+    "getColors": "#FFE4D6",
+    "alfonse": "#FFE3D5"
+  },
+  {
+    "code": "H1",
+    "getColors": "#FBFBFB",
+    "alfonse": "#FFFFFF"
+  },
+  {
+    "code": "H2",
+    "getColors": "#FFFFFF",
+    "alfonse": "#FBFBFB"
+  },
+  {
+    "code": "H10",
+    "getColors": "#ECEAEB",
+    "alfonse": "#EBEBEB"
+  },
+  {
+    "code": "H13",
+    "getColors": "#F4EFD1",
+    "alfonse": "#F4EDF1"
+  },
+  {
+    "code": "H15",
+    "getColors": "#98A6A6",
+    "alfonse": "#9AA6A6"
+  },
+  {
+    "code": "H18",
+    "getColors": "#FCFFF8",
+    "alfonse": "#FCFFF6"
+  },
+  {
+    "code": "H21",
+    "getColors": "#FFFBE1",
+    "alfonse": "#F8FBE6"
+  },
+  {
+    "code": "H22",
+    "getColors": "#CACADA",
+    "alfonse": "#CACAD2"
+  },
+  {
+    "code": "M3",
+    "getColors": "#697E80",
+    "alfonse": "#697E81"
+  },
+  {
+    "code": "M5",
+    "getColors": "#D0CBAE",
+    "alfonse": "#D1CCAF"
+  },
+  {
+    "code": "M9",
+    "getColors": "#A88764",
+    "alfonse": "#A68862"
+  },
+  {
+    "code": "M10",
+    "getColors": "#C6B2BB",
+    "alfonse": "#C4B3BB"
+  },
+  {
+    "code": "M14",
+    "getColors": "#C37463",
+    "alfonse": "#C27563"
+  }
+]

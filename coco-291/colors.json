@@ -1,0 +1,5591 @@
+{
+  "series_id": "coco-291",
+  "title": "COCO",
+  "short_title": "COCO",
+  "long_title": "COCO 291色",
+  "original_query_name": "COCO",
+  "generated_at": "2026-05-19",
+  "count": 291,
+  "rows_with_rgb": 291,
+  "rows_without_rgb": 0,
+  "domestic_handcraft_shop_mainstream_assessment": {
+    "tier": "A-",
+    "score": 3.9,
+    "label": "常见性价比品牌",
+    "summary": "COCO/可可在线下和电商语境中可见度高，常作为 MARD 体系之外的平价常用豆；图纸工具覆盖也较稳定。",
+    "evidence": [
+      "中工网报道引用电商平台数据提到“COCO手工店”10g 约 1000 粒拼豆售价。",
+      "PinDou、BeadPattern、拼豆糕手等图纸工具均把 COCO 列入可选国内品牌。",
+      "公开源码库提供 COCO 多规格色卡，说明其被工具生态持续收录。"
+    ]
+  },
+  "groups": {
+    "A": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "B": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "C": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "D": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "E": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "F": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "G": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "GB": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "H": [
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "J": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "K": [
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
+    ],
+    "L": [
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "M": [
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227
+    ],
+    "N": [
+      228,
+      229,
+      230,
+      231,
+      232
+    ],
+    "S": [
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247
+    ],
+    "W": [
+      248,
+      249,
+      250,
+      251,
+      252
+    ],
+    "Y": [
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267
+    ],
+    "Z": [
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291
+    ]
+  },
+  "colors": [
+    {
+      "ordinal": 1,
+      "code": "A01",
+      "hex": "#FFFFFF",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 2,
+      "code": "A02",
+      "hex": "#FEFCFF",
+      "rgb": {
+        "r": 254,
+        "g": 252,
+        "b": 255
+      },
+      "r": 254,
+      "g": 252,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 3,
+      "code": "A03",
+      "hex": "#FFFDF7",
+      "rgb": {
+        "r": 255,
+        "g": 253,
+        "b": 247
+      },
+      "r": 255,
+      "g": 253,
+      "b": 247,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 4,
+      "code": "A04",
+      "hex": "#FFFCEE",
+      "rgb": {
+        "r": 255,
+        "g": 252,
+        "b": 238
+      },
+      "r": 255,
+      "g": 252,
+      "b": 238,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 5,
+      "code": "A05",
+      "hex": "#FFFBEE",
+      "rgb": {
+        "r": 255,
+        "g": 251,
+        "b": 238
+      },
+      "r": 255,
+      "g": 251,
+      "b": 238,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 6,
+      "code": "A06",
+      "hex": "#F1EADC",
+      "rgb": {
+        "r": 241,
+        "g": 234,
+        "b": 220
+      },
+      "r": 241,
+      "g": 234,
+      "b": 220,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 7,
+      "code": "A07",
+      "hex": "#FCFCF9",
+      "rgb": {
+        "r": 252,
+        "g": 252,
+        "b": 249
+      },
+      "r": 252,
+      "g": 252,
+      "b": 249,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 8,
+      "code": "A08",
+      "hex": "#EFF0EB",
+      "rgb": {
+        "r": 239,
+        "g": 240,
+        "b": 235
+      },
+      "r": 239,
+      "g": 240,
+      "b": 235,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 9,
+      "code": "A09",
+      "hex": "#FFF7FF",
+      "rgb": {
+        "r": 255,
+        "g": 247,
+        "b": 255
+      },
+      "r": 255,
+      "g": 247,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 10,
+      "code": "A10",
+      "hex": "#F4F9FF",
+      "rgb": {
+        "r": 244,
+        "g": 249,
+        "b": 255
+      },
+      "r": 244,
+      "g": 249,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 11,
+      "code": "A11",
+      "hex": "#FFFDF7",
+      "rgb": {
+        "r": 255,
+        "g": 253,
+        "b": 247
+      },
+      "r": 255,
+      "g": 253,
+      "b": 247,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 12,
+      "code": "A12",
+      "hex": "#F3F5F1",
+      "rgb": {
+        "r": 243,
+        "g": 245,
+        "b": 241
+      },
+      "r": 243,
+      "g": 245,
+      "b": 241,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "A"
+    },
+    {
+      "ordinal": 13,
+      "code": "B01",
+      "hex": "#D3DDDE",
+      "rgb": {
+        "r": 211,
+        "g": 221,
+        "b": 222
+      },
+      "r": 211,
+      "g": 221,
+      "b": 222,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 14,
+      "code": "B02",
+      "hex": "#D6E8EB",
+      "rgb": {
+        "r": 214,
+        "g": 232,
+        "b": 235
+      },
+      "r": 214,
+      "g": 232,
+      "b": 235,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 15,
+      "code": "B03",
+      "hex": "#AFBBBD",
+      "rgb": {
+        "r": 175,
+        "g": 187,
+        "b": 189
+      },
+      "r": 175,
+      "g": 187,
+      "b": 189,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 16,
+      "code": "B04",
+      "hex": "#A7BDC4",
+      "rgb": {
+        "r": 167,
+        "g": 189,
+        "b": 196
+      },
+      "r": 167,
+      "g": 189,
+      "b": 196,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 17,
+      "code": "B05",
+      "hex": "#7F8A8A",
+      "rgb": {
+        "r": 127,
+        "g": 138,
+        "b": 138
+      },
+      "r": 127,
+      "g": 138,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 18,
+      "code": "B06",
+      "hex": "#5D6163",
+      "rgb": {
+        "r": 93,
+        "g": 97,
+        "b": 99
+      },
+      "r": 93,
+      "g": 97,
+      "b": 99,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 19,
+      "code": "B07",
+      "hex": "#3A3E40",
+      "rgb": {
+        "r": 58,
+        "g": 62,
+        "b": 64
+      },
+      "r": 58,
+      "g": 62,
+      "b": 64,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 20,
+      "code": "B08",
+      "hex": "#2B2B2B",
+      "rgb": {
+        "r": 43,
+        "g": 43,
+        "b": 43
+      },
+      "r": 43,
+      "g": 43,
+      "b": 43,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 21,
+      "code": "B09",
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 22,
+      "code": "B10",
+      "hex": "#C3D1CE",
+      "rgb": {
+        "r": 195,
+        "g": 209,
+        "b": 206
+      },
+      "r": 195,
+      "g": 209,
+      "b": 206,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 23,
+      "code": "B11",
+      "hex": "#DCE0C8",
+      "rgb": {
+        "r": 220,
+        "g": 224,
+        "b": 200
+      },
+      "r": 220,
+      "g": 224,
+      "b": 200,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "B"
+    },
+    {
+      "ordinal": 24,
+      "code": "C01",
+      "hex": "#FF6C71",
+      "rgb": {
+        "r": 255,
+        "g": 108,
+        "b": 113
+      },
+      "r": 255,
+      "g": 108,
+      "b": 113,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 25,
+      "code": "C02",
+      "hex": "#FF6F60",
+      "rgb": {
+        "r": 255,
+        "g": 111,
+        "b": 96
+      },
+      "r": 255,
+      "g": 111,
+      "b": 96,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 26,
+      "code": "C03",
+      "hex": "#FF6464",
+      "rgb": {
+        "r": 255,
+        "g": 100,
+        "b": 100
+      },
+      "r": 255,
+      "g": 100,
+      "b": 100,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 27,
+      "code": "C04",
+      "hex": "#F66B4E",
+      "rgb": {
+        "r": 246,
+        "g": 107,
+        "b": 78
+      },
+      "r": 246,
+      "g": 107,
+      "b": 78,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 28,
+      "code": "C05",
+      "hex": "#FF8046",
+      "rgb": {
+        "r": 255,
+        "g": 128,
+        "b": 70
+      },
+      "r": 255,
+      "g": 128,
+      "b": 70,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 29,
+      "code": "C06",
+      "hex": "#F0393B",
+      "rgb": {
+        "r": 240,
+        "g": 57,
+        "b": 59
+      },
+      "r": 240,
+      "g": 57,
+      "b": 59,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 30,
+      "code": "C07",
+      "hex": "#E03638",
+      "rgb": {
+        "r": 224,
+        "g": 54,
+        "b": 56
+      },
+      "r": 224,
+      "g": 54,
+      "b": 56,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 31,
+      "code": "C08",
+      "hex": "#CC3133",
+      "rgb": {
+        "r": 204,
+        "g": 49,
+        "b": 51
+      },
+      "r": 204,
+      "g": 49,
+      "b": 51,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 32,
+      "code": "C09",
+      "hex": "#B82D2D",
+      "rgb": {
+        "r": 184,
+        "g": 45,
+        "b": 45
+      },
+      "r": 184,
+      "g": 45,
+      "b": 45,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 33,
+      "code": "C10",
+      "hex": "#783644",
+      "rgb": {
+        "r": 120,
+        "g": 54,
+        "b": 68
+      },
+      "r": 120,
+      "g": 54,
+      "b": 68,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "C"
+    },
+    {
+      "ordinal": 34,
+      "code": "D1",
+      "hex": "#FFDD94",
+      "rgb": {
+        "r": 255,
+        "g": 221,
+        "b": 148
+      },
+      "r": 255,
+      "g": 221,
+      "b": 148,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 35,
+      "code": "D2",
+      "hex": "#FFD3A1",
+      "rgb": {
+        "r": 255,
+        "g": 211,
+        "b": 161
+      },
+      "r": 255,
+      "g": 211,
+      "b": 161,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 36,
+      "code": "D3",
+      "hex": "#FFD64F",
+      "rgb": {
+        "r": 255,
+        "g": 214,
+        "b": 79
+      },
+      "r": 255,
+      "g": 214,
+      "b": 79,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 37,
+      "code": "D4",
+      "hex": "#FFC31F",
+      "rgb": {
+        "r": 255,
+        "g": 195,
+        "b": 31
+      },
+      "r": 255,
+      "g": 195,
+      "b": 31,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 38,
+      "code": "D5",
+      "hex": "#FFBA30",
+      "rgb": {
+        "r": 255,
+        "g": 186,
+        "b": 48
+      },
+      "r": 255,
+      "g": 186,
+      "b": 48,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 39,
+      "code": "D6",
+      "hex": "#FFAE82",
+      "rgb": {
+        "r": 255,
+        "g": 174,
+        "b": 130
+      },
+      "r": 255,
+      "g": 174,
+      "b": 130,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 40,
+      "code": "D7",
+      "hex": "#FF985C",
+      "rgb": {
+        "r": 255,
+        "g": 152,
+        "b": 92
+      },
+      "r": 255,
+      "g": 152,
+      "b": 92,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 41,
+      "code": "D8",
+      "hex": "#F28D51",
+      "rgb": {
+        "r": 242,
+        "g": 141,
+        "b": 81
+      },
+      "r": 242,
+      "g": 141,
+      "b": 81,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "D"
+    },
+    {
+      "ordinal": 42,
+      "code": "E01",
+      "hex": "#FFFFD5",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 213
+      },
+      "r": 255,
+      "g": 255,
+      "b": 213,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 43,
+      "code": "E02",
+      "hex": "#FFF7D2",
+      "rgb": {
+        "r": 255,
+        "g": 247,
+        "b": 210
+      },
+      "r": 255,
+      "g": 247,
+      "b": 210,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 44,
+      "code": "E03",
+      "hex": "#FFFFB3",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 179
+      },
+      "r": 255,
+      "g": 255,
+      "b": 179,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 45,
+      "code": "E04",
+      "hex": "#FFFA6A",
+      "rgb": {
+        "r": 255,
+        "g": 250,
+        "b": 106
+      },
+      "r": 255,
+      "g": 250,
+      "b": 106,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 46,
+      "code": "E05",
+      "hex": "#FFFF9B",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 155
+      },
+      "r": 255,
+      "g": 255,
+      "b": 155,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 47,
+      "code": "E06",
+      "hex": "#FFDA7C",
+      "rgb": {
+        "r": 255,
+        "g": 218,
+        "b": 124
+      },
+      "r": 255,
+      "g": 218,
+      "b": 124,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 48,
+      "code": "E07",
+      "hex": "#FFEB41",
+      "rgb": {
+        "r": 255,
+        "g": 235,
+        "b": 65
+      },
+      "r": 255,
+      "g": 235,
+      "b": 65,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 49,
+      "code": "E08",
+      "hex": "#FCCF3E",
+      "rgb": {
+        "r": 252,
+        "g": 207,
+        "b": 62
+      },
+      "r": 252,
+      "g": 207,
+      "b": 62,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 50,
+      "code": "E09",
+      "hex": "#FFC845",
+      "rgb": {
+        "r": 255,
+        "g": 200,
+        "b": 69
+      },
+      "r": 255,
+      "g": 200,
+      "b": 69,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 51,
+      "code": "E10",
+      "hex": "#FFDF91",
+      "rgb": {
+        "r": 255,
+        "g": 223,
+        "b": 145
+      },
+      "r": 255,
+      "g": 223,
+      "b": 145,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 52,
+      "code": "E11",
+      "hex": "#FFF3A2",
+      "rgb": {
+        "r": 255,
+        "g": 243,
+        "b": 162
+      },
+      "r": 255,
+      "g": 243,
+      "b": 162,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 53,
+      "code": "E12",
+      "hex": "#FFDFBA",
+      "rgb": {
+        "r": 255,
+        "g": 223,
+        "b": 186
+      },
+      "r": 255,
+      "g": 223,
+      "b": 186,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 54,
+      "code": "E13",
+      "hex": "#FFFFD0",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 208
+      },
+      "r": 255,
+      "g": 255,
+      "b": 208,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 55,
+      "code": "E14",
+      "hex": "#FFDD78",
+      "rgb": {
+        "r": 255,
+        "g": 221,
+        "b": 120
+      },
+      "r": 255,
+      "g": 221,
+      "b": 120,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 56,
+      "code": "E15",
+      "hex": "#FCBA49",
+      "rgb": {
+        "r": 252,
+        "g": 186,
+        "b": 73
+      },
+      "r": 252,
+      "g": 186,
+      "b": 73,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "E"
+    },
+    {
+      "ordinal": 57,
+      "code": "F01",
+      "hex": "#F1FFC2",
+      "rgb": {
+        "r": 241,
+        "g": 255,
+        "b": 194
+      },
+      "r": 241,
+      "g": 255,
+      "b": 194,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 58,
+      "code": "F02",
+      "hex": "#E3FC9A",
+      "rgb": {
+        "r": 227,
+        "g": 252,
+        "b": 154
+      },
+      "r": 227,
+      "g": 252,
+      "b": 154,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 59,
+      "code": "F03",
+      "hex": "#D2FCAE",
+      "rgb": {
+        "r": 210,
+        "g": 252,
+        "b": 174
+      },
+      "r": 210,
+      "g": 252,
+      "b": 174,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 60,
+      "code": "F04",
+      "hex": "#97F5A9",
+      "rgb": {
+        "r": 151,
+        "g": 245,
+        "b": 169
+      },
+      "r": 151,
+      "g": 245,
+      "b": 169,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 61,
+      "code": "F05",
+      "hex": "#E7F247",
+      "rgb": {
+        "r": 231,
+        "g": 242,
+        "b": 71
+      },
+      "r": 231,
+      "g": 242,
+      "b": 71,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 62,
+      "code": "F06",
+      "hex": "#C5E848",
+      "rgb": {
+        "r": 197,
+        "g": 232,
+        "b": 72
+      },
+      "r": 197,
+      "g": 232,
+      "b": 72,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 63,
+      "code": "F07",
+      "hex": "#F7FA46",
+      "rgb": {
+        "r": 247,
+        "g": 250,
+        "b": 70
+      },
+      "r": 247,
+      "g": 250,
+      "b": 70,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 64,
+      "code": "F08",
+      "hex": "#8ECF53",
+      "rgb": {
+        "r": 142,
+        "g": 207,
+        "b": 83
+      },
+      "r": 142,
+      "g": 207,
+      "b": 83,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 65,
+      "code": "F09",
+      "hex": "#6FEB67",
+      "rgb": {
+        "r": 111,
+        "g": 235,
+        "b": 103
+      },
+      "r": 111,
+      "g": 235,
+      "b": 103,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 66,
+      "code": "F10",
+      "hex": "#65C964",
+      "rgb": {
+        "r": 101,
+        "g": 201,
+        "b": 100
+      },
+      "r": 101,
+      "g": 201,
+      "b": 100,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 67,
+      "code": "F11",
+      "hex": "#3D8C57",
+      "rgb": {
+        "r": 61,
+        "g": 140,
+        "b": 87
+      },
+      "r": 61,
+      "g": 140,
+      "b": 87,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 68,
+      "code": "F12",
+      "hex": "#1D734E",
+      "rgb": {
+        "r": 29,
+        "g": 115,
+        "b": 78
+      },
+      "r": 29,
+      "g": 115,
+      "b": 78,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 69,
+      "code": "F13",
+      "hex": "#8FA335",
+      "rgb": {
+        "r": 143,
+        "g": 163,
+        "b": 53
+      },
+      "r": 143,
+      "g": 163,
+      "b": 53,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 70,
+      "code": "F14",
+      "hex": "#515C22",
+      "rgb": {
+        "r": 81,
+        "g": 92,
+        "b": 34
+      },
+      "r": 81,
+      "g": 92,
+      "b": 34,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 71,
+      "code": "F15",
+      "hex": "#2A4A2E",
+      "rgb": {
+        "r": 42,
+        "g": 74,
+        "b": 46
+      },
+      "r": 42,
+      "g": 74,
+      "b": 46,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 72,
+      "code": "F16",
+      "hex": "#27452B",
+      "rgb": {
+        "r": 39,
+        "g": 69,
+        "b": 43
+      },
+      "r": 39,
+      "g": 69,
+      "b": 43,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 73,
+      "code": "F17",
+      "hex": "#323815",
+      "rgb": {
+        "r": 50,
+        "g": 56,
+        "b": 21
+      },
+      "r": 50,
+      "g": 56,
+      "b": 21,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 74,
+      "code": "F18",
+      "hex": "#5B8265",
+      "rgb": {
+        "r": 91,
+        "g": 130,
+        "b": 101
+      },
+      "r": 91,
+      "g": 130,
+      "b": 101,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 75,
+      "code": "F19",
+      "hex": "#948037",
+      "rgb": {
+        "r": 148,
+        "g": 128,
+        "b": 55
+      },
+      "r": 148,
+      "g": 128,
+      "b": 55,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 76,
+      "code": "F20",
+      "hex": "#E0E8B5",
+      "rgb": {
+        "r": 224,
+        "g": 232,
+        "b": 181
+      },
+      "r": 224,
+      "g": 232,
+      "b": 181,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 77,
+      "code": "F21",
+      "hex": "#BCF7B1",
+      "rgb": {
+        "r": 188,
+        "g": 247,
+        "b": 177
+      },
+      "r": 188,
+      "g": 247,
+      "b": 177,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 78,
+      "code": "F22",
+      "hex": "#EDF256",
+      "rgb": {
+        "r": 237,
+        "g": 242,
+        "b": 86
+      },
+      "r": 237,
+      "g": 242,
+      "b": 86,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 79,
+      "code": "F23",
+      "hex": "#F6FCCB",
+      "rgb": {
+        "r": 246,
+        "g": 252,
+        "b": 203
+      },
+      "r": 246,
+      "g": 252,
+      "b": 203,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 80,
+      "code": "F24",
+      "hex": "#DEF7AF",
+      "rgb": {
+        "r": 222,
+        "g": 247,
+        "b": 175
+      },
+      "r": 222,
+      "g": 247,
+      "b": 175,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 81,
+      "code": "F25",
+      "hex": "#B5C26D",
+      "rgb": {
+        "r": 181,
+        "g": 194,
+        "b": 109
+      },
+      "r": 181,
+      "g": 194,
+      "b": 109,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "F"
+    },
+    {
+      "ordinal": 82,
+      "code": "G01",
+      "hex": "#E9FADF",
+      "rgb": {
+        "r": 233,
+        "g": 250,
+        "b": 223
+      },
+      "r": 233,
+      "g": 250,
+      "b": 223,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 83,
+      "code": "G02",
+      "hex": "#E9FFE3",
+      "rgb": {
+        "r": 233,
+        "g": 255,
+        "b": 227
+      },
+      "r": 233,
+      "g": 255,
+      "b": 227,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 84,
+      "code": "G03",
+      "hex": "#9EDBC8",
+      "rgb": {
+        "r": 158,
+        "g": 219,
+        "b": 200
+      },
+      "r": 158,
+      "g": 219,
+      "b": 200,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 85,
+      "code": "G04",
+      "hex": "#66E0B2",
+      "rgb": {
+        "r": 102,
+        "g": 224,
+        "b": 178
+      },
+      "r": 102,
+      "g": 224,
+      "b": 178,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 86,
+      "code": "G05",
+      "hex": "#189E7F",
+      "rgb": {
+        "r": 24,
+        "g": 158,
+        "b": 127
+      },
+      "r": 24,
+      "g": 158,
+      "b": 127,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 87,
+      "code": "G06",
+      "hex": "#56BD96",
+      "rgb": {
+        "r": 86,
+        "g": 189,
+        "b": 150
+      },
+      "r": 86,
+      "g": 189,
+      "b": 150,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 88,
+      "code": "G07",
+      "hex": "#3D8773",
+      "rgb": {
+        "r": 61,
+        "g": 135,
+        "b": 115
+      },
+      "r": 61,
+      "g": 135,
+      "b": 115,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 89,
+      "code": "G08",
+      "hex": "#28594C",
+      "rgb": {
+        "r": 40,
+        "g": 89,
+        "b": 76
+      },
+      "r": 40,
+      "g": 89,
+      "b": 76,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "G"
+    },
+    {
+      "ordinal": 90,
+      "code": "GB1",
+      "hex": "#FF4D5E",
+      "rgb": {
+        "r": 255,
+        "g": 77,
+        "b": 94
+      },
+      "r": 255,
+      "g": 77,
+      "b": 94,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 91,
+      "code": "GB2",
+      "hex": "#FF916E",
+      "rgb": {
+        "r": 255,
+        "g": 145,
+        "b": 110
+      },
+      "r": 255,
+      "g": 145,
+      "b": 110,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 92,
+      "code": "GB3",
+      "hex": "#F7F587",
+      "rgb": {
+        "r": 247,
+        "g": 245,
+        "b": 135
+      },
+      "r": 247,
+      "g": 245,
+      "b": 135,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 93,
+      "code": "GB4",
+      "hex": "#CBE38A",
+      "rgb": {
+        "r": 203,
+        "g": 227,
+        "b": 138
+      },
+      "r": 203,
+      "g": 227,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 94,
+      "code": "GB5",
+      "hex": "#8E92E6",
+      "rgb": {
+        "r": 142,
+        "g": 146,
+        "b": 230
+      },
+      "r": 142,
+      "g": 146,
+      "b": 230,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 95,
+      "code": "GB6",
+      "hex": "#5193B5",
+      "rgb": {
+        "r": 81,
+        "g": 147,
+        "b": 181
+      },
+      "r": 81,
+      "g": 147,
+      "b": 181,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 96,
+      "code": "GB7",
+      "hex": "#D42D7B",
+      "rgb": {
+        "r": 212,
+        "g": 45,
+        "b": 123
+      },
+      "r": 212,
+      "g": 45,
+      "b": 123,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 97,
+      "code": "GB8",
+      "hex": "#7C76BD",
+      "rgb": {
+        "r": 124,
+        "g": 118,
+        "b": 189
+      },
+      "r": 124,
+      "g": 118,
+      "b": 189,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "GB"
+    },
+    {
+      "ordinal": 98,
+      "code": "H01",
+      "hex": "#DEFAFC",
+      "rgb": {
+        "r": 222,
+        "g": 250,
+        "b": 252
+      },
+      "r": 222,
+      "g": 250,
+      "b": 252,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 99,
+      "code": "H02",
+      "hex": "#F0FEF2",
+      "rgb": {
+        "r": 240,
+        "g": 254,
+        "b": 242
+      },
+      "r": 240,
+      "g": 254,
+      "b": 242,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 100,
+      "code": "H03",
+      "hex": "#BDF6ED",
+      "rgb": {
+        "r": 189,
+        "g": 246,
+        "b": 237
+      },
+      "r": 189,
+      "g": 246,
+      "b": 237,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 101,
+      "code": "H04",
+      "hex": "#B7EEF7",
+      "rgb": {
+        "r": 183,
+        "g": 238,
+        "b": 247
+      },
+      "r": 183,
+      "g": 238,
+      "b": 247,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 102,
+      "code": "H05",
+      "hex": "#58CBF0",
+      "rgb": {
+        "r": 88,
+        "g": 203,
+        "b": 240
+      },
+      "r": 88,
+      "g": 203,
+      "b": 240,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 103,
+      "code": "H06",
+      "hex": "#E3FDFF",
+      "rgb": {
+        "r": 227,
+        "g": 253,
+        "b": 255
+      },
+      "r": 227,
+      "g": 253,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 104,
+      "code": "H07",
+      "hex": "#00AACC",
+      "rgb": {
+        "r": 0,
+        "g": 170,
+        "b": 204
+      },
+      "r": 0,
+      "g": 170,
+      "b": 204,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 105,
+      "code": "H08",
+      "hex": "#64B2DB",
+      "rgb": {
+        "r": 100,
+        "g": 178,
+        "b": 219
+      },
+      "r": 100,
+      "g": 178,
+      "b": 219,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 106,
+      "code": "H09",
+      "hex": "#30CBE4",
+      "rgb": {
+        "r": 48,
+        "g": 203,
+        "b": 228
+      },
+      "r": 48,
+      "g": 203,
+      "b": 228,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 107,
+      "code": "H10",
+      "hex": "#00C5CF",
+      "rgb": {
+        "r": 0,
+        "g": 197,
+        "b": 207
+      },
+      "r": 0,
+      "g": 197,
+      "b": 207,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 108,
+      "code": "H11",
+      "hex": "#00BAB7",
+      "rgb": {
+        "r": 0,
+        "g": 186,
+        "b": 183
+      },
+      "r": 0,
+      "g": 186,
+      "b": 183,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 109,
+      "code": "H12",
+      "hex": "#2397A3",
+      "rgb": {
+        "r": 35,
+        "g": 151,
+        "b": 163
+      },
+      "r": 35,
+      "g": 151,
+      "b": 163,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 110,
+      "code": "H13",
+      "hex": "#198DB4",
+      "rgb": {
+        "r": 25,
+        "g": 141,
+        "b": 180
+      },
+      "r": 25,
+      "g": 141,
+      "b": 180,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 111,
+      "code": "H14",
+      "hex": "#0065A1",
+      "rgb": {
+        "r": 0,
+        "g": 101,
+        "b": 161
+      },
+      "r": 0,
+      "g": 101,
+      "b": 161,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 112,
+      "code": "H15",
+      "hex": "#1F5082",
+      "rgb": {
+        "r": 31,
+        "g": 80,
+        "b": 130
+      },
+      "r": 31,
+      "g": 80,
+      "b": 130,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 113,
+      "code": "H16",
+      "hex": "#0D55B3",
+      "rgb": {
+        "r": 13,
+        "g": 85,
+        "b": 179
+      },
+      "r": 13,
+      "g": 85,
+      "b": 179,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 114,
+      "code": "H17",
+      "hex": "#0787AC",
+      "rgb": {
+        "r": 7,
+        "g": 135,
+        "b": 172
+      },
+      "r": 7,
+      "g": 135,
+      "b": 172,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 115,
+      "code": "H18",
+      "hex": "#335F7D",
+      "rgb": {
+        "r": 51,
+        "g": 95,
+        "b": 125
+      },
+      "r": 51,
+      "g": 95,
+      "b": 125,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 116,
+      "code": "H19",
+      "hex": "#56D7E3",
+      "rgb": {
+        "r": 86,
+        "g": 215,
+        "b": 227
+      },
+      "r": 86,
+      "g": 215,
+      "b": 227,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 117,
+      "code": "H20",
+      "hex": "#304561",
+      "rgb": {
+        "r": 48,
+        "g": 69,
+        "b": 97
+      },
+      "r": 48,
+      "g": 69,
+      "b": 97,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 118,
+      "code": "H21",
+      "hex": "#49608F",
+      "rgb": {
+        "r": 73,
+        "g": 96,
+        "b": 143
+      },
+      "r": 73,
+      "g": 96,
+      "b": 143,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 119,
+      "code": "H22",
+      "hex": "#323578",
+      "rgb": {
+        "r": 50,
+        "g": 53,
+        "b": 120
+      },
+      "r": 50,
+      "g": 53,
+      "b": 120,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 120,
+      "code": "H23",
+      "hex": "#2C3B4A",
+      "rgb": {
+        "r": 44,
+        "g": 59,
+        "b": 74
+      },
+      "r": 44,
+      "g": 59,
+      "b": 74,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 121,
+      "code": "H24",
+      "hex": "#324752",
+      "rgb": {
+        "r": 50,
+        "g": 71,
+        "b": 82
+      },
+      "r": 50,
+      "g": 71,
+      "b": 82,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 122,
+      "code": "H25",
+      "hex": "#78C4BE",
+      "rgb": {
+        "r": 120,
+        "g": 196,
+        "b": 190
+      },
+      "r": 120,
+      "g": 196,
+      "b": 190,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 123,
+      "code": "H26",
+      "hex": "#DCF2EA",
+      "rgb": {
+        "r": 220,
+        "g": 242,
+        "b": 234
+      },
+      "r": 220,
+      "g": 242,
+      "b": 234,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 124,
+      "code": "H27",
+      "hex": "#92D4F0",
+      "rgb": {
+        "r": 146,
+        "g": 212,
+        "b": 240
+      },
+      "r": 146,
+      "g": 212,
+      "b": 240,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 125,
+      "code": "H28",
+      "hex": "#B2F0D7",
+      "rgb": {
+        "r": 178,
+        "g": 240,
+        "b": 215
+      },
+      "r": 178,
+      "g": 240,
+      "b": 215,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 126,
+      "code": "H29",
+      "hex": "#55B5C4",
+      "rgb": {
+        "r": 85,
+        "g": 181,
+        "b": 196
+      },
+      "r": 85,
+      "g": 181,
+      "b": 196,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 127,
+      "code": "H30",
+      "hex": "#DFF1FB",
+      "rgb": {
+        "r": 223,
+        "g": 241,
+        "b": 251
+      },
+      "r": 223,
+      "g": 241,
+      "b": 251,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 128,
+      "code": "H31",
+      "hex": "#BBE3F0",
+      "rgb": {
+        "r": 187,
+        "g": 227,
+        "b": 240
+      },
+      "r": 187,
+      "g": 227,
+      "b": 240,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 129,
+      "code": "H32",
+      "hex": "#4D6A86",
+      "rgb": {
+        "r": 77,
+        "g": 106,
+        "b": 134
+      },
+      "r": 77,
+      "g": 106,
+      "b": 134,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "H"
+    },
+    {
+      "ordinal": 130,
+      "code": "J01",
+      "hex": "#F2FAFF",
+      "rgb": {
+        "r": 242,
+        "g": 250,
+        "b": 255
+      },
+      "r": 242,
+      "g": 250,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 131,
+      "code": "J02",
+      "hex": "#F5F2FF",
+      "rgb": {
+        "r": 245,
+        "g": 242,
+        "b": 255
+      },
+      "r": 245,
+      "g": 242,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 132,
+      "code": "J03",
+      "hex": "#E7E6FF",
+      "rgb": {
+        "r": 231,
+        "g": 230,
+        "b": 255
+      },
+      "r": 231,
+      "g": 230,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 133,
+      "code": "J04",
+      "hex": "#E1DCFC",
+      "rgb": {
+        "r": 225,
+        "g": 220,
+        "b": 252
+      },
+      "r": 225,
+      "g": 220,
+      "b": 252,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 134,
+      "code": "J05",
+      "hex": "#BCE3FB",
+      "rgb": {
+        "r": 188,
+        "g": 227,
+        "b": 251
+      },
+      "r": 188,
+      "g": 227,
+      "b": 251,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 135,
+      "code": "J06",
+      "hex": "#C3E1F7",
+      "rgb": {
+        "r": 195,
+        "g": 225,
+        "b": 247
+      },
+      "r": 195,
+      "g": 225,
+      "b": 247,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 136,
+      "code": "J07",
+      "hex": "#A8CCF0",
+      "rgb": {
+        "r": 168,
+        "g": 204,
+        "b": 240
+      },
+      "r": 168,
+      "g": 204,
+      "b": 240,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 137,
+      "code": "J08",
+      "hex": "#7DA1C8",
+      "rgb": {
+        "r": 125,
+        "g": 161,
+        "b": 200
+      },
+      "r": 125,
+      "g": 161,
+      "b": 200,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 138,
+      "code": "J09",
+      "hex": "#E5E5FA",
+      "rgb": {
+        "r": 229,
+        "g": 229,
+        "b": 250
+      },
+      "r": 229,
+      "g": 229,
+      "b": 250,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 139,
+      "code": "J10",
+      "hex": "#D7B1E3",
+      "rgb": {
+        "r": 215,
+        "g": 177,
+        "b": 227
+      },
+      "r": 215,
+      "g": 177,
+      "b": 227,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 140,
+      "code": "J11",
+      "hex": "#9F92CF",
+      "rgb": {
+        "r": 159,
+        "g": 146,
+        "b": 207
+      },
+      "r": 159,
+      "g": 146,
+      "b": 207,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 141,
+      "code": "J12",
+      "hex": "#B36BAA",
+      "rgb": {
+        "r": 179,
+        "g": 107,
+        "b": 170
+      },
+      "r": 179,
+      "g": 107,
+      "b": 170,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 142,
+      "code": "J13",
+      "hex": "#978BBF",
+      "rgb": {
+        "r": 151,
+        "g": 139,
+        "b": 191
+      },
+      "r": 151,
+      "g": 139,
+      "b": 191,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 143,
+      "code": "J14",
+      "hex": "#B15095",
+      "rgb": {
+        "r": 177,
+        "g": 80,
+        "b": 149
+      },
+      "r": 177,
+      "g": 80,
+      "b": 149,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 144,
+      "code": "J15",
+      "hex": "#56498F",
+      "rgb": {
+        "r": 86,
+        "g": 73,
+        "b": 143
+      },
+      "r": 86,
+      "g": 73,
+      "b": 143,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 145,
+      "code": "J16",
+      "hex": "#74458A",
+      "rgb": {
+        "r": 116,
+        "g": 69,
+        "b": 138
+      },
+      "r": 116,
+      "g": 69,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 146,
+      "code": "J17",
+      "hex": "#9563B0",
+      "rgb": {
+        "r": 149,
+        "g": 99,
+        "b": 176
+      },
+      "r": 149,
+      "g": 99,
+      "b": 176,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 147,
+      "code": "J18",
+      "hex": "#6F4285",
+      "rgb": {
+        "r": 111,
+        "g": 66,
+        "b": 133
+      },
+      "r": 111,
+      "g": 66,
+      "b": 133,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 148,
+      "code": "J19",
+      "hex": "#07004A",
+      "rgb": {
+        "r": 7,
+        "g": 0,
+        "b": 74
+      },
+      "r": 7,
+      "g": 0,
+      "b": 74,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 149,
+      "code": "J20",
+      "hex": "#6C82C9",
+      "rgb": {
+        "r": 108,
+        "g": 130,
+        "b": 201
+      },
+      "r": 108,
+      "g": 130,
+      "b": 201,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 150,
+      "code": "J21",
+      "hex": "#3C46A1",
+      "rgb": {
+        "r": 60,
+        "g": 70,
+        "b": 161
+      },
+      "r": 60,
+      "g": 70,
+      "b": 161,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 151,
+      "code": "J22",
+      "hex": "#EAD5FA",
+      "rgb": {
+        "r": 234,
+        "g": 213,
+        "b": 250
+      },
+      "r": 234,
+      "g": 213,
+      "b": 250,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "J"
+    },
+    {
+      "ordinal": 152,
+      "code": "K01",
+      "hex": "#FFF8F3",
+      "rgb": {
+        "r": 255,
+        "g": 248,
+        "b": 243
+      },
+      "r": 255,
+      "g": 248,
+      "b": 243,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 153,
+      "code": "K02",
+      "hex": "#FFF1E9",
+      "rgb": {
+        "r": 255,
+        "g": 241,
+        "b": 233
+      },
+      "r": 255,
+      "g": 241,
+      "b": 233,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 154,
+      "code": "K03",
+      "hex": "#FADBD2",
+      "rgb": {
+        "r": 250,
+        "g": 219,
+        "b": 210
+      },
+      "r": 250,
+      "g": 219,
+      "b": 210,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 155,
+      "code": "K04",
+      "hex": "#FCEBE9",
+      "rgb": {
+        "r": 252,
+        "g": 235,
+        "b": 233
+      },
+      "r": 252,
+      "g": 235,
+      "b": 233,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 156,
+      "code": "K05",
+      "hex": "#FFE0C4",
+      "rgb": {
+        "r": 255,
+        "g": 224,
+        "b": 196
+      },
+      "r": 255,
+      "g": 224,
+      "b": 196,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 157,
+      "code": "K06",
+      "hex": "#FFE8D4",
+      "rgb": {
+        "r": 255,
+        "g": 232,
+        "b": 212
+      },
+      "r": 255,
+      "g": 232,
+      "b": 212,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 158,
+      "code": "K07",
+      "hex": "#FFBCB8",
+      "rgb": {
+        "r": 255,
+        "g": 188,
+        "b": 184
+      },
+      "r": 255,
+      "g": 188,
+      "b": 184,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 159,
+      "code": "K08",
+      "hex": "#FF9D8A",
+      "rgb": {
+        "r": 255,
+        "g": 157,
+        "b": 138
+      },
+      "r": 255,
+      "g": 157,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 160,
+      "code": "K09",
+      "hex": "#FFC5A7",
+      "rgb": {
+        "r": 255,
+        "g": 197,
+        "b": 167
+      },
+      "r": 255,
+      "g": 197,
+      "b": 167,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 161,
+      "code": "K10",
+      "hex": "#FC9798",
+      "rgb": {
+        "r": 252,
+        "g": 151,
+        "b": 152
+      },
+      "r": 252,
+      "g": 151,
+      "b": 152,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 162,
+      "code": "K11",
+      "hex": "#FFF0F5",
+      "rgb": {
+        "r": 255,
+        "g": 240,
+        "b": 245
+      },
+      "r": 255,
+      "g": 240,
+      "b": 245,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 163,
+      "code": "K12",
+      "hex": "#FFEBDE",
+      "rgb": {
+        "r": 255,
+        "g": 235,
+        "b": 222
+      },
+      "r": 255,
+      "g": 235,
+      "b": 222,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 164,
+      "code": "K13",
+      "hex": "#FFE5E6",
+      "rgb": {
+        "r": 255,
+        "g": 229,
+        "b": 230
+      },
+      "r": 255,
+      "g": 229,
+      "b": 230,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 165,
+      "code": "K14",
+      "hex": "#FFE9F2",
+      "rgb": {
+        "r": 255,
+        "g": 233,
+        "b": 242
+      },
+      "r": 255,
+      "g": 233,
+      "b": 242,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 166,
+      "code": "K15",
+      "hex": "#FFE7F2",
+      "rgb": {
+        "r": 255,
+        "g": 231,
+        "b": 242
+      },
+      "r": 255,
+      "g": 231,
+      "b": 242,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 167,
+      "code": "K16",
+      "hex": "#FFC7DD",
+      "rgb": {
+        "r": 255,
+        "g": 199,
+        "b": 221
+      },
+      "r": 255,
+      "g": 199,
+      "b": 221,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 168,
+      "code": "K17",
+      "hex": "#F7A3C4",
+      "rgb": {
+        "r": 247,
+        "g": 163,
+        "b": 196
+      },
+      "r": 247,
+      "g": 163,
+      "b": 196,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 169,
+      "code": "K18",
+      "hex": "#F78FCE",
+      "rgb": {
+        "r": 247,
+        "g": 143,
+        "b": 206
+      },
+      "r": 247,
+      "g": 143,
+      "b": 206,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 170,
+      "code": "K19",
+      "hex": "#F26697",
+      "rgb": {
+        "r": 242,
+        "g": 102,
+        "b": 151
+      },
+      "r": 242,
+      "g": 102,
+      "b": 151,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 171,
+      "code": "K20",
+      "hex": "#E6758A",
+      "rgb": {
+        "r": 230,
+        "g": 117,
+        "b": 138
+      },
+      "r": 230,
+      "g": 117,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 172,
+      "code": "K21",
+      "hex": "#E985B1",
+      "rgb": {
+        "r": 233,
+        "g": 133,
+        "b": 177
+      },
+      "r": 233,
+      "g": 133,
+      "b": 177,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 173,
+      "code": "K22",
+      "hex": "#FF4576",
+      "rgb": {
+        "r": 255,
+        "g": 69,
+        "b": 118
+      },
+      "r": 255,
+      "g": 69,
+      "b": 118,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 174,
+      "code": "K23",
+      "hex": "#C9427D",
+      "rgb": {
+        "r": 201,
+        "g": 66,
+        "b": 125
+      },
+      "r": 201,
+      "g": 66,
+      "b": 125,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 175,
+      "code": "K24",
+      "hex": "#AD5081",
+      "rgb": {
+        "r": 173,
+        "g": 80,
+        "b": 129
+      },
+      "r": 173,
+      "g": 80,
+      "b": 129,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 176,
+      "code": "K25",
+      "hex": "#AB3967",
+      "rgb": {
+        "r": 171,
+        "g": 57,
+        "b": 103
+      },
+      "r": 171,
+      "g": 57,
+      "b": 103,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 177,
+      "code": "K26",
+      "hex": "#EDE2F0",
+      "rgb": {
+        "r": 237,
+        "g": 226,
+        "b": 240
+      },
+      "r": 237,
+      "g": 226,
+      "b": 240,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 178,
+      "code": "K27",
+      "hex": "#E0C4C3",
+      "rgb": {
+        "r": 224,
+        "g": 196,
+        "b": 195
+      },
+      "r": 224,
+      "g": 196,
+      "b": 195,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 179,
+      "code": "K28",
+      "hex": "#D4A0B7",
+      "rgb": {
+        "r": 212,
+        "g": 160,
+        "b": 183
+      },
+      "r": 212,
+      "g": 160,
+      "b": 183,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 180,
+      "code": "K29",
+      "hex": "#A18A98",
+      "rgb": {
+        "r": 161,
+        "g": 138,
+        "b": 152
+      },
+      "r": 161,
+      "g": 138,
+      "b": 152,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 181,
+      "code": "K30",
+      "hex": "#FAF2FF",
+      "rgb": {
+        "r": 250,
+        "g": 242,
+        "b": 255
+      },
+      "r": 250,
+      "g": 242,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 182,
+      "code": "K31",
+      "hex": "#F7B38C",
+      "rgb": {
+        "r": 247,
+        "g": 179,
+        "b": 140
+      },
+      "r": 247,
+      "g": 179,
+      "b": 140,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 183,
+      "code": "K32",
+      "hex": "#E08743",
+      "rgb": {
+        "r": 224,
+        "g": 135,
+        "b": 67
+      },
+      "r": 224,
+      "g": 135,
+      "b": 67,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 184,
+      "code": "K33",
+      "hex": "#BF5960",
+      "rgb": {
+        "r": 191,
+        "g": 89,
+        "b": 96
+      },
+      "r": 191,
+      "g": 89,
+      "b": 96,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 185,
+      "code": "K34",
+      "hex": "#D4A492",
+      "rgb": {
+        "r": 212,
+        "g": 164,
+        "b": 146
+      },
+      "r": 212,
+      "g": 164,
+      "b": 146,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 186,
+      "code": "K35",
+      "hex": "#FCC7CC",
+      "rgb": {
+        "r": 252,
+        "g": 199,
+        "b": 204
+      },
+      "r": 252,
+      "g": 199,
+      "b": 204,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 187,
+      "code": "K36",
+      "hex": "#FFD3BF",
+      "rgb": {
+        "r": 255,
+        "g": 211,
+        "b": 191
+      },
+      "r": 255,
+      "g": 211,
+      "b": 191,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 188,
+      "code": "K37",
+      "hex": "#FA9276",
+      "rgb": {
+        "r": 250,
+        "g": 146,
+        "b": 118
+      },
+      "r": 250,
+      "g": 146,
+      "b": 118,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 189,
+      "code": "K38",
+      "hex": "#FFCDD0",
+      "rgb": {
+        "r": 255,
+        "g": 205,
+        "b": 208
+      },
+      "r": 255,
+      "g": 205,
+      "b": 208,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 190,
+      "code": "K39",
+      "hex": "#E34447",
+      "rgb": {
+        "r": 227,
+        "g": 68,
+        "b": 71
+      },
+      "r": 227,
+      "g": 68,
+      "b": 71,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "K"
+    },
+    {
+      "ordinal": 191,
+      "code": "L1",
+      "hex": "#D40E1F",
+      "rgb": {
+        "r": 212,
+        "g": 14,
+        "b": 31
+      },
+      "r": 212,
+      "g": 14,
+      "b": 31,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 192,
+      "code": "L10",
+      "hex": "#F8DA54",
+      "rgb": {
+        "r": 248,
+        "g": 218,
+        "b": 84
+      },
+      "r": 248,
+      "g": 218,
+      "b": 84,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 193,
+      "code": "L11",
+      "hex": "#FCECF7",
+      "rgb": {
+        "r": 252,
+        "g": 236,
+        "b": 247
+      },
+      "r": 252,
+      "g": 236,
+      "b": 247,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 194,
+      "code": "L12",
+      "hex": "#D8D4D3",
+      "rgb": {
+        "r": 216,
+        "g": 212,
+        "b": 211
+      },
+      "r": 216,
+      "g": 212,
+      "b": 211,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 195,
+      "code": "L13",
+      "hex": "#56534E",
+      "rgb": {
+        "r": 86,
+        "g": 83,
+        "b": 78
+      },
+      "r": 86,
+      "g": 83,
+      "b": 78,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 196,
+      "code": "L14",
+      "hex": "#FFFFFF",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 197,
+      "code": "L2",
+      "hex": "#F13484",
+      "rgb": {
+        "r": 241,
+        "g": 52,
+        "b": 132
+      },
+      "r": 241,
+      "g": 52,
+      "b": 132,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 198,
+      "code": "L3",
+      "hex": "#FB852B",
+      "rgb": {
+        "r": 251,
+        "g": 133,
+        "b": 43
+      },
+      "r": 251,
+      "g": 133,
+      "b": 43,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 199,
+      "code": "L4",
+      "hex": "#F8ED33",
+      "rgb": {
+        "r": 248,
+        "g": 237,
+        "b": 51
+      },
+      "r": 248,
+      "g": 237,
+      "b": 51,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 200,
+      "code": "L5",
+      "hex": "#32C958",
+      "rgb": {
+        "r": 50,
+        "g": 201,
+        "b": 88
+      },
+      "r": 50,
+      "g": 201,
+      "b": 88,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 201,
+      "code": "L6",
+      "hex": "#1EBA93",
+      "rgb": {
+        "r": 30,
+        "g": 186,
+        "b": 147
+      },
+      "r": 30,
+      "g": 186,
+      "b": 147,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 202,
+      "code": "L7",
+      "hex": "#1D779C",
+      "rgb": {
+        "r": 29,
+        "g": 119,
+        "b": 156
+      },
+      "r": 29,
+      "g": 119,
+      "b": 156,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 203,
+      "code": "L8",
+      "hex": "#1960C8",
+      "rgb": {
+        "r": 25,
+        "g": 96,
+        "b": 200
+      },
+      "r": 25,
+      "g": 96,
+      "b": 200,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 204,
+      "code": "L9",
+      "hex": "#945AB1",
+      "rgb": {
+        "r": 148,
+        "g": 90,
+        "b": 177
+      },
+      "r": 148,
+      "g": 90,
+      "b": 177,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "L"
+    },
+    {
+      "ordinal": 205,
+      "code": "M01",
+      "hex": "#F9F9F9",
+      "rgb": {
+        "r": 249,
+        "g": 249,
+        "b": 249
+      },
+      "r": 249,
+      "g": 249,
+      "b": 249,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 206,
+      "code": "M02",
+      "hex": "#ABABAB",
+      "rgb": {
+        "r": 171,
+        "g": 171,
+        "b": 171
+      },
+      "r": 171,
+      "g": 171,
+      "b": 171,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 207,
+      "code": "M03",
+      "hex": "#B6DBAF",
+      "rgb": {
+        "r": 182,
+        "g": 219,
+        "b": 175
+      },
+      "r": 182,
+      "g": 219,
+      "b": 175,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 208,
+      "code": "M04",
+      "hex": "#FEA2A3",
+      "rgb": {
+        "r": 254,
+        "g": 162,
+        "b": 163
+      },
+      "r": 254,
+      "g": 162,
+      "b": 163,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 209,
+      "code": "M05",
+      "hex": "#EB903F",
+      "rgb": {
+        "r": 235,
+        "g": 144,
+        "b": 63
+      },
+      "r": 235,
+      "g": 144,
+      "b": 63,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 210,
+      "code": "M06",
+      "hex": "#63CEA2",
+      "rgb": {
+        "r": 99,
+        "g": 206,
+        "b": 162
+      },
+      "r": 99,
+      "g": 206,
+      "b": 162,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 211,
+      "code": "M07",
+      "hex": "#E79273",
+      "rgb": {
+        "r": 231,
+        "g": 146,
+        "b": 115
+      },
+      "r": 231,
+      "g": 146,
+      "b": 115,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 212,
+      "code": "M08",
+      "hex": "#ECDB59",
+      "rgb": {
+        "r": 236,
+        "g": 219,
+        "b": 89
+      },
+      "r": 236,
+      "g": 219,
+      "b": 89,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 213,
+      "code": "M09",
+      "hex": "#DBD9DA",
+      "rgb": {
+        "r": 219,
+        "g": 217,
+        "b": 218
+      },
+      "r": 219,
+      "g": 217,
+      "b": 218,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 214,
+      "code": "M10",
+      "hex": "#DBC7EA",
+      "rgb": {
+        "r": 219,
+        "g": 199,
+        "b": 234
+      },
+      "r": 219,
+      "g": 199,
+      "b": 234,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 215,
+      "code": "M11",
+      "hex": "#F1E9D4",
+      "rgb": {
+        "r": 241,
+        "g": 233,
+        "b": 212
+      },
+      "r": 241,
+      "g": 233,
+      "b": 212,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 216,
+      "code": "M12",
+      "hex": "#E9EDEE",
+      "rgb": {
+        "r": 233,
+        "g": 237,
+        "b": 238
+      },
+      "r": 233,
+      "g": 237,
+      "b": 238,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 217,
+      "code": "M13",
+      "hex": "#ADCBF1",
+      "rgb": {
+        "r": 173,
+        "g": 203,
+        "b": 241
+      },
+      "r": 173,
+      "g": 203,
+      "b": 241,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 218,
+      "code": "M14",
+      "hex": "#337BAD",
+      "rgb": {
+        "r": 51,
+        "g": 123,
+        "b": 173
+      },
+      "r": 51,
+      "g": 123,
+      "b": 173,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 219,
+      "code": "M15",
+      "hex": "#668575",
+      "rgb": {
+        "r": 102,
+        "g": 133,
+        "b": 117
+      },
+      "r": 102,
+      "g": 133,
+      "b": 117,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 220,
+      "code": "M16",
+      "hex": "#FDC24E",
+      "rgb": {
+        "r": 253,
+        "g": 194,
+        "b": 78
+      },
+      "r": 253,
+      "g": 194,
+      "b": 78,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 221,
+      "code": "M17",
+      "hex": "#FDA42E",
+      "rgb": {
+        "r": 253,
+        "g": 164,
+        "b": 46
+      },
+      "r": 253,
+      "g": 164,
+      "b": 46,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 222,
+      "code": "M18",
+      "hex": "#FEBDA7",
+      "rgb": {
+        "r": 254,
+        "g": 189,
+        "b": 167
+      },
+      "r": 254,
+      "g": 189,
+      "b": 167,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 223,
+      "code": "M19",
+      "hex": "#FFDEE9",
+      "rgb": {
+        "r": 255,
+        "g": 222,
+        "b": 233
+      },
+      "r": 255,
+      "g": 222,
+      "b": 233,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 224,
+      "code": "M20",
+      "hex": "#FCBFD1",
+      "rgb": {
+        "r": 252,
+        "g": 191,
+        "b": 209
+      },
+      "r": 252,
+      "g": 191,
+      "b": 209,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 225,
+      "code": "M21",
+      "hex": "#E8BEC2",
+      "rgb": {
+        "r": 232,
+        "g": 190,
+        "b": 194
+      },
+      "r": 232,
+      "g": 190,
+      "b": 194,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 226,
+      "code": "M22",
+      "hex": "#DFAAA4",
+      "rgb": {
+        "r": 223,
+        "g": 170,
+        "b": 164
+      },
+      "r": 223,
+      "g": 170,
+      "b": 164,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 227,
+      "code": "M23",
+      "hex": "#A3656A",
+      "rgb": {
+        "r": 163,
+        "g": 101,
+        "b": 106
+      },
+      "r": 163,
+      "g": 101,
+      "b": 106,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "M"
+    },
+    {
+      "ordinal": 228,
+      "code": "N1",
+      "hex": "#FF6FB7",
+      "rgb": {
+        "r": 255,
+        "g": 111,
+        "b": 183
+      },
+      "r": 255,
+      "g": 111,
+      "b": 183,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "N"
+    },
+    {
+      "ordinal": 229,
+      "code": "N2",
+      "hex": "#FDB583",
+      "rgb": {
+        "r": 253,
+        "g": 181,
+        "b": 131
+      },
+      "r": 253,
+      "g": 181,
+      "b": 131,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "N"
+    },
+    {
+      "ordinal": 230,
+      "code": "N3",
+      "hex": "#D8FCA4",
+      "rgb": {
+        "r": 216,
+        "g": 252,
+        "b": 164
+      },
+      "r": 216,
+      "g": 252,
+      "b": 164,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "N"
+    },
+    {
+      "ordinal": 231,
+      "code": "N4",
+      "hex": "#91DAFB",
+      "rgb": {
+        "r": 145,
+        "g": 218,
+        "b": 251
+      },
+      "r": 145,
+      "g": 218,
+      "b": 251,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "N"
+    },
+    {
+      "ordinal": 232,
+      "code": "N5",
+      "hex": "#E987EA",
+      "rgb": {
+        "r": 233,
+        "g": 135,
+        "b": 234
+      },
+      "r": 233,
+      "g": 135,
+      "b": 234,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "N"
+    },
+    {
+      "ordinal": 233,
+      "code": "S1",
+      "hex": "#A3E7DC",
+      "rgb": {
+        "r": 163,
+        "g": 231,
+        "b": 220
+      },
+      "r": 163,
+      "g": 231,
+      "b": 220,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 234,
+      "code": "S10",
+      "hex": "#F6BB6F",
+      "rgb": {
+        "r": 246,
+        "g": 187,
+        "b": 111
+      },
+      "r": 246,
+      "g": 187,
+      "b": 111,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 235,
+      "code": "S11",
+      "hex": "#F3C6C0",
+      "rgb": {
+        "r": 243,
+        "g": 198,
+        "b": 192
+      },
+      "r": 243,
+      "g": 198,
+      "b": 192,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 236,
+      "code": "S12",
+      "hex": "#C76A62",
+      "rgb": {
+        "r": 199,
+        "g": 106,
+        "b": 98
+      },
+      "r": 199,
+      "g": 106,
+      "b": 98,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 237,
+      "code": "S13",
+      "hex": "#D093BC",
+      "rgb": {
+        "r": 208,
+        "g": 147,
+        "b": 188
+      },
+      "r": 208,
+      "g": 147,
+      "b": 188,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 238,
+      "code": "S14",
+      "hex": "#E58EAE",
+      "rgb": {
+        "r": 229,
+        "g": 142,
+        "b": 174
+      },
+      "r": 229,
+      "g": 142,
+      "b": 174,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 239,
+      "code": "S15",
+      "hex": "#9F85CF",
+      "rgb": {
+        "r": 159,
+        "g": 133,
+        "b": 207
+      },
+      "r": 159,
+      "g": 133,
+      "b": 207,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 240,
+      "code": "S2",
+      "hex": "#78CEE7",
+      "rgb": {
+        "r": 120,
+        "g": 206,
+        "b": 231
+      },
+      "r": 120,
+      "g": 206,
+      "b": 231,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 241,
+      "code": "S3",
+      "hex": "#3FCDCE",
+      "rgb": {
+        "r": 63,
+        "g": 205,
+        "b": 206
+      },
+      "r": 63,
+      "g": 205,
+      "b": 206,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 242,
+      "code": "S4",
+      "hex": "#4E8379",
+      "rgb": {
+        "r": 78,
+        "g": 131,
+        "b": 121
+      },
+      "r": 78,
+      "g": 131,
+      "b": 121,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 243,
+      "code": "S5",
+      "hex": "#7DCA9C",
+      "rgb": {
+        "r": 125,
+        "g": 202,
+        "b": 156
+      },
+      "r": 125,
+      "g": 202,
+      "b": 156,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 244,
+      "code": "S6",
+      "hex": "#C8E664",
+      "rgb": {
+        "r": 200,
+        "g": 230,
+        "b": 100
+      },
+      "r": 200,
+      "g": 230,
+      "b": 100,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 245,
+      "code": "S7",
+      "hex": "#E3CCBA",
+      "rgb": {
+        "r": 227,
+        "g": 204,
+        "b": 186
+      },
+      "r": 227,
+      "g": 204,
+      "b": 186,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 246,
+      "code": "S8",
+      "hex": "#A17140",
+      "rgb": {
+        "r": 161,
+        "g": 113,
+        "b": 64
+      },
+      "r": 161,
+      "g": 113,
+      "b": 64,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 247,
+      "code": "S9",
+      "hex": "#6B372C",
+      "rgb": {
+        "r": 107,
+        "g": 55,
+        "b": 44
+      },
+      "r": 107,
+      "g": 55,
+      "b": 44,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "S"
+    },
+    {
+      "ordinal": 248,
+      "code": "W1",
+      "hex": "#FEFB00",
+      "rgb": {
+        "r": 254,
+        "g": 251,
+        "b": 0
+      },
+      "r": 254,
+      "g": 251,
+      "b": 0,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "W"
+    },
+    {
+      "ordinal": 249,
+      "code": "W2",
+      "hex": "#FFEBFA",
+      "rgb": {
+        "r": 255,
+        "g": 235,
+        "b": 250
+      },
+      "r": 255,
+      "g": 235,
+      "b": 250,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "W"
+    },
+    {
+      "ordinal": 250,
+      "code": "W3",
+      "hex": "#F2A5E8",
+      "rgb": {
+        "r": 242,
+        "g": 165,
+        "b": 232
+      },
+      "r": 242,
+      "g": 165,
+      "b": 232,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "W"
+    },
+    {
+      "ordinal": 251,
+      "code": "W4",
+      "hex": "#E9EC91",
+      "rgb": {
+        "r": 233,
+        "g": 236,
+        "b": 145
+      },
+      "r": 233,
+      "g": 236,
+      "b": 145,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "W"
+    },
+    {
+      "ordinal": 252,
+      "code": "W5",
+      "hex": "#76CEDE",
+      "rgb": {
+        "r": 118,
+        "g": 206,
+        "b": 222
+      },
+      "r": 118,
+      "g": 206,
+      "b": 222,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "W"
+    },
+    {
+      "ordinal": 253,
+      "code": "Y01",
+      "hex": "#D5E8D7",
+      "rgb": {
+        "r": 213,
+        "g": 232,
+        "b": 215
+      },
+      "r": 213,
+      "g": 232,
+      "b": 215,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 254,
+      "code": "Y02",
+      "hex": "#95B091",
+      "rgb": {
+        "r": 149,
+        "g": 176,
+        "b": 145
+      },
+      "r": 149,
+      "g": 176,
+      "b": 145,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 255,
+      "code": "Y03",
+      "hex": "#62858A",
+      "rgb": {
+        "r": 98,
+        "g": 133,
+        "b": 138
+      },
+      "r": 98,
+      "g": 133,
+      "b": 138,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 256,
+      "code": "Y04",
+      "hex": "#E0D6C3",
+      "rgb": {
+        "r": 224,
+        "g": 214,
+        "b": 195
+      },
+      "r": 224,
+      "g": 214,
+      "b": 195,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 257,
+      "code": "Y05",
+      "hex": "#DED7B1",
+      "rgb": {
+        "r": 222,
+        "g": 215,
+        "b": 177
+      },
+      "r": 222,
+      "g": 215,
+      "b": 177,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 258,
+      "code": "Y06",
+      "hex": "#BDB293",
+      "rgb": {
+        "r": 189,
+        "g": 178,
+        "b": 147
+      },
+      "r": 189,
+      "g": 178,
+      "b": 147,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 259,
+      "code": "Y07",
+      "hex": "#C9BCA9",
+      "rgb": {
+        "r": 201,
+        "g": 188,
+        "b": 169
+      },
+      "r": 201,
+      "g": 188,
+      "b": 169,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 260,
+      "code": "Y08",
+      "hex": "#B8A9A6",
+      "rgb": {
+        "r": 184,
+        "g": 169,
+        "b": 166
+      },
+      "r": 184,
+      "g": 169,
+      "b": 166,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 261,
+      "code": "Y09",
+      "hex": "#CCB88B",
+      "rgb": {
+        "r": 204,
+        "g": 184,
+        "b": 139
+      },
+      "r": 204,
+      "g": 184,
+      "b": 139,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 262,
+      "code": "Y10",
+      "hex": "#C2B5BC",
+      "rgb": {
+        "r": 194,
+        "g": 181,
+        "b": 188
+      },
+      "r": 194,
+      "g": 181,
+      "b": 188,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 263,
+      "code": "Y11",
+      "hex": "#AE99B0",
+      "rgb": {
+        "r": 174,
+        "g": 153,
+        "b": 176
+      },
+      "r": 174,
+      "g": 153,
+      "b": 176,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 264,
+      "code": "Y12",
+      "hex": "#5C5153",
+      "rgb": {
+        "r": 92,
+        "g": 81,
+        "b": 83
+      },
+      "r": 92,
+      "g": 81,
+      "b": 83,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 265,
+      "code": "Y13",
+      "hex": "#E0AC82",
+      "rgb": {
+        "r": 224,
+        "g": 172,
+        "b": 130
+      },
+      "r": 224,
+      "g": 172,
+      "b": 130,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 266,
+      "code": "Y14",
+      "hex": "#DE8D6D",
+      "rgb": {
+        "r": 222,
+        "g": 141,
+        "b": 109
+      },
+      "r": 222,
+      "g": 141,
+      "b": 109,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 267,
+      "code": "Y15",
+      "hex": "#95A19C",
+      "rgb": {
+        "r": 149,
+        "g": 161,
+        "b": 156
+      },
+      "r": 149,
+      "g": 161,
+      "b": 156,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Y"
+    },
+    {
+      "ordinal": 268,
+      "code": "Z01",
+      "hex": "#FFF3DE",
+      "rgb": {
+        "r": 255,
+        "g": 243,
+        "b": 222
+      },
+      "r": 255,
+      "g": 243,
+      "b": 222,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 269,
+      "code": "Z02",
+      "hex": "#FFEAC2",
+      "rgb": {
+        "r": 255,
+        "g": 234,
+        "b": 194
+      },
+      "r": 255,
+      "g": 234,
+      "b": 194,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 270,
+      "code": "Z03",
+      "hex": "#FDFCD9",
+      "rgb": {
+        "r": 253,
+        "g": 252,
+        "b": 217
+      },
+      "r": 253,
+      "g": 252,
+      "b": 217,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 271,
+      "code": "Z04",
+      "hex": "#FAE8C8",
+      "rgb": {
+        "r": 250,
+        "g": 232,
+        "b": 200
+      },
+      "r": 250,
+      "g": 232,
+      "b": 200,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 272,
+      "code": "Z05",
+      "hex": "#FFDDAB",
+      "rgb": {
+        "r": 255,
+        "g": 221,
+        "b": 171
+      },
+      "r": 255,
+      "g": 221,
+      "b": 171,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 273,
+      "code": "Z06",
+      "hex": "#F5C69B",
+      "rgb": {
+        "r": 245,
+        "g": 198,
+        "b": 155
+      },
+      "r": 245,
+      "g": 198,
+      "b": 155,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 274,
+      "code": "Z07",
+      "hex": "#F0E49E",
+      "rgb": {
+        "r": 240,
+        "g": 228,
+        "b": 158
+      },
+      "r": 240,
+      "g": 228,
+      "b": 158,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 275,
+      "code": "Z08",
+      "hex": "#E6C495",
+      "rgb": {
+        "r": 230,
+        "g": 196,
+        "b": 149
+      },
+      "r": 230,
+      "g": 196,
+      "b": 149,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 276,
+      "code": "Z09",
+      "hex": "#FCDA95",
+      "rgb": {
+        "r": 252,
+        "g": 218,
+        "b": 149
+      },
+      "r": 252,
+      "g": 218,
+      "b": 149,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 277,
+      "code": "Z10",
+      "hex": "#F0AC46",
+      "rgb": {
+        "r": 240,
+        "g": 172,
+        "b": 70
+      },
+      "r": 240,
+      "g": 172,
+      "b": 70,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 278,
+      "code": "Z11",
+      "hex": "#F5AE48",
+      "rgb": {
+        "r": 245,
+        "g": 174,
+        "b": 72
+      },
+      "r": 245,
+      "g": 174,
+      "b": 72,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 279,
+      "code": "Z12",
+      "hex": "#FAB646",
+      "rgb": {
+        "r": 250,
+        "g": 182,
+        "b": 70
+      },
+      "r": 250,
+      "g": 182,
+      "b": 70,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 280,
+      "code": "Z13",
+      "hex": "#F0D393",
+      "rgb": {
+        "r": 240,
+        "g": 211,
+        "b": 147
+      },
+      "r": 240,
+      "g": 211,
+      "b": 147,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 281,
+      "code": "Z14",
+      "hex": "#BD8A6A",
+      "rgb": {
+        "r": 189,
+        "g": 138,
+        "b": 106
+      },
+      "r": 189,
+      "g": 138,
+      "b": 106,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 282,
+      "code": "Z15",
+      "hex": "#BD9044",
+      "rgb": {
+        "r": 189,
+        "g": 144,
+        "b": 68
+      },
+      "r": 189,
+      "g": 144,
+      "b": 68,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 283,
+      "code": "Z16",
+      "hex": "#54483A",
+      "rgb": {
+        "r": 84,
+        "g": 72,
+        "b": 58
+      },
+      "r": 84,
+      "g": 72,
+      "b": 58,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 284,
+      "code": "Z17",
+      "hex": "#9E836C",
+      "rgb": {
+        "r": 158,
+        "g": 131,
+        "b": 108
+      },
+      "r": 158,
+      "g": 131,
+      "b": 108,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 285,
+      "code": "Z18",
+      "hex": "#A67E61",
+      "rgb": {
+        "r": 166,
+        "g": 126,
+        "b": 97
+      },
+      "r": 166,
+      "g": 126,
+      "b": 97,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 286,
+      "code": "Z19",
+      "hex": "#A36943",
+      "rgb": {
+        "r": 163,
+        "g": 105,
+        "b": 67
+      },
+      "r": 163,
+      "g": 105,
+      "b": 67,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 287,
+      "code": "Z20",
+      "hex": "#A16446",
+      "rgb": {
+        "r": 161,
+        "g": 100,
+        "b": 70
+      },
+      "r": 161,
+      "g": 100,
+      "b": 70,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 288,
+      "code": "Z21",
+      "hex": "#9E5B4E",
+      "rgb": {
+        "r": 158,
+        "g": 91,
+        "b": 78
+      },
+      "r": 158,
+      "g": 91,
+      "b": 78,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 289,
+      "code": "Z22",
+      "hex": "#57423B",
+      "rgb": {
+        "r": 87,
+        "g": 66,
+        "b": 59
+      },
+      "r": 87,
+      "g": 66,
+      "b": 59,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 290,
+      "code": "Z23",
+      "hex": "#5C3F3B",
+      "rgb": {
+        "r": 92,
+        "g": 63,
+        "b": 59
+      },
+      "r": 92,
+      "g": 63,
+      "b": 59,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    },
+    {
+      "ordinal": 291,
+      "code": "Z24",
+      "hex": "#C7A58D",
+      "rgb": {
+        "r": 199,
+        "g": 165,
+        "b": 141
+      },
+      "r": 199,
+      "g": 165,
+      "b": 141,
+      "transparency": "",
+      "source_quality": "third_party_public_repository",
+      "source_url": "https://git.xiongxiao.me/abearxiong/get-colors-from-beans/src/branch/main/get-colors.json",
+      "notes": "Extracted from public HTML color data repository.",
+      "group": "Z"
+    }
+  ]
+}
