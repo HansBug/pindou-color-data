@@ -247,7 +247,7 @@ def clean_hex(value: Any) -> str | None:
     if not value:
         return None
     text = str(value).strip().upper()
-    if re.fullmatch(r"#[0-9A-F]{6}", text):
+    if re.fullmatch(r"#[0-9A-F]{6}([0-9A-F]{2})?", text):
         return text
     return None
 
@@ -263,10 +263,48 @@ def rgb_tuple(row: dict[str, Any]) -> tuple[int, int, int] | None:
     return (r, g, b)
 
 
-def hex_from_rgb(rgb: tuple[int, int, int] | None) -> str | None:
+def alpha_value(row: dict[str, Any]) -> int | None:
+    a = coerce_int(row.get("a"))
+    if a is None or not 0 <= a <= 255:
+        return None
+    return a
+
+
+def rgba_tuple(row: dict[str, Any]) -> tuple[int, int, int, int] | None:
+    rgb = rgb_tuple(row)
     if rgb is None:
         return None
-    return "#{:02X}{:02X}{:02X}".format(*rgb)
+    a = alpha_value(row)
+    return (*rgb, 255 if a is None else a)
+
+
+def hex_from_color(color: tuple[int, ...] | None) -> str | None:
+    if color is None:
+        return None
+    if len(color) == 3:
+        return "#{:02X}{:02X}{:02X}".format(*color)
+    if len(color) == 4:
+        return "#{:02X}{:02X}{:02X}{:02X}".format(*color)
+    return None
+
+
+def color_from_hex(value: Any) -> tuple[int, ...] | None:
+    text = clean_hex(value)
+    if text is None:
+        return None
+    clean = text[1:]
+    values = [int(clean[index : index + 2], 16) for index in range(0, len(clean), 2)]
+    return tuple(values)
+
+
+def display_rgb(row: dict[str, Any], background: tuple[int, int, int] = (255, 255, 255)) -> tuple[int, int, int] | None:
+    rgba = rgba_tuple(row)
+    if rgba is None:
+        return None
+    r, g, b, a = rgba
+    if alpha_value(row) is None:
+        return (r, g, b)
+    return tuple(round((channel * a + bg * (255 - a)) / 255) for channel, bg in zip((r, g, b), background))
 
 
 def luminance(rgb: tuple[int, int, int] | None) -> float:
@@ -337,26 +375,30 @@ def sheet_name(base: str, used: set[str], index: int) -> str:
 def rgb_text(row: dict[str, Any]) -> str:
     if row["rgb"] is None:
         return "RGB: N/A"
+    if row.get("a") is not None:
+        return f"RGBA: {row['r']}, {row['g']}, {row['b']}, {row['a']}"
     return f"RGB: {row['r']}, {row['g']}, {row['b']}"
 
 
-def rgb_from_color(row: dict[str, Any]) -> tuple[int, int, int] | None:
+def color_from_color(row: dict[str, Any]) -> tuple[int, ...] | None:
     rgb = row.get("rgb")
     if rgb is None:
         return None
     if isinstance(rgb, dict):
         values = [rgb.get("r"), rgb.get("g"), rgb.get("b")]
+        if "a" in rgb:
+            values.append(rgb.get("a"))
     else:
         values = list(rgb)
-    if len(values) != 3:
+    if len(values) not in (3, 4):
         return None
     try:
-        r, g, b = [int(v) for v in values]
+        color = tuple(int(v) for v in values)
     except (TypeError, ValueError):
         return None
-    if not all(0 <= n <= 255 for n in (r, g, b)):
+    if not all(0 <= n <= 255 for n in color):
         return None
-    return (r, g, b)
+    return color
 
 
 def normalize_xlsx_file(path: Path) -> None:
@@ -399,17 +441,28 @@ def normalize_rows(raw_rows: list[dict[str, Any]], sources: list[dict[str, Any]]
     source_map = {src.get("id"): src for src in (sources or [])}
     rows = []
     for idx, item in enumerate(raw_rows, start=1):
-        rgb = rgb_from_color(item)
+        explicit_hex = clean_hex(item.get("hex"))
+        rgb_color = color_from_color(item)
+        hex_color = color_from_hex(explicit_hex)
+        if rgb_color is not None and len(rgb_color) == 4:
+            color = rgb_color
+        elif rgb_color is not None and hex_color is not None and len(hex_color) == 4:
+            color = (*rgb_color[:3], hex_color[3])
+        else:
+            color = rgb_color or hex_color
+        rgb = None if color is None else color[:3]
+        alpha = None if color is None or len(color) != 4 else color[3]
         source_ref = item.get("source") or ""
         source = source_map.get(source_ref, {})
         row = {
             "ordinal": idx,
             "code": str(item.get("code", "")).strip(),
-            "hex": clean_hex(item.get("hex")) or hex_from_rgb(rgb),
+            "hex": hex_from_color(color) if alpha is not None else explicit_hex or hex_from_color(color),
             "rgb": None if rgb is None else {"r": rgb[0], "g": rgb[1], "b": rgb[2]},
             "r": None if rgb is None else rgb[0],
             "g": None if rgb is None else rgb[1],
             "b": None if rgb is None else rgb[2],
+            "a": alpha,
             "transparency": str(item.get("transparency", "") or ""),
             "source": source_ref,
             "source_quality": str(source.get("quality") or item.get("source_quality") or ""),
@@ -480,6 +533,8 @@ def make_json(out_dir: Path, info: dict[str, Any], rows: list[dict[str, Any]], g
     colors = []
     for row in rows:
         rgb = None if row["rgb"] is None else [row["r"], row["g"], row["b"]]
+        if rgb is not None and row.get("a") is not None:
+            rgb.append(row["a"])
         item = {
             "code": row["code"],
             "hex": row["hex"],
@@ -570,20 +625,23 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
             block_row = start_row + (color_idx // cards_per_row) * tile_rows
             block_col = start_col + (color_idx % cards_per_row) * (tile_cols + 1)
             rgb = rgb_tuple(row)
-            fill = PatternFill("solid", fgColor=excel_argb(rgb))
-            font_color = text_color_for(rgb)
+            display = display_rgb(row)
+            fill = PatternFill("solid", fgColor=excel_argb(display))
+            font_color = text_color_for(display)
             swatch_range = (
                 block_row,
                 block_col,
                 block_row + 1,
                 block_col + tile_cols - 1,
             )
-            ws.merge_cells(
-                start_row=swatch_range[0],
-                start_column=swatch_range[1],
-                end_row=swatch_range[2],
-                end_column=swatch_range[3],
-            )
+            has_alpha = row.get("a") is not None
+            if not has_alpha:
+                ws.merge_cells(
+                    start_row=swatch_range[0],
+                    start_column=swatch_range[1],
+                    end_row=swatch_range[2],
+                    end_column=swatch_range[3],
+                )
             cell = ws.cell(row=block_row, column=block_col, value=row["code"])
             cell.fill = fill
             cell.font = Font(bold=True, color=font_color, size=14)
@@ -591,12 +649,15 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
             for r in range(swatch_range[0], swatch_range[2] + 1):
                 ws.row_dimensions[r].height = 24
                 for c in range(swatch_range[1], swatch_range[3] + 1):
-                    ws.cell(row=r, column=c).fill = fill
+                    cell_fill = fill
+                    if has_alpha and (r + c) % 2 == 0:
+                        cell_fill = PatternFill("solid", fgColor="FFE0E0E0")
+                    ws.cell(row=r, column=c).fill = cell_fill
                     ws.cell(row=r, column=c).border = border
 
             fields = [
                 ("HEX", row["hex"] or "N/A"),
-                ("RGB", "N/A" if row["rgb"] is None else f"{row['r']}, {row['g']}, {row['b']}"),
+                ("RGB", "N/A" if row["rgb"] is None else ", ".join(str(v) for v in ([row["r"], row["g"], row["b"]] + ([] if row.get("a") is None else [row["a"]])))),
                 ("来源", row["source_quality"] or "N/A"),
             ]
             for offset, (label, value) in enumerate(fields, start=2):
@@ -650,6 +711,24 @@ def checkerboard(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], size:
             )
 
 
+def draw_swatch(draw: ImageDraw.ImageDraw, row: dict[str, Any], xy: tuple[int, int, int, int]) -> None:
+    rgb = rgb_tuple(row)
+    if rgb is None:
+        checkerboard(draw, xy)
+        return
+    if row.get("a") is None:
+        draw.rectangle(xy, fill=row["hex"])
+        return
+    x1, y1, x2, y2 = xy
+    size = 12
+    bg_colors = ((240, 240, 240), (207, 207, 207))
+    for y in range(y1, y2, size):
+        for x in range(x1, x2, size):
+            bg = bg_colors[((x - x1) // size + (y - y1) // size) % 2]
+            blended = tuple(round((channel * row["a"] + base * (255 - row["a"])) / 255) for channel, base in zip(rgb, bg))
+            draw.rectangle((x, y, min(x + size, x2), min(y + size, y2)), fill=hex_from_color(blended))
+
+
 def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> Image.Image:
     market = info.get("market", {})
     quality_counts = Counter(row["source_quality"] or "unknown" for row in rows)
@@ -689,7 +768,7 @@ def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: Or
     y += 42
     notes = [
         "RGB 是屏幕参考值，不等于实物颜色；严谨对色仍建议以实物色卡为准。",
-        "透明色、珠光、夜光等特殊材质在屏幕上不能完全表达，表内会保留色号并标注 RGB 是否缺失。",
+        "普通颜色使用 #RRGGBB / [r,g,b]；透明颜色使用 #RRGGBBAA / [r,g,b,a]，并保留 transparency 标记。",
         "公开源码库来源不等同于品牌官方标准；官方来源和第三方来源已在 README 与 JSON 中分开标注。",
     ]
     if "official_chart_image_sampled" in quality_counts or "public_tool_display_hex" in quality_counts:
@@ -734,12 +813,10 @@ def make_color_pages(info: dict[str, str], groups: OrderedDict[str, list[dict[st
                 rgb = rgb_tuple(row)
                 draw.rounded_rectangle((x, y, x + tile_w, y + tile_h), radius=8, outline="#B7B7B7", width=2, fill="#FFFFFF")
                 swatch = (x + 8, y + 8, x + tile_w - 8, y + 50)
-                if rgb is None:
-                    checkerboard(draw, swatch)
-                else:
-                    draw.rectangle(swatch, fill=row["hex"])
+                draw_swatch(draw, row, swatch)
                 draw.rectangle(swatch, outline="#777777", width=1)
-                code_fill = "#111111" if rgb is None else f"#{text_color_for(rgb)}"
+                display = display_rgb(row)
+                code_fill = "#111111" if display is None else f"#{text_color_for(display)}"
                 draw.text((x + 14, y + 16), row["code"], font=FONT_TILE_CODE, fill=code_fill)
                 draw.text((x + 12, y + 58), row["hex"] or "HEX: N/A", font=FONT_TILE_SMALL, fill="#111111")
                 draw.text((x + 12, y + 78), rgb_text(row), font=FONT_TILE_SMALL, fill="#111111")
@@ -830,6 +907,9 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
 
     lines.extend(["", "## 注意事项", ""])
     lines.append("- RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。")
+    if any(row.get("a") is not None for row in rows):
+        lines.append("- 本系列含透明色：普通颜色保持 `#RRGGBB` / `[r,g,b]`，透明颜色使用 `#RRGGBBAA` / `[r,g,b,a]`，并保留 `transparency` 字段。")
+        lines.append("- RGBA 中的 alpha 用于让数据消费者明确识别透明项，并用于图例预览；它不是品牌官方发布的物理透光率。")
     if any(row["source_quality"].startswith("third_party") for row in rows):
         lines.append("- 本系列包含公开源码/工具站数据，不等同于品牌官方标准。")
     if "official_chart_image_sampled" in quality_counts:
@@ -904,8 +984,9 @@ RELATION_NOTES = [
         "title": "优肯特殊材质 RGB 补齐口径",
         "items": [
             "`artkal-c-197-official` 中 `CG/CP/CT` 特殊材质色号存在于 Artkal 官方 C 系列色卡图和商品体系，但官方 RGB PDF 未发布这些色号的数值；当前用官方色卡图可见色块采样值补齐，并以 `official_chart_image_sampled` 标注。",
-            "`artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作为屏幕显示占位，并以 `public_tool_display_hex` 标注。",
-            "上述补齐值适合脚本和图例显示兜底，不应当等同为 Artkal 官方发布的物理颜色 RGB。",
+            "`CT01-CT09` 是透明材质，JSON 使用 `#RRGGBBAA` / `[r,g,b,a]`（当前 alpha 为 128）和 `transparency` 字段显式标记，避免数据消费者把它当成普通不透明 RGB。",
+            "`artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作基底色，JSON 写为 `#FFFFFF00` / `[255,255,255,0]`，来源质量为 `public_tool_display_hex`。",
+            "RGBA 中的 alpha 是本仓库的数据表达和图例预览口径，不应当等同为 Artkal 官方发布的物理透光率。",
         ],
     },
     {

@@ -2242,11 +2242,12 @@
     },
     {
       "code": "MH1",
-      "hex": "#FFFFFF",
+      "hex": "#FFFFFF00",
       "rgb": [
         255,
         255,
-        255
+        255,
+        0
       ],
       "group": "MH",
       "source": "src2",

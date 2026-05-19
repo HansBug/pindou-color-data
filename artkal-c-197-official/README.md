@@ -44,6 +44,8 @@
 ## 注意事项
 
 - RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。
+- 本系列含透明色：普通颜色保持 `#RRGGBB` / `[r,g,b]`，透明颜色使用 `#RRGGBBAA` / `[r,g,b,a]`，并保留 `transparency` 字段。
+- RGBA 中的 alpha 用于让数据消费者明确识别透明项，并用于图例预览；它不是品牌官方发布的物理透光率。
 - `official_chart_image_sampled` 表示从 Artkal 官方色卡图可见色块采样得到的参考 RGB；官方 RGB PDF 未发布这些特殊材质的数值。
 
 ## JSON 结构简例

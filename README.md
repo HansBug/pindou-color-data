@@ -38,8 +38,9 @@
 ### 优肯特殊材质 RGB 补齐口径
 
 - `artkal-c-197-official` 中 `CG/CP/CT` 特殊材质色号存在于 Artkal 官方 C 系列色卡图和商品体系，但官方 RGB PDF 未发布这些色号的数值；当前用官方色卡图可见色块采样值补齐，并以 `official_chart_image_sampled` 标注。
-- `artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作为屏幕显示占位，并以 `public_tool_display_hex` 标注。
-- 上述补齐值适合脚本和图例显示兜底，不应当等同为 Artkal 官方发布的物理颜色 RGB。
+- `CT01-CT09` 是透明材质，JSON 使用 `#RRGGBBAA` / `[r,g,b,a]`（当前 alpha 为 128）和 `transparency` 字段显式标记，避免数据消费者把它当成普通不透明 RGB。
+- `artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作基底色，JSON 写为 `#FFFFFF00` / `[255,255,255,0]`，来源质量为 `public_tool_display_hex`。
+- RGBA 中的 alpha 是本仓库的数据表达和图例预览口径，不应当等同为 Artkal 官方发布的物理透光率。
 
 ### 黄豆豆、小舞家与 MARD 291
 
