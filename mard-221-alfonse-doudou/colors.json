@@ -1,5 +1,5 @@
 {
-  "schema": "pindou-color-palette/v2",
+  "schema": "pindou-color-palette",
   "id": "mard-221-alfonse-doudou",
   "title": "MARD家",
   "description": "MARD 221色（Alfonse + 豆豆工坊核对版）",
@@ -34,7 +34,7 @@
       "id": "src1",
       "url": "https://www.alfonse.online/ ; https://www.doudougongfang.com/kb/beads/mard-palette",
       "quality": "public_tool_site_claims_mard_official",
-      "notes": "Alfonse page labels this as MARD official bead palette; checked entries match the DouDouGongFang Mard v1 page."
+      "notes": "Alfonse page labels this as MARD official bead palette; checked entries match the DouDouGongFang Mard page."
     }
   ],
   "colors": [

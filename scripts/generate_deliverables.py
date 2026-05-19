@@ -3,11 +3,14 @@ from __future__ import annotations
 import json
 import math
 import re
+import time
 import textwrap
+import zipfile
 from collections import Counter, OrderedDict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
+from xml.etree import ElementTree as ET
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -17,7 +20,11 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED_DATE = date(2026, 5, 19).isoformat()
-SCHEMA = "pindou-color-palette/v2"
+SCHEMA = "pindou-color-palette"
+FIXED_DATETIME = datetime(2026, 5, 19, 0, 0, 0)
+FIXED_ZIP_DATE = (2026, 5, 19, 0, 0, 0)
+FIXED_W3CDTF = "2026-05-19T00:00:00Z"
+FIXED_PDF_TIME = time.strptime("20260519000000", "%Y%m%d%H%M%S")
 
 
 MARKET_RESEARCH_SOURCES = [
@@ -366,7 +373,7 @@ def rgb_text(row: dict[str, Any]) -> str:
     return f"RGB: {row['r']}, {row['g']}, {row['b']}"
 
 
-def rgb_from_v2(row: dict[str, Any]) -> tuple[int, int, int] | None:
+def rgb_from_color(row: dict[str, Any]) -> tuple[int, int, int] | None:
     rgb = row.get("rgb")
     if rgb is None:
         return None
@@ -385,11 +392,47 @@ def rgb_from_v2(row: dict[str, Any]) -> tuple[int, int, int] | None:
     return (r, g, b)
 
 
+def normalize_xlsx_file(path: Path) -> None:
+    tmp_path = path.with_suffix(".xlsx.tmp")
+    ET.register_namespace("cp", "http://schemas.openxmlformats.org/package/2006/metadata/core-properties")
+    ET.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
+    ET.register_namespace("dcterms", "http://purl.org/dc/terms/")
+    ET.register_namespace("dcmitype", "http://purl.org/dc/dcmitype/")
+    ET.register_namespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")
+    with zipfile.ZipFile(path, "r") as source, zipfile.ZipFile(
+        tmp_path,
+        "w",
+        compression=zipfile.ZIP_DEFLATED,
+        compresslevel=9,
+    ) as target:
+        for item in sorted(source.infolist(), key=lambda entry: entry.filename):
+            data = source.read(item.filename)
+            if item.filename == "docProps/core.xml":
+                root = ET.fromstring(data)
+                namespaces = {
+                    "cp": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+                    "dcterms": "http://purl.org/dc/terms/",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                }
+                for tag in ("created", "modified"):
+                    node = root.find(f"dcterms:{tag}", namespaces)
+                    if node is not None:
+                        node.text = FIXED_W3CDTF
+                        node.set(f"{{{namespaces['xsi']}}}type", "dcterms:W3CDTF")
+                data = ET.tostring(root, encoding="utf-8", xml_declaration=False)
+
+            info = zipfile.ZipInfo(item.filename, date_time=FIXED_ZIP_DATE)
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = item.external_attr
+            target.writestr(info, data)
+    tmp_path.replace(path)
+
+
 def normalize_rows(raw_rows: list[dict[str, Any]], sources: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     source_map = {src.get("id"): src for src in (sources or [])}
     rows = []
     for idx, item in enumerate(raw_rows, start=1):
-        rgb = rgb_from_v2(item)
+        rgb = rgb_from_color(item)
         source_ref = item.get("source") or ""
         source = source_map.get(source_ref, {})
         row = {
@@ -495,6 +538,10 @@ def make_json(out_dir: Path, info: dict[str, Any], rows: list[dict[str, Any]], g
 def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
     market = info.get("market", {})
     wb = Workbook()
+    wb.properties.creator = "HansBug"
+    wb.properties.lastModifiedBy = "HansBug"
+    wb.properties.created = FIXED_DATETIME
+    wb.properties.modified = FIXED_DATETIME
     wb.remove(wb.active)
     info_ws = wb.create_sheet("信息")
     info_ws["A1"] = info["title"]
@@ -592,7 +639,9 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
                 for c in range(block_col, block_col + tile_cols):
                     ws.cell(row=r, column=c).border = border
 
-    wb.save(out_dir / "colors.xlsx")
+    xlsx_path = out_dir / "colors.xlsx"
+    wb.save(xlsx_path)
+    normalize_xlsx_file(xlsx_path)
 
 
 def draw_wrapped(draw: ImageDraw.ImageDraw, text: str, xy: tuple[int, int], font: ImageFont.ImageFont, fill: str, width: int, line_gap: int = 6) -> int:
@@ -736,7 +785,19 @@ def make_pdf(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], gr
     pages.extend(make_color_pages(info, groups))
     pdf_path = out_dir / "legend.pdf"
     first, rest = pages[0], pages[1:]
-    first.save(pdf_path, "PDF", resolution=150.0, save_all=True, append_images=rest)
+    first.save(
+        pdf_path,
+        "PDF",
+        resolution=150.0,
+        save_all=True,
+        append_images=rest,
+        title=info["title"],
+        author="HansBug",
+        creator="pindou-color-data",
+        producer="Pillow",
+        creationDate=FIXED_PDF_TIME,
+        modDate=FIXED_PDF_TIME,
+    )
 
 
 def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
@@ -760,7 +821,7 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         "",
         "## 文件",
         "",
-        "- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。",
+        "- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。",
         "- `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。",
         "- `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。",
         "- `README.md`：本说明。",
@@ -894,9 +955,9 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
             "",
             "## 维护脚本",
             "",
-            "- `scripts/generate_deliverables.py`：从 v2 `colors.json` 重生成各系列四件套。",
+            "- `scripts/generate_deliverables.py`：从 `colors.json` 重生成各系列四件套。",
             "- `scripts/build_tables.js`：上游采集/清洗辅助脚本。",
-            "- 依赖：`python -m pip install openpyxl pillow`。",
+            "- 依赖：`python -m pip install openpyxl==3.1.5 pillow==12.2.0`。",
         ]
     )
     (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

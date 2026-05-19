@@ -162,7 +162,7 @@ function parseAlfonseMard221() {
         source_quality: "public_tool_site_claims_mard_official",
         source_url: `${SOURCE_ALFONSE_MARD} ; ${SOURCE_DOUDOU_MARD}`,
         notes:
-          "Alfonse page labels this as MARD official bead palette; checked entries match the DouDouGongFang Mard v1 page.",
+          "Alfonse page labels this as MARD official bead palette; checked entries match the DouDouGongFang Mard page.",
       });
     });
   }

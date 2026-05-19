@@ -12,7 +12,7 @@
 
 ## 文件
 
-- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -48,7 +48,7 @@
 
 ```json
 {
-  "schema": "pindou-color-palette/v2",
+  "schema": "pindou-color-palette",
   "id": "manman-278",
   "title": "漫漫家",
   "count": 278,
