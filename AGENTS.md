@@ -23,6 +23,16 @@
 - 新增系列时同步更新根 `README.md` 和 `manifest.json`。
 - 维护脚本放在 `scripts/`，调整 JSON 后需要重新生成 XLSX/PDF/README 时优先复用脚本。
 
+## 异常色号处理流程
+
+- 每次改动颜色数据后，至少扫描 `colors.json` 中的空串、`-`、`unknown`、无字母数字/中文的色号，以及同系列重复 `code`。
+- 如果发现上游错码或重复码，先核对原始 HTML/JSON，再用官方资料、公开源码、工具站前端数据等多路来源交叉验证；当前常用交叉源包括 get-colors-from-beans、xiaoana、Zippland/perler-beads、PinDou 前端 colorSystemMapping。
+- 只有真实品牌色号能被官方来源或至少两路独立公开来源支持时，才直接修正 `code`。修正时保留原始 HEX/RGB，并在该颜色 `notes` 写明原始上游错误和修正依据。
+- 如果只能确认上游色号不可读，但不能确认真实品牌色号，不能用 RGB 最近邻或相似 W 色号猜测。此时分配稳定占位 `UNKNOWN-01`、`UNKNOWN-02` 等，写入 `unidentified: true`、`original_code` 和说明性 `notes`。
+- `UNKNOWN-*` 是仓库占位 ID，不是品牌官方色号。面向严格采购、配色转换或图纸生成的下游应用应默认过滤 `unidentified: true` 的颜色，除非用户明确允许使用未知色。
+- 修改 JSON 后运行 `python scripts/generate_deliverables.py`，并确认 README、XLSX、PDF、manifest 都反映 `unidentified` 数量和说明。
+- 不要为了让表面统计更整齐而删除不可辨认色；保留带标记的原始颜色比静默丢弃更利于后续追溯和修复。
+
 ## 已确认的数据关系
 
 - `mard-221-alfonse-doudou` 与 `mard-221-github` 都是 MARD 221 色号体系，221 个色号集合完全一致，但有 77 个 HEX/RGB 不同；两者不是完全重复，需同时保留。默认优先参考 `mard-221-alfonse-doudou`，源码版用于交叉校验。
