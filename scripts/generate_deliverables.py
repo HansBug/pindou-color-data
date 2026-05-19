@@ -454,6 +454,13 @@ def group_rows(rows: list[dict[str, Any]]) -> OrderedDict[str, list[dict[str, An
     return grouped
 
 
+def missing_count_label(rows: list[dict[str, Any]]) -> str:
+    qualities = {row["source_quality"] or "" for row in rows}
+    if "official_chart_image_sampled" in qualities or "public_tool_display_hex" in qualities:
+        return "无 RGB / 未填数值"
+    return "无 RGB / 透明或未公开"
+
+
 def compact_sources(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: OrderedDict[tuple[str, str, str], str] = OrderedDict()
     result = []
@@ -523,7 +530,7 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
     info_ws["B6"] = len(rows)
     info_ws["A7"] = "有 RGB"
     info_ws["B7"] = sum(1 for row in rows if row["rgb"] is not None)
-    info_ws["A8"] = "无 RGB / 透明或未公开"
+    info_ws["A8"] = missing_count_label(rows)
     info_ws["B8"] = sum(1 for row in rows if row["rgb"] is None)
     info_ws["A9"] = "来源"
     info_ws["A9"].font = Font(bold=True)
@@ -645,6 +652,7 @@ def checkerboard(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], size:
 
 def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> Image.Image:
     market = info.get("market", {})
+    quality_counts = Counter(row["source_quality"] or "unknown" for row in rows)
     page = Image.new("RGB", (1754, 1240), "#FFFFFF")
     draw = ImageDraw.Draw(page)
     draw.text((70, 70), info["title"], font=FONT_TITLE, fill="#111111")
@@ -654,7 +662,7 @@ def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: Or
         f"系列短名：{info['title']}",
         f"总颜色数：{len(rows)}",
         f"有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
-        f"无 RGB / 透明或未公开：{sum(1 for row in rows if row['rgb'] is None)}",
+        f"{missing_count_label(rows)}：{sum(1 for row in rows if row['rgb'] is None)}",
         f"分组：{', '.join(groups.keys())}",
         f"国内手工小店主流度：{market.get('tier', 'N/A')} / {market.get('score', 'N/A')} - {market.get('label', '')}",
     ]
@@ -684,6 +692,8 @@ def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: Or
         "透明色、珠光、夜光等特殊材质在屏幕上不能完全表达，表内会保留色号并标注 RGB 是否缺失。",
         "公开源码库来源不等同于品牌官方标准；官方来源和第三方来源已在 README 与 JSON 中分开标注。",
     ]
+    if "official_chart_image_sampled" in quality_counts or "public_tool_display_hex" in quality_counts:
+        notes.append("部分特殊材质 RGB 来自官方图例采样或公开工具站显示占位，只作屏幕显示/脚本兜底参考。")
     for note in notes:
         y = draw_wrapped(draw, f"- {note}", (110, y), FONT_BODY, "#333333", 1450, 6)
         y += 6
@@ -782,7 +792,7 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         f"- 系列短名：{info['title']}",
         f"- 总颜色数：{len(rows)}",
         f"- 有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
-        f"- 无 RGB / 透明或未公开：{len(missing)}",
+        f"- {missing_count_label(rows)}：{len(missing)}",
         f"- 分组：{', '.join(f'{name}({len(group)})' for name, group in groups.items())}",
         f"- 国内手工小店主流度：{market.get('tier', 'N/A')} / {market.get('score', 'N/A')} - {market.get('label', '')}",
         "",
@@ -822,6 +832,10 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
     lines.append("- RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。")
     if any(row["source_quality"].startswith("third_party") for row in rows):
         lines.append("- 本系列包含公开源码/工具站数据，不等同于品牌官方标准。")
+    if "official_chart_image_sampled" in quality_counts:
+        lines.append("- `official_chart_image_sampled` 表示从 Artkal 官方色卡图可见色块采样得到的参考 RGB；官方 RGB PDF 未发布这些特殊材质的数值。")
+    if "public_tool_display_hex" in quality_counts:
+        lines.append("- `public_tool_display_hex` 表示公开工具站给出的屏幕显示 HEX/RGB；用于透明色等缺少官方数值的占位显示，不等同于官方物理颜色数值。")
     if "MARD" in info["title"] and "221" in info["title"]:
         lines.append("- MARD 公开来源之间存在 HEX 差异；顶层目录保留了 `Mard-221-source-differences.json` 供核对。")
     if missing:
@@ -884,6 +898,14 @@ RELATION_NOTES = [
         "items": [
             "原 `youken-mard-221-public` 与 `artkal-m-221-official` 规范化色号后颜色数据完全重复：`A1` 对应 `MA1`，`H1[透明]` 对应 `MH1`。",
             "因此不再保留 `youken-mard-221-public` 独立目录；需要优肯 MARD 同款 221 时直接使用 `artkal-m-221-official`。它是优肯/Artkal M 系列官方口径，不是 MARD 原厂色卡。",
+        ],
+    },
+    {
+        "title": "优肯特殊材质 RGB 补齐口径",
+        "items": [
+            "`artkal-c-197-official` 中 `CG/CP/CT` 特殊材质色号存在于 Artkal 官方 C 系列色卡图和商品体系，但官方 RGB PDF 未发布这些色号的数值；当前用官方色卡图可见色块采样值补齐，并以 `official_chart_image_sampled` 标注。",
+            "`artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作为屏幕显示占位，并以 `public_tool_display_hex` 标注。",
+            "上述补齐值适合脚本和图例显示兜底，不应当等同为 Artkal 官方发布的物理颜色 RGB。",
         ],
     },
     {

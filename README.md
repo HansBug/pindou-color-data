@@ -13,9 +13,9 @@
 | [MARD家](mard-221-alfonse-doudou/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-alfonse-doudou` | 221 | 221 | 0 |
 | [MARD家源码版](mard-221-github/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-github` | 221 | 221 | 0 |
 | [MARD家291色](mard-291-github/) | S / 4.7 | 国内默认参考体系的完整版 | `mard-291-github` | 291 | 291 | 0 |
-| [优肯418色](artkal-c197-m221-418-official/) | A / 4.2 | 进阶全量/官方体系 | `artkal-c197-m221-418-official` | 418 | 394 | 24 |
-| [优肯197色](artkal-c-197-official/) | A / 4.1 | 官方稳定/进阶常用 | `artkal-c-197-official` | 197 | 174 | 23 |
-| [优肯M221色](artkal-m-221-official/) | A- / 3.9 | 官方 MARD 兼容新体系 | `artkal-m-221-official` | 221 | 220 | 1 |
+| [优肯418色](artkal-c197-m221-418-official/) | A / 4.2 | 进阶全量/官方体系 | `artkal-c197-m221-418-official` | 418 | 418 | 0 |
+| [优肯197色](artkal-c-197-official/) | A / 4.1 | 官方稳定/进阶常用 | `artkal-c-197-official` | 197 | 197 | 0 |
+| [优肯M221色](artkal-m-221-official/) | A- / 3.9 | 官方 MARD 兼容新体系 | `artkal-m-221-official` | 221 | 221 | 0 |
 | [COCO](coco-291/) | A- / 3.9 | 常见性价比品牌 | `coco-291` | 291 | 291 | 0 |
 | [漫漫家](manman-278/) | B+ / 3.7 | 老牌/图纸生态常见 | `manman-278` | 278 | 278 | 0 |
 | [盼盼家](panpan-289/) | B+ / 3.6 | 工具生态常见品牌 | `panpan-289` | 289 | 289 | 0 |
@@ -34,6 +34,12 @@
 
 - 原 `youken-mard-221-public` 与 `artkal-m-221-official` 规范化色号后颜色数据完全重复：`A1` 对应 `MA1`，`H1[透明]` 对应 `MH1`。
 - 因此不再保留 `youken-mard-221-public` 独立目录；需要优肯 MARD 同款 221 时直接使用 `artkal-m-221-official`。它是优肯/Artkal M 系列官方口径，不是 MARD 原厂色卡。
+
+### 优肯特殊材质 RGB 补齐口径
+
+- `artkal-c-197-official` 中 `CG/CP/CT` 特殊材质色号存在于 Artkal 官方 C 系列色卡图和商品体系，但官方 RGB PDF 未发布这些色号的数值；当前用官方色卡图可见色块采样值补齐，并以 `official_chart_image_sampled` 标注。
+- `artkal-m-221-official` 中 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面给出的 `#FFFFFF` 作为屏幕显示占位，并以 `public_tool_display_hex` 标注。
+- 上述补齐值适合脚本和图例显示兜底，不应当等同为 Artkal 官方发布的物理颜色 RGB。
 
 ### 黄豆豆、小舞家与 MARD 291
 

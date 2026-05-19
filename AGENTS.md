@@ -24,6 +24,8 @@
 
 - `mard-221-alfonse-doudou` 与 `mard-221-github` 都是 MARD 221 色号体系，221 个色号集合完全一致，但有 77 个 HEX/RGB 不同；两者不是完全重复，需同时保留。默认优先参考 `mard-221-alfonse-doudou`，源码版用于交叉校验。
 - `youken-mard-221-public` 与 `artkal-m-221-official` 在规范化色号后完全重复：`A1` 对应 `MA1`，`H1[透明]` 对应 `MH1`。独立目录已删除；需要优肯 MARD 同款 221 时使用 `artkal-m-221-official`。
+- `artkal-c-197-official` 的 `CG/CP/CT` 特殊材质色号存在于 Artkal 官方 C 系列色卡图和商品体系，但官方 RGB PDF 未发布数值；当前用官方色卡图可见色块采样值补齐，来源质量标为 `official_chart_image_sampled`。
+- `artkal-m-221-official` 的 `MH1` 官方 RGB PDF 只标为 Transparent；当前用比特拼豆 Artkal Mini 页面显示的 `#FFFFFF` 作屏幕占位，来源质量标为 `public_tool_display_hex`。不要把它写成 Artkal 官方发布的数值 RGB。
 - `huangdoudou-291`、`xiaowu-291` 与 `mard-291-github` 在当前公开源码数据中 291 条 `code`、`hex`、`rgb` 完全一致。独立目录已删除；这只说明当前已收录公开数据重复，不代表品牌实物或未收录官方色卡一定没有差异。
 
 ## 推荐用法

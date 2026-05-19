@@ -5,8 +5,8 @@
 - 生成日期：2026-05-19
 - 系列短名：优肯197色
 - 总颜色数：197
-- 有 RGB：174
-- 无 RGB / 透明或未公开：23
+- 有 RGB：197
+- 无 RGB / 未填数值：0
 - 分组：C(157), CE(17), CG(7), CP(7), CT(9)
 - 国内手工小店主流度：A / 4.1 - 官方稳定/进阶常用
 
@@ -34,19 +34,17 @@
 
 - https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289
 - https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233
-- https://artkalfusebeads.com/pages/c-color-chart
 
 ## 来源质量统计
 
 - `official_pdf`：172
 - `official_chart_image`：2
-- `official_chart_code_only`：23
+- `official_chart_image_sampled`：23
 
 ## 注意事项
 
 - RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。
-- 下列色号没有可用 RGB 或属于透明/特殊材质未公开 RGB：CG01, CG02, CG03, CG04, CG05, CG06, CG07, CP01, CP02, CP03, CP04, CP05, CP06, CP07, CT01, CT02,
-CT03, CT04, CT05, CT06, CT07, CT08, CT09
+- `official_chart_image_sampled` 表示从 Artkal 官方色卡图可见色块采样得到的参考 RGB；官方 RGB PDF 未发布这些特殊材质的数值。
 
 ## JSON 结构简例
 

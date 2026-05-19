@@ -5,8 +5,8 @@
   "description": "优肯 / Artkal 418色（C197 + M221 官方合并）",
   "generated_at": "2026-05-19",
   "count": 418,
-  "rows_with_rgb": 394,
-  "rows_without_rgb": 24,
+  "rows_with_rgb": 418,
+  "rows_without_rgb": 0,
   "market": {
     "tier": "A",
     "score": 4.2,
@@ -55,15 +55,21 @@
     },
     {
       "id": "src4",
-      "url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "quality": "official_chart_code_only",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233",
+      "quality": "official_chart_image_sampled",
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "id": "src5",
       "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/M_MINI_Beads_RGB_Color_Chart_2025.pdf?v=1760661747",
       "quality": "official_pdf",
       "notes": "Extracted from official Artkal RGB PDF."
+    },
+    {
+      "id": "src6",
+      "url": "https://bitbead.pomodiary.com/zh/colors/artkal-mini/MH1",
+      "quality": "public_tool_display_hex",
+      "notes": "Bitbead displays Artkal Mini MH1 Transparent as #FFFFFF; Artkal official RGB PDF labels MH1 as Transparent without numeric RGB, so this is a display placeholder, not an official numeric physical color."
     }
   ],
   "colors": [
@@ -2157,196 +2163,288 @@
     },
     {
       "code": "CG01",
-      "hex": null,
-      "rgb": null,
+      "hex": "#B2B9BF",
+      "rgb": [
+        178,
+        185,
+        191
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG02",
-      "hex": null,
-      "rgb": null,
+      "hex": "#BEA6BA",
+      "rgb": [
+        190,
+        166,
+        186
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG03",
-      "hex": null,
-      "rgb": null,
+      "hex": "#62B6D8",
+      "rgb": [
+        98,
+        182,
+        216
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG04",
-      "hex": null,
-      "rgb": null,
+      "hex": "#8985C1",
+      "rgb": [
+        137,
+        133,
+        193
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG05",
-      "hex": null,
-      "rgb": null,
+      "hex": "#CB9D96",
+      "rgb": [
+        203,
+        157,
+        150
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG06",
-      "hex": null,
-      "rgb": null,
+      "hex": "#8ABA96",
+      "rgb": [
+        138,
+        186,
+        150
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CG07",
-      "hex": null,
-      "rgb": null,
+      "hex": "#94637F",
+      "rgb": [
+        148,
+        99,
+        127
+      ],
       "group": "CG",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP01",
-      "hex": null,
-      "rgb": null,
+      "hex": "#8ECAB2",
+      "rgb": [
+        142,
+        202,
+        178
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP02",
-      "hex": null,
-      "rgb": null,
+      "hex": "#CD8F75",
+      "rgb": [
+        205,
+        143,
+        117
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP03",
-      "hex": null,
-      "rgb": null,
+      "hex": "#CBA16C",
+      "rgb": [
+        203,
+        161,
+        108
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP04",
-      "hex": null,
-      "rgb": null,
+      "hex": "#BC8DA4",
+      "rgb": [
+        188,
+        141,
+        164
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP05",
-      "hex": null,
-      "rgb": null,
+      "hex": "#8A506A",
+      "rgb": [
+        138,
+        80,
+        106
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP06",
-      "hex": null,
-      "rgb": null,
+      "hex": "#3063A3",
+      "rgb": [
+        48,
+        99,
+        163
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CP07",
-      "hex": null,
-      "rgb": null,
+      "hex": "#3E5694",
+      "rgb": [
+        62,
+        86,
+        148
+      ],
       "group": "CP",
       "source": "src4",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT01",
-      "hex": null,
-      "rgb": null,
+      "hex": "#C6C6D2",
+      "rgb": [
+        198,
+        198,
+        210
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT02",
-      "hex": null,
-      "rgb": null,
+      "hex": "#E664A6",
+      "rgb": [
+        230,
+        100,
+        166
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT03",
-      "hex": null,
-      "rgb": null,
+      "hex": "#F6875C",
+      "rgb": [
+        246,
+        135,
+        92
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT04",
-      "hex": null,
-      "rgb": null,
+      "hex": "#C4C764",
+      "rgb": [
+        196,
+        199,
+        100
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT05",
-      "hex": null,
-      "rgb": null,
+      "hex": "#32B195",
+      "rgb": [
+        50,
+        177,
+        149
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT06",
-      "hex": null,
-      "rgb": null,
+      "hex": "#757DD1",
+      "rgb": [
+        117,
+        125,
+        209
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT07",
-      "hex": null,
-      "rgb": null,
+      "hex": "#4EB1DC",
+      "rgb": [
+        78,
+        177,
+        220
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT08",
-      "hex": null,
-      "rgb": null,
+      "hex": "#5688A0",
+      "rgb": [
+        86,
+        136,
+        160
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "CT09",
-      "hex": null,
-      "rgb": null,
+      "hex": "#6B849D",
+      "rgb": [
+        107,
+        132,
+        157
+      ],
       "group": "CT",
       "source": "src4",
       "transparency": "transparent",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+      "notes": "Reference RGB sampled from visible swatches in the official Artkal C-series color chart image; these CG/CP/CT special-material values are not published in the official RGB PDF."
     },
     {
       "code": "MA1",
@@ -4546,12 +4644,16 @@
     },
     {
       "code": "MH1",
-      "hex": null,
-      "rgb": null,
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
       "group": "MH",
-      "source": "src5",
+      "source": "src6",
       "transparency": "transparent",
-      "notes": "Extracted from official Artkal RGB PDF."
+      "notes": "Bitbead displays Artkal Mini MH1 Transparent as #FFFFFF; Artkal official RGB PDF labels MH1 as Transparent without numeric RGB, so this is a display placeholder, not an official numeric physical color."
     },
     {
       "code": "MH2",

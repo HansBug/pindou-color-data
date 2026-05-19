@@ -5,8 +5,8 @@
   "description": "优肯 / Artkal M系列 221色（官方整理）",
   "generated_at": "2026-05-19",
   "count": 221,
-  "rows_with_rgb": 220,
-  "rows_without_rgb": 1,
+  "rows_with_rgb": 221,
+  "rows_without_rgb": 0,
   "market": {
     "tier": "A-",
     "score": 3.9,
@@ -35,6 +35,12 @@
       "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/M_MINI_Beads_RGB_Color_Chart_2025.pdf?v=1760661747",
       "quality": "official_pdf",
       "notes": "Extracted from official Artkal RGB PDF."
+    },
+    {
+      "id": "src2",
+      "url": "https://bitbead.pomodiary.com/zh/colors/artkal-mini/MH1",
+      "quality": "public_tool_display_hex",
+      "notes": "Bitbead displays Artkal Mini MH1 Transparent as #FFFFFF; Artkal official RGB PDF labels MH1 as Transparent without numeric RGB, so this is a display placeholder, not an official numeric physical color."
     }
   ],
   "colors": [
@@ -47,7 +53,8 @@
         212
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA2",
@@ -58,7 +65,8 @@
         229
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA3",
@@ -69,7 +77,8 @@
         170
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA4",
@@ -80,7 +89,8 @@
         88
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA5",
@@ -91,7 +101,8 @@
         77
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA6",
@@ -102,7 +113,8 @@
         12
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA7",
@@ -113,7 +125,8 @@
         55
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA8",
@@ -124,7 +137,8 @@
         49
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA9",
@@ -135,7 +149,8 @@
         143
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA10",
@@ -146,7 +161,8 @@
         66
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA11",
@@ -157,7 +173,8 @@
         161
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA12",
@@ -168,7 +185,8 @@
         156
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA13",
@@ -179,7 +197,8 @@
         0
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA14",
@@ -190,7 +209,8 @@
         16
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA15",
@@ -201,7 +221,8 @@
         92
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA16",
@@ -212,7 +233,8 @@
         190
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA17",
@@ -223,7 +245,8 @@
         118
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA18",
@@ -234,7 +257,8 @@
         154
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA19",
@@ -245,7 +269,8 @@
         146
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA20",
@@ -256,7 +281,8 @@
         85
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA21",
@@ -267,7 +293,8 @@
         150
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA22",
@@ -278,7 +305,8 @@
         152
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA23",
@@ -289,7 +317,8 @@
         177
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA24",
@@ -300,7 +329,8 @@
         209
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA25",
@@ -311,7 +341,8 @@
         135
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MA26",
@@ -322,7 +353,8 @@
         75
       ],
       "group": "MA",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB1",
@@ -333,7 +365,8 @@
         24
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB2",
@@ -344,7 +377,8 @@
         65
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB3",
@@ -355,7 +389,8 @@
         161
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB4",
@@ -366,7 +401,8 @@
         79
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB5",
@@ -377,7 +413,8 @@
         115
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB6",
@@ -388,7 +425,8 @@
         174
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB7",
@@ -399,7 +437,8 @@
         150
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB8",
@@ -410,7 +449,8 @@
         79
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB9",
@@ -421,7 +461,8 @@
         35
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB10",
@@ -432,7 +473,8 @@
         195
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB11",
@@ -443,7 +485,8 @@
         39
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB12",
@@ -454,7 +497,8 @@
         69
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB13",
@@ -465,7 +509,8 @@
         179
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB14",
@@ -476,7 +521,8 @@
         46
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB15",
@@ -487,7 +533,8 @@
         60
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB16",
@@ -498,7 +545,8 @@
         173
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB17",
@@ -509,7 +557,8 @@
         42
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB18",
@@ -520,7 +569,8 @@
         88
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB19",
@@ -531,7 +581,8 @@
         169
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB20",
@@ -542,7 +593,8 @@
         236
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB21",
@@ -553,7 +605,8 @@
         129
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB22",
@@ -564,7 +617,8 @@
         91
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB23",
@@ -575,7 +629,8 @@
         27
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB24",
@@ -586,7 +641,8 @@
         182
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB25",
@@ -597,7 +653,8 @@
         113
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB26",
@@ -608,7 +665,8 @@
         64
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB27",
@@ -619,7 +677,8 @@
         182
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB28",
@@ -630,7 +689,8 @@
         194
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB29",
@@ -641,7 +701,8 @@
         71
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB30",
@@ -652,7 +713,8 @@
         230
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB31",
@@ -663,7 +725,8 @@
         194
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MB32",
@@ -674,7 +737,8 @@
         92
       ],
       "group": "MB",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC1",
@@ -685,7 +749,8 @@
         222
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC2",
@@ -696,7 +761,8 @@
         244
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC3",
@@ -707,7 +773,8 @@
         223
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC4",
@@ -718,7 +785,8 @@
         225
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC5",
@@ -729,7 +797,8 @@
         202
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC6",
@@ -740,7 +809,8 @@
         217
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC7",
@@ -751,7 +821,8 @@
         204
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC8",
@@ -762,7 +833,8 @@
         158
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC9",
@@ -773,7 +845,8 @@
         185
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC10",
@@ -784,7 +857,8 @@
         224
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC11",
@@ -795,7 +869,8 @@
         185
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC12",
@@ -806,7 +881,8 @@
         90
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC13",
@@ -817,7 +893,8 @@
         240
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC14",
@@ -828,7 +905,8 @@
         244
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC15",
@@ -839,7 +917,8 @@
         173
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC16",
@@ -850,7 +929,8 @@
         125
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC17",
@@ -861,7 +941,8 @@
         246
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC18",
@@ -872,7 +953,8 @@
         92
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC19",
@@ -883,7 +965,8 @@
         157
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC20",
@@ -894,7 +977,8 @@
         183
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC21",
@@ -905,7 +989,8 @@
         250
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC22",
@@ -916,7 +1001,8 @@
         194
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC23",
@@ -927,7 +1013,8 @@
         219
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC24",
@@ -938,7 +1025,8 @@
         226
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC25",
@@ -949,7 +1037,8 @@
         224
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC26",
@@ -960,7 +1049,8 @@
         191
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC27",
@@ -971,7 +1061,8 @@
         243
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC28",
@@ -982,7 +1073,8 @@
         227
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MC29",
@@ -993,7 +1085,8 @@
         143
       ],
       "group": "MC",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD1",
@@ -1004,7 +1097,8 @@
         226
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD2",
@@ -1015,7 +1109,8 @@
         204
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD3",
@@ -1026,7 +1121,8 @@
         154
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD4",
@@ -1037,7 +1133,8 @@
         117
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD5",
@@ -1048,7 +1145,8 @@
         178
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD6",
@@ -1059,7 +1157,8 @@
         233
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD7",
@@ -1070,7 +1169,8 @@
         145
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD8",
@@ -1081,7 +1181,8 @@
         241
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD9",
@@ -1092,7 +1193,8 @@
         230
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD10",
@@ -1103,7 +1205,8 @@
         88
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD11",
@@ -1114,7 +1217,8 @@
         231
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD12",
@@ -1125,7 +1229,8 @@
         190
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD13",
@@ -1136,7 +1241,8 @@
         150
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD14",
@@ -1147,7 +1253,8 @@
         167
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD15",
@@ -1158,7 +1265,8 @@
         138
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD16",
@@ -1169,7 +1277,8 @@
         246
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD17",
@@ -1180,7 +1289,8 @@
         240
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD18",
@@ -1191,7 +1301,8 @@
         219
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD19",
@@ -1202,7 +1313,8 @@
         234
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD20",
@@ -1213,7 +1325,8 @@
         195
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD21",
@@ -1224,7 +1337,8 @@
         148
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD22",
@@ -1235,7 +1349,8 @@
         158
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD23",
@@ -1246,7 +1361,8 @@
         226
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD24",
@@ -1257,7 +1373,8 @@
         209
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD25",
@@ -1268,7 +1385,8 @@
         168
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MD26",
@@ -1279,7 +1397,8 @@
         221
       ],
       "group": "MD",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME1",
@@ -1290,7 +1409,8 @@
         201
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME2",
@@ -1301,7 +1421,8 @@
         244
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME3",
@@ -1312,7 +1433,8 @@
         195
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME4",
@@ -1323,7 +1445,8 @@
         171
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME5",
@@ -1334,7 +1457,8 @@
         149
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME6",
@@ -1345,7 +1469,8 @@
         120
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME7",
@@ -1356,7 +1481,8 @@
         107
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME8",
@@ -1367,7 +1493,8 @@
         230
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME9",
@@ -1378,7 +1505,8 @@
         202
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME10",
@@ -1389,7 +1517,8 @@
         109
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME11",
@@ -1400,7 +1529,8 @@
         218
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME12",
@@ -1411,7 +1541,8 @@
         198
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME13",
@@ -1422,7 +1553,8 @@
         131
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME14",
@@ -1433,7 +1565,8 @@
         199
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME15",
@@ -1444,7 +1577,8 @@
         208
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME16",
@@ -1455,7 +1589,8 @@
         235
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME17",
@@ -1466,7 +1601,8 @@
         230
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME18",
@@ -1477,7 +1613,8 @@
         230
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME19",
@@ -1488,7 +1625,8 @@
         236
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME20",
@@ -1499,7 +1637,8 @@
         232
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME21",
@@ -1510,7 +1649,8 @@
         163
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME22",
@@ -1521,7 +1661,8 @@
         165
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME23",
@@ -1532,7 +1673,8 @@
         155
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "ME24",
@@ -1543,7 +1685,8 @@
         255
       ],
       "group": "ME",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF1",
@@ -1554,7 +1697,8 @@
         103
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF2",
@@ -1565,7 +1709,8 @@
         70
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF3",
@@ -1576,7 +1721,8 @@
         74
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF4",
@@ -1587,7 +1733,8 @@
         13
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF5",
@@ -1598,7 +1745,8 @@
         39
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF6",
@@ -1609,7 +1757,8 @@
         30
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF7",
@@ -1620,7 +1769,8 @@
         55
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF8",
@@ -1631,7 +1781,8 @@
         34
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF9",
@@ -1642,7 +1793,8 @@
         149
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF10",
@@ -1653,7 +1805,8 @@
         60
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF11",
@@ -1664,7 +1817,8 @@
         41
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF12",
@@ -1675,7 +1829,8 @@
         97
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF13",
@@ -1686,7 +1841,8 @@
         57
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF14",
@@ -1697,7 +1853,8 @@
         187
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF15",
@@ -1708,7 +1865,8 @@
         24
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF16",
@@ -1719,7 +1877,8 @@
         203
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF17",
@@ -1730,7 +1889,8 @@
         138
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF18",
@@ -1741,7 +1901,8 @@
         69
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF19",
@@ -1752,7 +1913,8 @@
         81
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF20",
@@ -1763,7 +1925,8 @@
         158
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF21",
@@ -1774,7 +1937,8 @@
         185
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF22",
@@ -1785,7 +1949,8 @@
         212
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF23",
@@ -1796,7 +1961,8 @@
         116
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF24",
@@ -1807,7 +1973,8 @@
         197
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MF25",
@@ -1818,7 +1985,8 @@
         104
       ],
       "group": "MF",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG1",
@@ -1829,7 +1997,8 @@
         200
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG2",
@@ -1840,7 +2009,8 @@
         195
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG3",
@@ -1851,7 +2021,8 @@
         148
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG4",
@@ -1862,7 +2033,8 @@
         140
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG5",
@@ -1873,7 +2045,8 @@
         48
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG6",
@@ -1884,7 +2057,8 @@
         55
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG7",
@@ -1895,7 +2069,8 @@
         91
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG8",
@@ -1906,7 +2081,8 @@
         66
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG9",
@@ -1917,7 +2093,8 @@
         157
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG10",
@@ -1928,7 +2105,8 @@
         47
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG11",
@@ -1939,7 +2117,8 @@
         145
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG12",
@@ -1950,7 +2129,8 @@
         134
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG13",
@@ -1961,7 +2141,8 @@
         79
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG14",
@@ -1972,7 +2153,8 @@
         66
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG15",
@@ -1983,7 +2165,8 @@
         226
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG16",
@@ -1994,7 +2177,8 @@
         215
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG17",
@@ -2005,7 +2189,8 @@
         98
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG18",
@@ -2016,7 +2201,8 @@
         235
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG19",
@@ -2027,7 +2213,8 @@
         71
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG20",
@@ -2038,7 +2225,8 @@
         73
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MG21",
@@ -2049,15 +2237,21 @@
         110
       ],
       "group": "MG",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH1",
-      "hex": null,
-      "rgb": null,
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
       "group": "MH",
-      "source": "src1",
-      "transparency": "transparent"
+      "source": "src2",
+      "transparency": "transparent",
+      "notes": "Bitbead displays Artkal Mini MH1 Transparent as #FFFFFF; Artkal official RGB PDF labels MH1 as Transparent without numeric RGB, so this is a display placeholder, not an official numeric physical color."
     },
     {
       "code": "MH2",
@@ -2068,7 +2262,8 @@
         255
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH3",
@@ -2079,7 +2274,8 @@
         155
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH4",
@@ -2090,7 +2286,8 @@
         109
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH5",
@@ -2101,7 +2298,8 @@
         77
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH6",
@@ -2112,7 +2310,8 @@
         58
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH7",
@@ -2123,7 +2322,8 @@
         0
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH8",
@@ -2134,7 +2334,8 @@
         241
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH9",
@@ -2145,7 +2346,8 @@
         223
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH10",
@@ -2156,7 +2358,8 @@
         231
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH11",
@@ -2167,7 +2370,8 @@
         181
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH12",
@@ -2178,7 +2382,8 @@
         225
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH13",
@@ -2189,7 +2394,8 @@
         200
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH14",
@@ -2200,7 +2406,8 @@
         197
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH15",
@@ -2211,7 +2418,8 @@
         172
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH16",
@@ -2222,7 +2430,8 @@
         54
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH17",
@@ -2233,7 +2442,8 @@
         245
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH18",
@@ -2244,7 +2454,8 @@
         238
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH19",
@@ -2255,7 +2466,8 @@
         228
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH20",
@@ -2266,7 +2478,8 @@
         173
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH21",
@@ -2277,7 +2490,8 @@
         242
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH22",
@@ -2288,7 +2502,8 @@
         231
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MH23",
@@ -2299,7 +2514,8 @@
         167
       ],
       "group": "MH",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM1",
@@ -2310,7 +2526,8 @@
         168
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM2",
@@ -2321,7 +2538,8 @@
         118
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM3",
@@ -2332,7 +2550,8 @@
         144
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM4",
@@ -2343,7 +2562,8 @@
         157
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM5",
@@ -2354,7 +2574,8 @@
         140
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM6",
@@ -2365,7 +2586,8 @@
         147
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM7",
@@ -2376,7 +2598,8 @@
         148
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM8",
@@ -2387,7 +2610,8 @@
         129
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM9",
@@ -2398,7 +2622,8 @@
         136
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM10",
@@ -2409,7 +2634,8 @@
         163
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM11",
@@ -2420,7 +2646,8 @@
         185
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM12",
@@ -2431,7 +2658,8 @@
         81
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM13",
@@ -2442,7 +2670,8 @@
         130
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM14",
@@ -2453,7 +2682,8 @@
         79
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
       "code": "MM15",
@@ -2464,7 +2694,8 @@
         169
       ],
       "group": "MM",
-      "source": "src1"
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     }
   ]
 }
