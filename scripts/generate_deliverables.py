@@ -890,7 +890,7 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
     ]
     for item in sorted(manifest, key=lambda x: (-float(x.get("mainstream_score", 0)), x["id"])):
         lines.append(
-            f"| {item['title']} | {item['mainstream_tier']} / {item['mainstream_score']} | {item['mainstream_label']} | `{item['id']}` | {item['count']} | {item['rows_with_rgb']} | {item['rows_without_rgb']} |"
+            f"| [{item['title']}]({item['id']}/) | {item['mainstream_tier']} / {item['mainstream_score']} | {item['mainstream_label']} | `{item['id']}` | {item['count']} | {item['rows_with_rgb']} | {item['rows_without_rgb']} |"
         )
     lines.extend(
         [
