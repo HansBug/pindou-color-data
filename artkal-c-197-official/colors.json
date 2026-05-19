@@ -1,14 +1,13 @@
 {
-  "series_id": "artkal-c-197-official",
+  "schema": "pindou-color-palette/v2",
+  "id": "artkal-c-197-official",
   "title": "优肯197色",
-  "short_title": "优肯197色",
-  "long_title": "优肯 / Artkal C系列 197色（官方整理）",
-  "original_query_name": "优肯197色",
+  "description": "优肯 / Artkal C系列 197色（官方整理）",
   "generated_at": "2026-05-19",
   "count": 197,
   "rows_with_rgb": 174,
   "rows_without_rgb": 23,
-  "domestic_handcraft_shop_mainstream_assessment": {
+  "market": {
     "tier": "A",
     "score": 4.1,
     "label": "官方稳定/进阶常用",
@@ -20,3668 +19,2319 @@
     ]
   },
   "groups": {
-    "C": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100,
-      101,
-      102,
-      103,
-      104,
-      105,
-      106,
-      107,
-      108,
-      109,
-      110,
-      111,
-      112,
-      113,
-      114,
-      115,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125,
-      126,
-      127,
-      128,
-      129,
-      130,
-      131,
-      132,
-      133,
-      134,
-      135,
-      136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
-      156,
-      157
-    ],
-    "CE": [
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169,
-      170,
-      171,
-      172,
-      173,
-      174
-    ],
-    "CG": [
-      175,
-      176,
-      177,
-      178,
-      179,
-      180,
-      181
-    ],
-    "CP": [
-      182,
-      183,
-      184,
-      185,
-      186,
-      187,
-      188
-    ],
-    "CT": [
-      189,
-      190,
-      191,
-      192,
-      193,
-      194,
-      195,
-      196,
-      197
-    ]
+    "C": 157,
+    "CE": 17,
+    "CG": 7,
+    "CP": 7,
+    "CT": 9
   },
+  "sources": [
+    {
+      "id": "src1",
+      "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
+      "quality": "official_pdf",
+      "notes": "Extracted from official Artkal RGB PDF."
+    },
+    {
+      "id": "src2",
+      "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233",
+      "quality": "official_chart_image",
+      "notes": "Official 197-color chart image shows this RGB; the official RGB PDF labels this color as Silver without numeric RGB."
+    },
+    {
+      "id": "src3",
+      "url": "https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233",
+      "quality": "official_chart_image",
+      "notes": "Official RGB PDF text renders/extracts B as 273; official 197-color chart image shows this RGB."
+    },
+    {
+      "id": "src4",
+      "url": "https://artkalfusebeads.com/pages/c-color-chart",
+      "quality": "official_chart_code_only",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
+    }
+  ],
   "colors": [
     {
-      "ordinal": 1,
       "code": "C01",
       "hex": "#FFFFFF",
-      "rgb": {
-        "r": 255,
-        "g": 255,
-        "b": 255
-      },
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 2,
       "code": "C02",
       "hex": "#000000",
-      "rgb": {
-        "r": 0,
-        "g": 0,
-        "b": 0
-      },
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 3,
       "code": "C03",
       "hex": "#FF8200",
-      "rgb": {
-        "r": 255,
-        "g": 130,
-        "b": 0
-      },
-      "r": 255,
-      "g": 130,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        130,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 4,
       "code": "C04",
       "hex": "#FF7F41",
-      "rgb": {
-        "r": 255,
-        "g": 127,
-        "b": 65
-      },
-      "r": 255,
-      "g": 127,
-      "b": 65,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        127,
+        65
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 5,
       "code": "C05",
       "hex": "#E4002B",
-      "rgb": {
-        "r": 228,
-        "g": 0,
-        "b": 43
-      },
-      "r": 228,
-      "g": 0,
-      "b": 43,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        228,
+        0,
+        43
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 6,
       "code": "C06",
       "hex": "#BA0C2F",
-      "rgb": {
-        "r": 186,
-        "g": 12,
-        "b": 47
-      },
-      "r": 186,
-      "g": 12,
-      "b": 47,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        186,
+        12,
+        47
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 7,
       "code": "C07",
       "hex": "#EF95CF",
-      "rgb": {
-        "r": 239,
-        "g": 149,
-        "b": 207
-      },
-      "r": 239,
-      "g": 149,
-      "b": 207,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        239,
+        149,
+        207
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 8,
       "code": "C08",
       "hex": "#F04E98",
-      "rgb": {
-        "r": 240,
-        "g": 78,
-        "b": 152
-      },
-      "r": 240,
-      "g": 78,
-      "b": 152,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        240,
+        78,
+        152
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 9,
       "code": "C09",
       "hex": "#E24585",
-      "rgb": {
-        "r": 226,
-        "g": 69,
-        "b": 133
-      },
-      "r": 226,
-      "g": 69,
-      "b": 133,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        226,
+        69,
+        133
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 10,
       "code": "C10",
       "hex": "#F8E08E",
-      "rgb": {
-        "r": 248,
-        "g": 224,
-        "b": 142
-      },
-      "r": 248,
-      "g": 224,
-      "b": 142,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        248,
+        224,
+        142
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 11,
       "code": "C11",
       "hex": "#FFC72C",
-      "rgb": {
-        "r": 255,
-        "g": 199,
-        "b": 44
-      },
-      "r": 255,
-      "g": 199,
-      "b": 44,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        199,
+        44
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 12,
       "code": "C12",
       "hex": "#9BE198",
-      "rgb": {
-        "r": 155,
-        "g": 225,
-        "b": 152
-      },
-      "r": 155,
-      "g": 225,
-      "b": 152,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        155,
+        225,
+        152
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 13,
       "code": "C13",
       "hex": "#93C90E",
-      "rgb": {
-        "r": 147,
-        "g": 201,
-        "b": 14
-      },
-      "r": 147,
-      "g": 201,
-      "b": 14,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        147,
+        201,
+        14
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 14,
       "code": "C14",
       "hex": "#009A44",
-      "rgb": {
-        "r": 0,
-        "g": 154,
-        "b": 68
-      },
-      "r": 0,
-      "g": 154,
-      "b": 68,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        154,
+        68
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 15,
       "code": "C15",
       "hex": "#007862",
-      "rgb": {
-        "r": 0,
-        "g": 120,
-        "b": 98
-      },
-      "r": 0,
-      "g": 120,
-      "b": 98,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        120,
+        98
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 16,
       "code": "C16",
       "hex": "#FF6A39",
-      "rgb": {
-        "r": 255,
-        "g": 106,
-        "b": 57
-      },
-      "r": 255,
-      "g": 106,
-      "b": 57,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        106,
+        57
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 17,
       "code": "C17",
       "hex": "#FF5C39",
-      "rgb": {
-        "r": 255,
-        "g": 92,
-        "b": 57
-      },
-      "r": 255,
-      "g": 92,
-      "b": 57,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        92,
+        57
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 18,
       "code": "C18",
       "hex": "#8DC8E8",
-      "rgb": {
-        "r": 141,
-        "g": 200,
-        "b": 232
-      },
-      "r": 141,
-      "g": 200,
-      "b": 232,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        141,
+        200,
+        232
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 19,
       "code": "C19",
       "hex": "#56B7E6",
-      "rgb": {
-        "r": 86,
-        "g": 183,
-        "b": 230
-      },
-      "r": 86,
-      "g": 183,
-      "b": 230,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        86,
+        183,
+        230
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 20,
       "code": "C20",
       "hex": "#0090DA",
-      "rgb": {
-        "r": 0,
-        "g": 144,
-        "b": 218
-      },
-      "r": 0,
-      "g": 144,
-      "b": 218,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        144,
+        218
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 21,
       "code": "C21",
       "hex": "#004EA8",
-      "rgb": {
-        "r": 0,
-        "g": 78,
-        "b": 168
-      },
-      "r": 0,
-      "g": 78,
-      "b": 168,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        78,
+        168
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 22,
       "code": "C22",
       "hex": "#F7CED7",
-      "rgb": {
-        "r": 247,
-        "g": 206,
-        "b": 215
-      },
-      "r": 247,
-      "g": 206,
-      "b": 215,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        247,
+        206,
+        215
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 23,
       "code": "C23",
       "hex": "#EAA794",
-      "rgb": {
-        "r": 234,
-        "g": 167,
-        "b": 148
-      },
-      "r": 234,
-      "g": 167,
-      "b": 148,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        234,
+        167,
+        148
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 24,
       "code": "C24",
       "hex": "#EFD19F",
-      "rgb": {
-        "r": 239,
-        "g": 209,
-        "b": 159
-      },
-      "r": 239,
-      "g": 209,
-      "b": 159,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        239,
+        209,
+        159
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 25,
       "code": "C25",
       "hex": "#A388D8",
-      "rgb": {
-        "r": 163,
-        "g": 136,
-        "b": 216
-      },
-      "r": 163,
-      "g": 136,
-      "b": 216,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        163,
+        136,
+        216
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 26,
       "code": "C26",
       "hex": "#9569BE",
-      "rgb": {
-        "r": 149,
-        "g": 105,
-        "b": 190
-      },
-      "r": 149,
-      "g": 105,
-      "b": 190,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        149,
+        105,
+        190
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 27,
       "code": "C27",
       "hex": "#483698",
-      "rgb": {
-        "r": 72,
-        "g": 54,
-        "b": 152
-      },
-      "r": 72,
-      "g": 54,
-      "b": 152,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        72,
+        54,
+        152
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 28,
       "code": "C28",
       "hex": "#C67D30",
-      "rgb": {
-        "r": 198,
-        "g": 125,
-        "b": 48
-      },
-      "r": 198,
-      "g": 125,
-      "b": 48,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        198,
+        125,
+        48
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 29,
       "code": "C29",
       "hex": "#A4493D",
-      "rgb": {
-        "r": 164,
-        "g": 73,
-        "b": 61
-      },
-      "r": 164,
-      "g": 73,
-      "b": 61,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        164,
+        73,
+        61
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 30,
       "code": "C30",
       "hex": "#93262C",
-      "rgb": {
-        "r": 147,
-        "g": 38,
-        "b": 44
-      },
-      "r": 147,
-      "g": 38,
-      "b": 44,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        147,
+        38,
+        44
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 31,
       "code": "C31",
       "hex": "#A37F74",
-      "rgb": {
-        "r": 163,
-        "g": 127,
-        "b": 116
-      },
-      "r": 163,
-      "g": 127,
-      "b": 116,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        163,
+        127,
+        116
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 32,
       "code": "C32",
       "hex": "#683431",
-      "rgb": {
-        "r": 104,
-        "g": 52,
-        "b": 49
-      },
-      "r": 104,
-      "g": 52,
-      "b": 49,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        104,
+        52,
+        49
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 33,
       "code": "C33",
       "hex": "#A7A8AA",
-      "rgb": {
-        "r": 167,
-        "g": 168,
-        "b": 170
-      },
-      "r": 167,
-      "g": 168,
-      "b": 170,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        167,
+        168,
+        170
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 34,
       "code": "C34",
       "hex": "#888B8D",
-      "rgb": {
-        "r": 136,
-        "g": 139,
-        "b": 141
-      },
-      "r": 136,
-      "g": 139,
-      "b": 141,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        136,
+        139,
+        141
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 35,
       "code": "C35",
       "hex": "#A09F9D",
-      "rgb": {
-        "r": 160,
-        "g": 159,
-        "b": 157
-      },
-      "r": 160,
-      "g": 159,
-      "b": 157,
-      "transparency": "",
-      "source_quality": "official_chart_image",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233",
-      "notes": "Official 197-color chart image shows this RGB; the official RGB PDF labels this color as Silver without numeric RGB.",
-      "group": "C"
+      "rgb": [
+        160,
+        159,
+        157
+      ],
+      "group": "C",
+      "source": "src2",
+      "notes": "Official 197-color chart image shows this RGB; the official RGB PDF labels this color as Silver without numeric RGB."
     },
     {
-      "ordinal": 36,
       "code": "C36",
       "hex": "#E68699",
-      "rgb": {
-        "r": 230,
-        "g": 134,
-        "b": 153
-      },
-      "r": 230,
-      "g": 134,
-      "b": 153,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        230,
+        134,
+        153
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 37,
       "code": "C37",
       "hex": "#0067B9",
-      "rgb": {
-        "r": 0,
-        "g": 103,
-        "b": 185
-      },
-      "r": 0,
-      "g": 103,
-      "b": 185,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        103,
+        185
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 38,
       "code": "C38",
       "hex": "#418FDE",
-      "rgb": {
-        "r": 65,
-        "g": 143,
-        "b": 222
-      },
-      "r": 65,
-      "g": 143,
-      "b": 222,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        65,
+        143,
+        222
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 39,
       "code": "C39",
       "hex": "#A4DBE8",
-      "rgb": {
-        "r": 164,
-        "g": 219,
-        "b": 232
-      },
-      "r": 164,
-      "g": 219,
-      "b": 232,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        164,
+        219,
+        232
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 40,
       "code": "C40",
       "hex": "#E1D555",
-      "rgb": {
-        "r": 225,
-        "g": 213,
-        "b": 85
-      },
-      "r": 225,
-      "g": 213,
-      "b": 85,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        225,
+        213,
+        85
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 41,
       "code": "C41",
       "hex": "#FBDB65",
-      "rgb": {
-        "r": 251,
-        "g": 219,
-        "b": 101
-      },
-      "r": 251,
-      "g": 219,
-      "b": 101,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        251,
+        219,
+        101
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 42,
       "code": "C42",
       "hex": "#FFC845",
-      "rgb": {
-        "r": 255,
-        "g": 200,
-        "b": 69
-      },
-      "r": 255,
-      "g": 200,
-      "b": 69,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        200,
+        69
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 43,
       "code": "C43",
       "hex": "#A50034",
-      "rgb": {
-        "r": 165,
-        "g": 0,
-        "b": 52
-      },
-      "r": 165,
-      "g": 0,
-      "b": 52,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        165,
+        0,
+        52
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 44,
       "code": "C44",
       "hex": "#FF808B",
-      "rgb": {
-        "r": 255,
-        "g": 128,
-        "b": 139
-      },
-      "r": 255,
-      "g": 128,
-      "b": 139,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        128,
+        139
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 45,
       "code": "C45",
       "hex": "#4A7C68",
-      "rgb": {
-        "r": 74,
-        "g": 124,
-        "b": 104
-      },
-      "r": 74,
-      "g": 124,
-      "b": 104,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        74,
+        124,
+        104
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 46,
       "code": "C46",
       "hex": "#F0EC74",
-      "rgb": {
-        "r": 240,
-        "g": 236,
-        "b": 116
-      },
-      "r": 240,
-      "g": 236,
-      "b": 116,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        240,
+        236,
+        116
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 47,
       "code": "C47",
       "hex": "#ECC3B2",
-      "rgb": {
-        "r": 236,
-        "g": 195,
-        "b": 178
-      },
-      "r": 236,
-      "g": 195,
-      "b": 178,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        236,
+        195,
+        178
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 48,
       "code": "C48",
       "hex": "#FFB549",
-      "rgb": {
-        "r": 255,
-        "g": 181,
-        "b": 73
-      },
-      "r": 255,
-      "g": 181,
-      "b": 73,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        181,
+        73
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 49,
       "code": "C49",
       "hex": "#EC86D0",
-      "rgb": {
-        "r": 236,
-        "g": 134,
-        "b": 208
-      },
-      "r": 236,
-      "g": 134,
-      "b": 208,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        236,
+        134,
+        208
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 50,
       "code": "C50",
       "hex": "#C5B4E3",
-      "rgb": {
-        "r": 197,
-        "g": 180,
-        "b": 227
-      },
-      "r": 197,
-      "g": 180,
-      "b": 227,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        197,
+        180,
+        227
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 51,
       "code": "C51",
       "hex": "#F5E1A4",
-      "rgb": {
-        "r": 245,
-        "g": 225,
-        "b": 164
-      },
-      "r": 245,
-      "g": 225,
-      "b": 164,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        245,
+        225,
+        164
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 52,
       "code": "C52",
       "hex": "#5949A7",
-      "rgb": {
-        "r": 89,
-        "g": 73,
-        "b": 167
-      },
-      "r": 89,
-      "g": 73,
-      "b": 167,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        89,
+        73,
+        167
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 53,
       "code": "C53",
       "hex": "#C4D600",
-      "rgb": {
-        "r": 196,
-        "g": 214,
-        "b": 0
-      },
-      "r": 196,
-      "g": 214,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        196,
+        214,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 54,
       "code": "C54",
       "hex": "#00B2A9",
-      "rgb": {
-        "r": 0,
-        "g": 178,
-        "b": 169
-      },
-      "r": 0,
-      "g": 178,
-      "b": 169,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        178,
+        169
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 55,
       "code": "C55",
       "hex": "#6CC24A",
-      "rgb": {
-        "r": 108,
-        "g": 194,
-        "b": 74
-      },
-      "r": 108,
-      "g": 194,
-      "b": 74,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        108,
+        194,
+        74
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 56,
       "code": "C56",
       "hex": "#97999B",
-      "rgb": {
-        "r": 151,
-        "g": 153,
-        "b": 155
-      },
-      "r": 151,
-      "g": 153,
-      "b": 155,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        151,
+        153,
+        155
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 57,
       "code": "C57",
       "hex": "#D50032",
-      "rgb": {
-        "r": 213,
-        "g": 0,
-        "b": 50
-      },
-      "r": 213,
-      "g": 0,
-      "b": 50,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        213,
+        0,
+        50
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 58,
       "code": "C58",
       "hex": "#2C2D65",
-      "rgb": {
-        "r": 44,
-        "g": 45,
-        "b": 101
-      },
-      "r": 44,
-      "g": 45,
-      "b": 101,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        44,
+        45,
+        101
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 59,
       "code": "C59",
       "hex": "#861F41",
-      "rgb": {
-        "r": 134,
-        "g": 31,
-        "b": 65
-      },
-      "r": 134,
-      "g": 31,
-      "b": 65,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        134,
+        31,
+        65
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 60,
       "code": "C60",
       "hex": "#BBDDE6",
-      "rgb": {
-        "r": 187,
-        "g": 221,
-        "b": 230
-      },
-      "r": 187,
-      "g": 221,
-      "b": 230,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        187,
+        221,
+        230
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 61,
       "code": "C61",
       "hex": "#F1E6B2",
-      "rgb": {
-        "r": 241,
-        "g": 230,
-        "b": 178
-      },
-      "r": 241,
-      "g": 230,
-      "b": 178,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        241,
+        230,
+        178
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 62,
       "code": "C62",
       "hex": "#FF585D",
-      "rgb": {
-        "r": 255,
-        "g": 88,
-        "b": 93
-      },
-      "r": 255,
-      "g": 88,
-      "b": 93,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        88,
+        93
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 63,
       "code": "C63",
       "hex": "#F1A7DC",
-      "rgb": {
-        "r": 241,
-        "g": 167,
-        "b": 220
-      },
-      "r": 241,
-      "g": 167,
-      "b": 220,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        241,
+        167,
+        220
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 64,
       "code": "C64",
       "hex": "#CE0058",
-      "rgb": {
-        "r": 206,
-        "g": 0,
-        "b": 88
-      },
-      "r": 206,
-      "g": 0,
-      "b": 88,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        206,
+        0,
+        88
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 65,
       "code": "C65",
       "hex": "#E3775E",
-      "rgb": {
-        "r": 227,
-        "g": 119,
-        "b": 94
-      },
-      "r": 227,
-      "g": 119,
-      "b": 94,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        227,
+        119,
+        94
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 66,
       "code": "C66",
       "hex": "#F67599",
-      "rgb": {
-        "r": 246,
-        "g": 117,
-        "b": 153
-      },
-      "r": 246,
-      "g": 117,
-      "b": 153,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        246,
+        117,
+        153
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 67,
       "code": "C67",
       "hex": "#B14EB5",
-      "rgb": {
-        "r": 177,
-        "g": 78,
-        "b": 181
-      },
-      "r": 177,
-      "g": 78,
-      "b": 181,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        177,
+        78,
+        181
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 68,
       "code": "C68",
       "hex": "#62B5E5",
-      "rgb": {
-        "r": 98,
-        "g": 181,
-        "b": 229
-      },
-      "r": 98,
-      "g": 181,
-      "b": 229,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        98,
+        181,
+        229
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 69,
       "code": "C69",
       "hex": "#333F48",
-      "rgb": {
-        "r": 51,
-        "g": 63,
-        "b": 72
-      },
-      "r": 51,
-      "g": 63,
-      "b": 72,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        51,
+        63,
+        72
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 70,
       "code": "C70",
       "hex": "#183028",
-      "rgb": {
-        "r": 24,
-        "g": 48,
-        "b": 40
-      },
-      "r": 24,
-      "g": 48,
-      "b": 40,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        24,
+        48,
+        40
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 71,
       "code": "C71",
       "hex": "#FFA300",
-      "rgb": {
-        "r": 255,
-        "g": 163,
-        "b": 0
-      },
-      "r": 255,
-      "g": 163,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        163,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 72,
       "code": "C72",
       "hex": "#FFB25B",
-      "rgb": {
-        "r": 255,
-        "g": 178,
-        "b": 91
-      },
-      "r": 255,
-      "g": 178,
-      "b": 91,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        178,
+        91
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 73,
       "code": "C73",
       "hex": "#B86125",
-      "rgb": {
-        "r": 184,
-        "g": 97,
-        "b": 37
-      },
-      "r": 184,
-      "g": 97,
-      "b": 37,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        184,
+        97,
+        37
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 74,
       "code": "C74",
       "hex": "#D5A286",
-      "rgb": {
-        "r": 213,
-        "g": 162,
-        "b": 134
-      },
-      "r": 213,
-      "g": 162,
-      "b": 134,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        213,
+        162,
+        134
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 75,
       "code": "C75",
       "hex": "#AA8066",
-      "rgb": {
-        "r": 170,
-        "g": 128,
-        "b": 102
-      },
-      "r": 170,
-      "g": 128,
-      "b": 102,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        170,
+        128,
+        102
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 76,
       "code": "C76",
       "hex": "#FF6D6A",
-      "rgb": {
-        "r": 255,
-        "g": 109,
-        "b": 106
-      },
-      "r": 255,
-      "g": 109,
-      "b": 106,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        255,
+        109,
+        106
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 77,
       "code": "C77",
       "hex": "#B04A5A",
-      "rgb": {
-        "r": 176,
-        "g": 74,
-        "b": 90
-      },
-      "r": 176,
-      "g": 74,
-      "b": 90,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        176,
+        74,
+        90
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 78,
       "code": "C78",
       "hex": "#862633",
-      "rgb": {
-        "r": 134,
-        "g": 38,
-        "b": 51
-      },
-      "r": 134,
-      "g": 38,
-      "b": 51,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        134,
+        38,
+        51
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 79,
       "code": "C79",
       "hex": "#99D6EA",
-      "rgb": {
-        "r": 153,
-        "g": 214,
-        "b": 234
-      },
-      "r": 153,
-      "g": 214,
-      "b": 234,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        153,
+        214,
+        234
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 80,
       "code": "C80",
       "hex": "#00968F",
-      "rgb": {
-        "r": 0,
-        "g": 150,
-        "b": 143
-      },
-      "r": 0,
-      "g": 150,
-      "b": 143,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        150,
+        143
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 81,
       "code": "C81",
       "hex": "#48A9C5",
-      "rgb": {
-        "r": 72,
-        "g": 169,
-        "b": 197
-      },
-      "r": 72,
-      "g": 169,
-      "b": 197,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        72,
+        169,
+        197
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 82,
       "code": "C82",
       "hex": "#009CBD",
-      "rgb": {
-        "r": 0,
-        "g": 156,
-        "b": 189
-      },
-      "r": 0,
-      "g": 156,
-      "b": 189,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        156,
+        189
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 83,
       "code": "C83",
       "hex": "#0085AD",
-      "rgb": {
-        "r": 0,
-        "g": 133,
-        "b": 173
-      },
-      "r": 0,
-      "g": 133,
-      "b": 173,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        133,
+        173
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 84,
       "code": "C84",
       "hex": "#ABAD23",
-      "rgb": {
-        "r": 171,
-        "g": 173,
-        "b": 35
-      },
-      "r": 171,
-      "g": 173,
-      "b": 35,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        171,
+        173,
+        35
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 85,
       "code": "C85",
       "hex": "#999B30",
-      "rgb": {
-        "r": 153,
-        "g": 155,
-        "b": 48
-      },
-      "r": 153,
-      "g": 155,
-      "b": 48,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        153,
+        155,
+        48
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 86,
       "code": "C86",
       "hex": "#008522",
-      "rgb": {
-        "r": 0,
-        "g": 133,
-        "b": 34
-      },
-      "r": 0,
-      "g": 133,
-      "b": 34,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        133,
+        34
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 87,
       "code": "C87",
       "hex": "#D9D9D6",
-      "rgb": {
-        "r": 217,
-        "g": 217,
-        "b": 214
-      },
-      "r": 217,
-      "g": 217,
-      "b": 214,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        217,
+        217,
+        214
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 88,
       "code": "C88",
       "hex": "#C8C9C7",
-      "rgb": {
-        "r": 200,
-        "g": 201,
-        "b": 199
-      },
-      "r": 200,
-      "g": 201,
-      "b": 199,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        200,
+        201,
+        199
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 89,
       "code": "C89",
       "hex": "#B1B3B3",
-      "rgb": {
-        "r": 177,
-        "g": 179,
-        "b": 179
-      },
-      "r": 177,
-      "g": 179,
-      "b": 179,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        177,
+        179,
+        179
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 90,
       "code": "C90",
       "hex": "#53565A",
-      "rgb": {
-        "r": 83,
-        "g": 86,
-        "b": 90
-      },
-      "r": 83,
-      "g": 86,
-      "b": 90,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        83,
+        86,
+        90
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 91,
       "code": "C91",
       "hex": "#D69A2D",
-      "rgb": {
-        "r": 214,
-        "g": 154,
-        "b": 45
-      },
-      "r": 214,
-      "g": 154,
-      "b": 45,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        214,
+        154,
+        45
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 92,
       "code": "C92",
       "hex": "#F1C6A7",
-      "rgb": {
-        "r": 241,
-        "g": 198,
-        "b": 167
-      },
-      "r": 241,
-      "g": 198,
-      "b": 167,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        241,
+        198,
+        167
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 93,
       "code": "C93",
       "hex": "#DCA59C",
-      "rgb": {
-        "r": 220,
-        "g": 165,
-        "b": 156
-      },
-      "r": 220,
-      "g": 165,
-      "b": 156,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        220,
+        165,
+        156
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 94,
       "code": "C94",
       "hex": "#F18070",
-      "rgb": {
-        "r": 241,
-        "g": 128,
-        "b": 112
-      },
-      "r": 241,
-      "g": 128,
-      "b": 112,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        241,
+        128,
+        112
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 95,
       "code": "C95",
       "hex": "#FA9370",
-      "rgb": {
-        "r": 250,
-        "g": 147,
-        "b": 112
-      },
-      "r": 250,
-      "g": 147,
-      "b": 112,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        250,
+        147,
+        112
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 96,
       "code": "C96",
       "hex": "#EA7600",
-      "rgb": {
-        "r": 234,
-        "g": 118,
-        "b": 0
-      },
-      "r": 234,
-      "g": 118,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        234,
+        118,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 97,
       "code": "C97",
       "hex": "#6CACE4",
-      "rgb": {
-        "r": 108,
-        "g": 172,
-        "b": 228
-      },
-      "r": 108,
-      "g": 172,
-      "b": 228,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        108,
+        172,
+        228
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 98,
       "code": "C98",
       "hex": "#71C5E8",
-      "rgb": {
-        "r": 113,
-        "g": 197,
-        "b": 232
-      },
-      "r": 113,
-      "g": 197,
-      "b": 232,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        113,
+        197,
+        232
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 99,
       "code": "C99",
       "hex": "#63B1BC",
-      "rgb": {
-        "r": 99,
-        "g": 177,
-        "b": 188
-      },
-      "r": 99,
-      "g": 177,
-      "b": 188,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        99,
+        177,
+        188
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 100,
       "code": "C100",
       "hex": "#00A3E1",
-      "rgb": {
-        "r": 0,
-        "g": 163,
-        "b": 225
-      },
-      "r": 0,
-      "g": 163,
-      "b": 225,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        163,
+        225
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 101,
       "code": "C101",
       "hex": "#0076CF",
-      "rgb": {
-        "r": 0,
-        "g": 118,
-        "b": 207
-      },
-      "r": 0,
-      "g": 118,
-      "b": 207,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        118,
+        207
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 102,
       "code": "C102",
       "hex": "#0057B8",
-      "rgb": {
-        "r": 0,
-        "g": 87,
-        "b": 184
-      },
-      "r": 0,
-      "g": 87,
-      "b": 184,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        87,
+        184
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 103,
       "code": "C103",
       "hex": "#007D9B",
-      "rgb": {
-        "r": 0,
-        "g": 125,
-        "b": 155
-      },
-      "r": 0,
-      "g": 125,
-      "b": 155,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        125,
+        155
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 104,
       "code": "C104",
       "hex": "#007D8A",
-      "rgb": {
-        "r": 0,
-        "g": 125,
-        "b": 138
-      },
-      "r": 0,
-      "g": 125,
-      "b": 138,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        125,
+        138
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 105,
       "code": "C105",
       "hex": "#006A8E",
-      "rgb": {
-        "r": 0,
-        "g": 106,
-        "b": 142
-      },
-      "r": 0,
-      "g": 106,
-      "b": 142,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        106,
+        142
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 106,
       "code": "C106",
       "hex": "#007096",
-      "rgb": {
-        "r": 0,
-        "g": 112,
-        "b": 150
-      },
-      "r": 0,
-      "g": 112,
-      "b": 150,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        112,
+        150
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 107,
       "code": "C107",
       "hex": "#D5CB9F",
-      "rgb": {
-        "r": 213,
-        "g": 203,
-        "b": 159
-      },
-      "r": 213,
-      "g": 203,
-      "b": 159,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        213,
+        203,
+        159
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 108,
       "code": "C108",
       "hex": "#CFC493",
-      "rgb": {
-        "r": 207,
-        "g": 196,
-        "b": 147
-      },
-      "r": 207,
-      "g": 196,
-      "b": 147,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        207,
+        196,
+        147
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 109,
       "code": "C109",
       "hex": "#C0B561",
-      "rgb": {
-        "r": 192,
-        "g": 181,
-        "b": 97
-      },
-      "r": 192,
-      "g": 181,
-      "b": 97,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        192,
+        181,
+        97
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 110,
       "code": "C110",
       "hex": "#998542",
-      "rgb": {
-        "r": 153,
-        "g": 133,
-        "b": 66
-      },
-      "r": 153,
-      "g": 133,
-      "b": 66,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        153,
+        133,
+        66
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 111,
       "code": "C111",
       "hex": "#897630",
-      "rgb": {
-        "r": 137,
-        "g": 118,
-        "b": 48
-      },
-      "r": 137,
-      "g": 118,
-      "b": 48,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        137,
+        118,
+        48
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 112,
       "code": "C112",
       "hex": "#CAC7A7",
-      "rgb": {
-        "r": 202,
-        "g": 199,
-        "b": 167
-      },
-      "r": 202,
-      "g": 199,
-      "b": 167,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        202,
+        199,
+        167
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 113,
       "code": "C113",
       "hex": "#BFBB98",
-      "rgb": {
-        "r": 191,
-        "g": 187,
-        "b": 152
-      },
-      "r": 191,
-      "g": 187,
-      "b": 152,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        191,
+        187,
+        152
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 114,
       "code": "C114",
       "hex": "#B0AA7E",
-      "rgb": {
-        "r": 176,
-        "g": 170,
-        "b": 126
-      },
-      "r": 176,
-      "g": 170,
-      "b": 126,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        176,
+        170,
+        126
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 115,
       "code": "C115",
       "hex": "#899064",
-      "rgb": {
-        "r": 137,
-        "g": 144,
-        "b": 100
-      },
-      "r": 137,
-      "g": 144,
-      "b": 100,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        137,
+        144,
+        100
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 116,
       "code": "C116",
       "hex": "#7A7256",
-      "rgb": {
-        "r": 122,
-        "g": 114,
-        "b": 86
-      },
-      "r": 122,
-      "g": 114,
-      "b": 86,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        122,
+        114,
+        86
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 117,
       "code": "C117",
       "hex": "#5B792F",
-      "rgb": {
-        "r": 91,
-        "g": 121,
-        "b": 47
-      },
-      "r": 91,
-      "g": 121,
-      "b": 47,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        91,
+        121,
+        47
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 118,
       "code": "C118",
       "hex": "#9CDBD9",
-      "rgb": {
-        "r": 156,
-        "g": 219,
-        "b": 217
-      },
-      "r": 156,
-      "g": 219,
-      "b": 217,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        156,
+        219,
+        217
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 119,
       "code": "C119",
       "hex": "#7AE1BF",
-      "rgb": {
-        "r": 122,
-        "g": 225,
-        "b": 191
-      },
-      "r": 122,
-      "g": 225,
-      "b": 191,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        122,
+        225,
+        191
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 120,
       "code": "C120",
       "hex": "#77C19A",
-      "rgb": {
-        "r": 119,
-        "g": 193,
-        "b": 154
-      },
-      "r": 119,
-      "g": 193,
-      "b": 154,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        119,
+        193,
+        154
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 121,
       "code": "C121",
       "hex": "#00B467",
-      "rgb": {
-        "r": 0,
-        "g": 180,
-        "b": 103
-      },
-      "r": 0,
-      "g": 180,
-      "b": 103,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        180,
+        103
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 122,
       "code": "C122",
       "hex": "#37C400",
-      "rgb": {
-        "r": 55,
-        "g": 196,
-        "b": 0
-      },
-      "r": 55,
-      "g": 196,
-      "b": 0,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        55,
+        196,
+        0
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 123,
       "code": "C123",
       "hex": "#257226",
-      "rgb": {
-        "r": 37,
-        "g": 114,
-        "b": 38
-      },
-      "r": 37,
-      "g": 114,
-      "b": 38,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        37,
+        114,
+        38
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 124,
       "code": "C124",
       "hex": "#008675",
-      "rgb": {
-        "r": 0,
-        "g": 134,
-        "b": 117
-      },
-      "r": 0,
-      "g": 134,
-      "b": 117,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        134,
+        117
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 125,
       "code": "C125",
       "hex": "#007367",
-      "rgb": {
-        "r": 0,
-        "g": 115,
-        "b": 103
-      },
-      "r": 0,
-      "g": 115,
-      "b": 103,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        115,
+        103
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 126,
       "code": "C126",
       "hex": "#DFC8E7",
-      "rgb": {
-        "r": 223,
-        "g": 200,
-        "b": 231
-      },
-      "r": 223,
-      "g": 200,
-      "b": 231,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        223,
+        200,
+        231
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 127,
       "code": "C127",
       "hex": "#D48BC8",
-      "rgb": {
-        "r": 212,
-        "g": 139,
-        "b": 200
-      },
-      "r": 212,
-      "g": 139,
-      "b": 200,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        212,
+        139,
+        200
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 128,
       "code": "C128",
       "hex": "#EABEDB",
-      "rgb": {
-        "r": 234,
-        "g": 190,
-        "b": 219
-      },
-      "r": 234,
-      "g": 190,
-      "b": 219,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        234,
+        190,
+        219
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 129,
       "code": "C129",
       "hex": "#DD74A1",
-      "rgb": {
-        "r": 221,
-        "g": 116,
-        "b": 161
-      },
-      "r": 221,
-      "g": 116,
-      "b": 161,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        221,
+        116,
+        161
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 130,
       "code": "C130",
       "hex": "#C1A0DA",
-      "rgb": {
-        "r": 193,
-        "g": 160,
-        "b": 218
-      },
-      "r": 193,
-      "g": 160,
-      "b": 218,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        193,
+        160,
+        218
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 131,
       "code": "C131",
       "hex": "#FB637E",
-      "rgb": {
-        "r": 251,
-        "g": 99,
-        "b": 126
-      },
-      "r": 251,
-      "g": 99,
-      "b": 126,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        251,
+        99,
+        126
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 132,
       "code": "C132",
       "hex": "#C800A1",
-      "rgb": {
-        "r": 200,
-        "g": 0,
-        "b": 161
-      },
-      "r": 200,
-      "g": 0,
-      "b": 161,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        200,
+        0,
+        161
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 133,
       "code": "C133",
       "hex": "#87189D",
-      "rgb": {
-        "r": 135,
-        "g": 24,
-        "b": 157
-      },
-      "r": 135,
-      "g": 24,
-      "b": 157,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        135,
+        24,
+        157
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 134,
       "code": "C134",
       "hex": "#AAB7E8",
-      "rgb": {
-        "r": 170,
-        "g": 183,
-        "b": 232
-      },
-      "r": 170,
-      "g": 183,
-      "b": 232,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        170,
+        183,
+        232
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 135,
       "code": "C135",
       "hex": "#B9B7E7",
-      "rgb": {
-        "r": 185,
-        "g": 183,
-        "b": 231
-      },
-      "r": 185,
-      "g": 183,
-      "b": 231,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        185,
+        183,
+        231
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 136,
       "code": "C136",
       "hex": "#7BA2E1",
-      "rgb": {
-        "r": 123,
-        "g": 162,
-        "b": 225
-      },
-      "r": 123,
-      "g": 162,
-      "b": 225,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        123,
+        162,
+        225
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 137,
       "code": "C137",
       "hex": "#5F8DDA",
-      "rgb": {
-        "r": 95,
-        "g": 141,
-        "b": 218
-      },
-      "r": 95,
-      "g": 141,
-      "b": 218,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        95,
+        141,
+        218
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 138,
       "code": "C138",
       "hex": "#5576D1",
-      "rgb": {
-        "r": 85,
-        "g": 118,
-        "b": 209
-      },
-      "r": 85,
-      "g": 118,
-      "b": 209,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        85,
+        118,
+        209
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 139,
       "code": "C139",
       "hex": "#485CC7",
-      "rgb": {
-        "r": 72,
-        "g": 92,
-        "b": 199
-      },
-      "r": 72,
-      "g": 92,
-      "b": 199,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        72,
+        92,
+        199
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 140,
       "code": "C140",
       "hex": "#476ACD",
-      "rgb": {
-        "r": 71,
-        "g": 106,
-        "b": 205
-      },
-      "r": 71,
-      "g": 106,
-      "b": 205,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        71,
+        106,
+        205
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 141,
       "code": "C141",
       "hex": "#365ABD",
-      "rgb": {
-        "r": 54,
-        "g": 90,
-        "b": 189
-      },
-      "r": 54,
-      "g": 90,
-      "b": 189,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        54,
+        90,
+        189
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 142,
       "code": "C142",
       "hex": "#3448AA",
-      "rgb": {
-        "r": 52,
-        "g": 72,
-        "b": 170
-      },
-      "r": 52,
-      "g": 72,
-      "b": 170,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        52,
+        72,
+        170
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 143,
       "code": "C143",
       "hex": "#002D72",
-      "rgb": {
-        "r": 0,
-        "g": 45,
-        "b": 114
-      },
-      "r": 0,
-      "g": 45,
-      "b": 114,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        0,
+        45,
+        114
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 144,
       "code": "C144",
       "hex": "#E9E186",
-      "rgb": {
-        "r": 233,
-        "g": 225,
-        "b": 134
-      },
-      "r": 233,
-      "g": 225,
-      "b": 134,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        233,
+        225,
+        134
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 145,
       "code": "C145",
       "hex": "#A6192E",
-      "rgb": {
-        "r": 166,
-        "g": 25,
-        "b": 46
-      },
-      "r": 166,
-      "g": 25,
-      "b": 46,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        166,
+        25,
+        46
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 146,
       "code": "C146",
       "hex": "#86C8BC",
-      "rgb": {
-        "r": 134,
-        "g": 200,
-        "b": 188
-      },
-      "r": 134,
-      "g": 200,
-      "b": 188,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        134,
+        200,
+        188
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 147,
       "code": "C147",
       "hex": "#866761",
-      "rgb": {
-        "r": 134,
-        "g": 103,
-        "b": 97
-      },
-      "r": 134,
-      "g": 103,
-      "b": 97,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        134,
+        103,
+        97
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 148,
       "code": "C148",
       "hex": "#EFDBB2",
-      "rgb": {
-        "r": 239,
-        "g": 219,
-        "b": 178
-      },
-      "r": 239,
-      "g": 219,
-      "b": 178,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        239,
+        219,
+        178
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 149,
       "code": "C149",
       "hex": "#8B84D7",
-      "rgb": {
-        "r": 139,
-        "g": 132,
-        "b": 215
-      },
-      "r": 139,
-      "g": 132,
-      "b": 215,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        139,
+        132,
+        215
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 150,
       "code": "C150",
       "hex": "#3E4827",
-      "rgb": {
-        "r": 62,
-        "g": 72,
-        "b": 39
-      },
-      "r": 62,
-      "g": 72,
-      "b": 39,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        62,
+        72,
+        39
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 151,
       "code": "C151",
       "hex": "#C0AEE4",
-      "rgb": {
-        "r": 192,
-        "g": 174,
-        "b": 228
-      },
-      "r": 192,
-      "g": 174,
-      "b": 228,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        192,
+        174,
+        228
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 152,
       "code": "C152",
       "hex": "#C2BDE0",
-      "rgb": {
-        "r": 194,
-        "g": 189,
-        "b": 224
-      },
-      "r": 194,
-      "g": 189,
-      "b": 224,
-      "transparency": "",
-      "source_quality": "official_chart_image",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/artkal_beads_C_series_color_chart.jpg?v=1744700233",
-      "notes": "Official RGB PDF text renders/extracts B as 273; official 197-color chart image shows this RGB.",
-      "group": "C"
+      "rgb": [
+        194,
+        189,
+        224
+      ],
+      "group": "C",
+      "source": "src3",
+      "notes": "Official RGB PDF text renders/extracts B as 273; official 197-color chart image shows this RGB."
     },
     {
-      "ordinal": 153,
       "code": "C153",
       "hex": "#F3CFB3",
-      "rgb": {
-        "r": 243,
-        "g": 207,
-        "b": 179
-      },
-      "r": 243,
-      "g": 207,
-      "b": 179,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        243,
+        207,
+        179
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 154,
       "code": "C154",
       "hex": "#C58B68",
-      "rgb": {
-        "r": 197,
-        "g": 139,
-        "b": 104
-      },
-      "r": 197,
-      "g": 139,
-      "b": 104,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        197,
+        139,
+        104
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 155,
       "code": "C155",
       "hex": "#63666A",
-      "rgb": {
-        "r": 99,
-        "g": 102,
-        "b": 106
-      },
-      "r": 99,
-      "g": 102,
-      "b": 106,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        99,
+        102,
+        106
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 156,
       "code": "C156",
       "hex": "#4B4F54",
-      "rgb": {
-        "r": 75,
-        "g": 79,
-        "b": 84
-      },
-      "r": 75,
-      "g": 79,
-      "b": 84,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        75,
+        79,
+        84
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 157,
       "code": "C157",
       "hex": "#1D252D",
-      "rgb": {
-        "r": 29,
-        "g": 37,
-        "b": 45
-      },
-      "r": 29,
-      "g": 37,
-      "b": 45,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "C"
+      "rgb": [
+        29,
+        37,
+        45
+      ],
+      "group": "C",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 158,
       "code": "CE01",
       "hex": "#D1DDE6",
-      "rgb": {
-        "r": 209,
-        "g": 221,
-        "b": 230
-      },
-      "r": 209,
-      "g": 221,
-      "b": 230,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        209,
+        221,
+        230
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 159,
       "code": "CE02",
       "hex": "#9BB8D3",
-      "rgb": {
-        "r": 155,
-        "g": 184,
-        "b": 211
-      },
-      "r": 155,
-      "g": 184,
-      "b": 211,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        155,
+        184,
+        211
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 160,
       "code": "CE03",
       "hex": "#6AD1E3",
-      "rgb": {
-        "r": 106,
-        "g": 209,
-        "b": 227
-      },
-      "r": 106,
-      "g": 209,
-      "b": 227,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        106,
+        209,
+        227
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 161,
       "code": "CE04",
       "hex": "#03C1AA",
-      "rgb": {
-        "r": 3,
-        "g": 193,
-        "b": 170
-      },
-      "r": 3,
-      "g": 193,
-      "b": 170,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        3,
+        193,
+        170
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 162,
       "code": "CE05",
       "hex": "#2CD5C4",
-      "rgb": {
-        "r": 44,
-        "g": 213,
-        "b": 196
-      },
-      "r": 44,
-      "g": 213,
-      "b": 196,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        44,
+        213,
+        196
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 163,
       "code": "CE06",
       "hex": "#147BD1",
-      "rgb": {
-        "r": 20,
-        "g": 123,
-        "b": 209
-      },
-      "r": 20,
-      "g": 123,
-      "b": 209,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        20,
+        123,
+        209
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 164,
       "code": "CE07",
       "hex": "#BFA5B8",
-      "rgb": {
-        "r": 191,
-        "g": 165,
-        "b": 184
-      },
-      "r": 191,
-      "g": 165,
-      "b": 184,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        191,
+        165,
+        184
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 165,
       "code": "CE08",
       "hex": "#9B7793",
-      "rgb": {
-        "r": 155,
-        "g": 119,
-        "b": 147
-      },
-      "r": 155,
-      "g": 119,
-      "b": 147,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        155,
+        119,
+        147
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 166,
       "code": "CE09",
       "hex": "#693C5E",
-      "rgb": {
-        "r": 105,
-        "g": 60,
-        "b": 94
-      },
-      "r": 105,
-      "g": 60,
-      "b": 94,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        105,
+        60,
+        94
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 167,
       "code": "CE10",
       "hex": "#C964CF",
-      "rgb": {
-        "r": 201,
-        "g": 100,
-        "b": 207
-      },
-      "r": 201,
-      "g": 100,
-      "b": 207,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        201,
+        100,
+        207
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 168,
       "code": "CE11",
       "hex": "#AD1AAC",
-      "rgb": {
-        "r": 173,
-        "g": 26,
-        "b": 172
-      },
-      "r": 173,
-      "g": 26,
-      "b": 172,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        173,
+        26,
+        172
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 169,
       "code": "CE12",
       "hex": "#FFC27B",
-      "rgb": {
-        "r": 255,
-        "g": 194,
-        "b": 123
-      },
-      "r": 255,
-      "g": 194,
-      "b": 123,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        255,
+        194,
+        123
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 170,
       "code": "CE13",
       "hex": "#E6A65D",
-      "rgb": {
-        "r": 230,
-        "g": 166,
-        "b": 93
-      },
-      "r": 230,
-      "g": 166,
-      "b": 93,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        230,
+        166,
+        93
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 171,
       "code": "CE14",
       "hex": "#D38235",
-      "rgb": {
-        "r": 211,
-        "g": 130,
-        "b": 53
-      },
-      "r": 211,
-      "g": 130,
-      "b": 53,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        211,
+        130,
+        53
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 172,
       "code": "CE15",
       "hex": "#C16C18",
-      "rgb": {
-        "r": 193,
-        "g": 108,
-        "b": 24
-      },
-      "r": 193,
-      "g": 108,
-      "b": 24,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        193,
+        108,
+        24
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 173,
       "code": "CE16",
       "hex": "#F5B6CD",
-      "rgb": {
-        "r": 245,
-        "g": 182,
-        "b": 205
-      },
-      "r": 245,
-      "g": 182,
-      "b": 205,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        245,
+        182,
+        205
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 174,
       "code": "CE17",
       "hex": "#5D2A2C",
-      "rgb": {
-        "r": 93,
-        "g": 42,
-        "b": 44
-      },
-      "r": 93,
-      "g": 42,
-      "b": 44,
-      "transparency": "",
-      "source_quality": "official_pdf",
-      "source_url": "https://cdn.shopify.com/s/files/1/1323/8195/files/C_MINI_Beads_RGB_Color_Chart_2024.pdf?v=1744700289",
-      "notes": "Extracted from official Artkal RGB PDF.",
-      "group": "CE"
+      "rgb": [
+        93,
+        42,
+        44
+      ],
+      "group": "CE",
+      "source": "src1",
+      "notes": "Extracted from official Artkal RGB PDF."
     },
     {
-      "ordinal": 175,
       "code": "CG01",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 176,
       "code": "CG02",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 177,
       "code": "CG03",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 178,
       "code": "CG04",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 179,
       "code": "CG05",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 180,
       "code": "CG06",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 181,
       "code": "CG07",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CG"
+      "group": "CG",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 182,
       "code": "CP01",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 183,
       "code": "CP02",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 184,
       "code": "CP03",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 185,
       "code": "CP04",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 186,
       "code": "CP05",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 187,
       "code": "CP06",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 188,
       "code": "CP07",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
-      "transparency": "",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CP"
+      "group": "CP",
+      "source": "src4",
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 189,
       "code": "CT01",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 190,
       "code": "CT02",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 191,
       "code": "CT03",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 192,
       "code": "CT04",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 193,
       "code": "CT05",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 194,
       "code": "CT06",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 195,
       "code": "CT07",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 196,
       "code": "CT08",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     },
     {
-      "ordinal": 197,
       "code": "CT09",
       "hex": null,
       "rgb": null,
-      "r": null,
-      "g": null,
-      "b": null,
+      "group": "CT",
+      "source": "src4",
       "transparency": "transparent",
-      "source_quality": "official_chart_code_only",
-      "source_url": "https://artkalfusebeads.com/pages/c-color-chart",
-      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction.",
-      "group": "CT"
+      "notes": "Code appears on the official 197-color chart image; RGB value was not present in the official RGB PDF text extraction."
     }
   ]
 }

@@ -3,9 +3,8 @@ from __future__ import annotations
 import json
 import math
 import re
-import shutil
 import textwrap
-from collections import Counter, OrderedDict, defaultdict
+from collections import Counter, OrderedDict
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -16,112 +15,10 @@ from openpyxl.utils import get_column_letter
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path(__file__).resolve().parent
-SOURCE_DIR = ROOT / "output"
-TARGET_DIR = ROOT / "series_deliverables"
+ROOT = Path(__file__).resolve().parents[1]
 GENERATED_DATE = date(2026, 5, 19).isoformat()
+SCHEMA = "pindou-color-palette/v2"
 
-
-SERIES = [
-    {
-        "id": "coco-291",
-        "source": "COCO-291.json",
-        "title": "COCO",
-        "long_title": "COCO 291色",
-        "original_query_name": "COCO",
-    },
-    {
-        "id": "mard-291-github",
-        "source": "Mard-291.json",
-        "title": "MARD家291色",
-        "long_title": "MARD 291色（公开源码库版）",
-        "original_query_name": "嗜MARD家 / MARD",
-    },
-    {
-        "id": "mard-221-github",
-        "source": "Mard-221.json",
-        "title": "MARD家源码版",
-        "long_title": "MARD 221色（公开源码库版）",
-        "original_query_name": "嗜MARD家 / MARD",
-    },
-    {
-        "id": "mard-221-alfonse-doudou",
-        "source": "Mard-221-alfonse-doudou.json",
-        "title": "MARD家",
-        "long_title": "MARD 221色（Alfonse + 豆豆工坊核对版）",
-        "original_query_name": "嗜MARD家 / MARD",
-    },
-    {
-        "id": "panpan-289",
-        "source": "盼盼-289.json",
-        "title": "盼盼家",
-        "long_title": "盼盼 289色",
-        "original_query_name": "盼盼家",
-    },
-    {
-        "id": "mixiaowo-290",
-        "source": "咪小窝-290.json",
-        "title": "咪小窝",
-        "long_title": "咪小窝 290色",
-        "original_query_name": "咪小窝",
-    },
-    {
-        "id": "xiaowu-291",
-        "source": "小舞-291.json",
-        "title": "小舞家",
-        "long_title": "小舞 291色",
-        "original_query_name": "小舞家",
-    },
-    {
-        "id": "manman-278",
-        "source": "漫漫-278.json",
-        "title": "漫漫家",
-        "long_title": "漫漫 278色",
-        "original_query_name": "鷯担瞰漫家 / 漫漫家",
-    },
-    {
-        "id": "huangdoudou-291",
-        "source": "黄豆豆-291.json",
-        "title": "黄豆豆",
-        "long_title": "黄豆豆 291色",
-        "original_query_name": "黄豆豆",
-    },
-    {
-        "id": "youken-public-174",
-        "source": "优肯-174.json",
-        "title": "优肯174色旧表",
-        "long_title": "优肯 174色（公开源码库旧表）",
-        "original_query_name": "优肯197色（参考旧表）",
-    },
-    {
-        "id": "youken-mard-221-public",
-        "source": "优肯Mard-221.json",
-        "title": "优肯MARD同款221色",
-        "long_title": "优肯 MARD同款 221色（公开源码库版）",
-        "original_query_name": "优肯418色 / 优肯MARD同款",
-    },
-    {
-        "id": "artkal-c-197-official",
-        "source": "Artkal-C-197-official.json",
-        "title": "优肯197色",
-        "long_title": "优肯 / Artkal C系列 197色（官方整理）",
-        "original_query_name": "优肯197色",
-    },
-    {
-        "id": "artkal-m-221-official",
-        "source": "Artkal-M-221-official.json",
-        "title": "优肯M221色",
-        "long_title": "优肯 / Artkal M系列 221色（官方整理）",
-        "original_query_name": "优肯418色中的 M221",
-    },
-    {
-        "id": "artkal-c197-m221-418-official",
-        "source": "Artkal-C197-plus-M221-418-official.json",
-        "title": "优肯418色",
-        "long_title": "优肯 / Artkal 418色（C197 + M221 官方合并）",
-        "original_query_name": "优肯418色",
-    },
-]
 
 MARKET_RESEARCH_SOURCES = [
     {
@@ -449,58 +346,6 @@ def hue_bucket(row: dict[str, Any]) -> str:
     return "08-透明或未知"
 
 
-def group_rows(rows: list[dict[str, Any]]) -> OrderedDict[str, list[dict[str, Any]]]:
-    prefixes = [code_prefix(str(row["code"])) for row in rows]
-    non_empty_ratio = sum(1 for p in prefixes if p) / max(len(prefixes), 1)
-
-    grouped: OrderedDict[str, list[dict[str, Any]]] = OrderedDict()
-    if non_empty_ratio >= 0.55:
-        for row in rows:
-            group = code_prefix(str(row["code"])) or hue_bucket(row)
-            grouped.setdefault(group, []).append(row)
-        return grouped
-
-    hue_grouped = {key: [] for key, _ in HUE_GROUPS}
-    for row in rows:
-        hue_grouped[hue_bucket(row)].append(row)
-    for key, label in HUE_GROUPS:
-        if hue_grouped[key]:
-            grouped[label] = hue_grouped[key]
-    return grouped
-
-
-def normalize_rows(raw_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    rows = []
-    for idx, item in enumerate(raw_rows, start=1):
-        rgb = rgb_tuple(item)
-        hex_value = clean_hex(item.get("hex")) or hex_from_rgb(rgb)
-        row = {
-            "ordinal": idx,
-            "code": str(item.get("color_code", "")).strip(),
-            "hex": hex_value,
-            "rgb": None if rgb is None else {"r": rgb[0], "g": rgb[1], "b": rgb[2]},
-            "r": None if rgb is None else rgb[0],
-            "g": None if rgb is None else rgb[1],
-            "b": None if rgb is None else rgb[2],
-            "transparency": str(item.get("transparency", "") or ""),
-            "source_quality": str(item.get("source_quality", "") or ""),
-            "source_url": str(item.get("source_url", "") or ""),
-            "notes": str(item.get("notes", "") or ""),
-        }
-        rows.append(row)
-    return rows
-
-
-def source_urls(rows: list[dict[str, Any]]) -> list[str]:
-    urls = OrderedDict()
-    for row in rows:
-        for part in str(row.get("source_url", "")).split(";"):
-            url = part.strip()
-            if url:
-                urls[url] = True
-    return list(urls.keys())
-
-
 def sheet_name(base: str, used: set[str], index: int) -> str:
     clean = re.sub(r"[\[\]\*:/\\?]", "-", base).strip() or "Sheet"
     clean = f"{index:02d}_{clean}"
@@ -521,27 +366,134 @@ def rgb_text(row: dict[str, Any]) -> str:
     return f"RGB: {row['r']}, {row['g']}, {row['b']}"
 
 
-def make_json(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
-    market = MARKET_ASSESSMENTS.get(info["id"], {})
+def rgb_from_v2(row: dict[str, Any]) -> tuple[int, int, int] | None:
+    rgb = row.get("rgb")
+    if rgb is None:
+        return None
+    if isinstance(rgb, dict):
+        values = [rgb.get("r"), rgb.get("g"), rgb.get("b")]
+    else:
+        values = list(rgb)
+    if len(values) != 3:
+        return None
+    try:
+        r, g, b = [int(v) for v in values]
+    except (TypeError, ValueError):
+        return None
+    if not all(0 <= n <= 255 for n in (r, g, b)):
+        return None
+    return (r, g, b)
+
+
+def normalize_rows(raw_rows: list[dict[str, Any]], sources: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    source_map = {src.get("id"): src for src in (sources or [])}
+    rows = []
+    for idx, item in enumerate(raw_rows, start=1):
+        rgb = rgb_from_v2(item)
+        source_ref = item.get("source") or ""
+        source = source_map.get(source_ref, {})
+        row = {
+            "ordinal": idx,
+            "code": str(item.get("code", "")).strip(),
+            "hex": clean_hex(item.get("hex")) or hex_from_rgb(rgb),
+            "rgb": None if rgb is None else {"r": rgb[0], "g": rgb[1], "b": rgb[2]},
+            "r": None if rgb is None else rgb[0],
+            "g": None if rgb is None else rgb[1],
+            "b": None if rgb is None else rgb[2],
+            "transparency": str(item.get("transparency", "") or ""),
+            "source": source_ref,
+            "source_quality": str(source.get("quality") or item.get("source_quality") or ""),
+            "source_url": str(source.get("url") or item.get("source_url") or ""),
+            "notes": str(item.get("notes") or source.get("notes") or ""),
+            "group": str(item.get("group") or ""),
+        }
+        rows.append(row)
+    return rows
+
+
+def source_urls(rows: list[dict[str, Any]]) -> list[str]:
+    urls = OrderedDict()
+    for row in rows:
+        url = str(row.get("source_url", "")).strip()
+        if url:
+            urls[url] = True
+    return list(urls.keys())
+
+
+def group_rows(rows: list[dict[str, Any]]) -> OrderedDict[str, list[dict[str, Any]]]:
+    grouped: OrderedDict[str, list[dict[str, Any]]] = OrderedDict()
+    if all(row.get("group") for row in rows):
+        for row in rows:
+            grouped.setdefault(str(row["group"]), []).append(row)
+        return grouped
+
+    prefixes = [code_prefix(str(row["code"])) for row in rows]
+    non_empty_ratio = sum(1 for p in prefixes if p) / max(len(prefixes), 1)
+    if non_empty_ratio >= 0.55:
+        for row in rows:
+            group = code_prefix(str(row["code"])) or hue_bucket(row)
+            grouped.setdefault(group, []).append(row)
+        return grouped
+
+    hue_grouped = {key: [] for key, _ in HUE_GROUPS}
+    for row in rows:
+        hue_grouped[hue_bucket(row)].append(row)
+    for key, label in HUE_GROUPS:
+        if hue_grouped[key]:
+            grouped[label] = hue_grouped[key]
+    return grouped
+
+
+def compact_sources(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: OrderedDict[tuple[str, str, str], str] = OrderedDict()
+    result = []
+    for row in rows:
+        key = (row.get("source_url", ""), row.get("source_quality", ""), row.get("notes", ""))
+        if key not in seen:
+            source_id = f"src{len(seen) + 1}"
+            seen[key] = source_id
+            result.append({"id": source_id, "url": key[0], "quality": key[1], "notes": key[2]})
+        row["source"] = seen[key]
+    return result
+
+
+def make_json(out_dir: Path, info: dict[str, Any], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
+    market = info.get("market", {})
+    sources = compact_sources(rows)
+    colors = []
+    for row in rows:
+        rgb = None if row["rgb"] is None else [row["r"], row["g"], row["b"]]
+        item = {
+            "code": row["code"],
+            "hex": row["hex"],
+            "rgb": rgb,
+            "group": row.get("group") or next((name for name, group in groups.items() if row in group), ""),
+            "source": row.get("source") or None,
+        }
+        if row.get("transparency"):
+            item["transparency"] = row["transparency"]
+        if row.get("notes") and len(sources) > 1:
+            item["notes"] = row["notes"]
+        colors.append(item)
     payload = {
-        "series_id": info["id"],
+        "schema": SCHEMA,
+        "id": info["id"],
         "title": info["title"],
-        "short_title": info["title"],
-        "long_title": info.get("long_title", info["title"]),
-        "original_query_name": info["original_query_name"],
+        "description": info.get("description", info.get("long_title", info["title"])),
         "generated_at": GENERATED_DATE,
         "count": len(rows),
         "rows_with_rgb": sum(1 for row in rows if row["rgb"] is not None),
         "rows_without_rgb": sum(1 for row in rows if row["rgb"] is None),
-        "domestic_handcraft_shop_mainstream_assessment": market,
-        "groups": {name: [row["ordinal"] for row in group_rows_] for name, group_rows_ in groups.items()},
-        "colors": rows,
+        "market": market,
+        "groups": {name: len(group) for name, group in groups.items()},
+        "sources": sources,
+        "colors": colors,
     }
     (out_dir / "colors.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
-    market = MARKET_ASSESSMENTS.get(info["id"], {})
+    market = info.get("market", {})
     wb = Workbook()
     wb.remove(wb.active)
     info_ws = wb.create_sheet("信息")
@@ -549,8 +501,8 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
     info_ws["A1"].font = Font(bold=True, size=16)
     info_ws["A3"] = "生成日期"
     info_ws["B3"] = GENERATED_DATE
-    info_ws["A4"] = "原始查询名"
-    info_ws["B4"] = info["original_query_name"]
+    info_ws["A4"] = "系列短名"
+    info_ws["B4"] = info["title"]
     info_ws["A5"] = "完整标题"
     info_ws["B5"] = info.get("long_title", info["title"])
     info_ws["A6"] = "总颜色数"
@@ -676,14 +628,14 @@ def checkerboard(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], size:
 
 
 def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> Image.Image:
-    market = MARKET_ASSESSMENTS.get(info["id"], {})
+    market = info.get("market", {})
     page = Image.new("RGB", (1754, 1240), "#FFFFFF")
     draw = ImageDraw.Draw(page)
     draw.text((70, 70), info["title"], font=FONT_TITLE, fill="#111111")
     draw.text((70, 122), f"色号 + RGB 对照图例｜生成日期 {GENERATED_DATE}", font=FONT_SUBTITLE, fill="#555555")
     y = 190
     stats = [
-        f"原始查询名：{info['original_query_name']}",
+        f"系列短名：{info['title']}",
         f"总颜色数：{len(rows)}",
         f"有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
         f"无 RGB / 透明或未公开：{sum(1 for row in rows if row['rgb'] is None)}",
@@ -788,7 +740,7 @@ def make_pdf(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], gr
 
 
 def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], groups: OrderedDict[str, list[dict[str, Any]]]) -> None:
-    market = MARKET_ASSESSMENTS.get(info["id"], {})
+    market = info.get("market", {})
     quality_counts = Counter(row["source_quality"] or "unknown" for row in rows)
     missing = [row["code"] for row in rows if row["rgb"] is None]
     duplicate_codes = [code for code, count in Counter(row["code"] for row in rows).items() if count > 1]
@@ -799,7 +751,7 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         f"> 完整标题：{info.get('long_title', info['title'])}",
         "",
         f"- 生成日期：{GENERATED_DATE}",
-        f"- 原始查询名：{info['original_query_name']}",
+        f"- 系列短名：{info['title']}",
         f"- 总颜色数：{len(rows)}",
         f"- 有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
         f"- 无 RGB / 透明或未公开：{len(missing)}",
@@ -808,7 +760,7 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         "",
         "## 文件",
         "",
-        "- `colors.json`：脚本读取用，包含 metadata、groups、colors 数组；每个颜色含 `code`、`hex`、`rgb`、`source_quality`、`source_url`、`notes`。",
+        "- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。",
         "- `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。",
         "- `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。",
         "- `README.md`：本说明。",
@@ -852,13 +804,15 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
 
     lines.extend(["", "## JSON 结构简例", "", "```json"])
     example = {
-        "series_id": info["id"],
+        "schema": SCHEMA,
+        "id": info["id"],
+        "title": info["title"],
         "count": len(rows),
         "colors": [
             {
                 "code": rows[0]["code"] if rows else "",
                 "hex": rows[0]["hex"] if rows else None,
-                "rgb": rows[0]["rgb"] if rows else None,
+                "rgb": None if not rows or rows[0]["rgb"] is None else [rows[0]["r"], rows[0]["g"], rows[0]["b"]],
                 "group": next(iter(groups.keys()), ""),
             }
         ],
@@ -869,10 +823,23 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
     (out_dir / "README.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def copy_extra_files() -> None:
-    diff = SOURCE_DIR / "Mard-221-source-differences.json"
-    if diff.exists():
-        shutil.copy2(diff, TARGET_DIR / "Mard-221-source-differences.json")
+
+def read_palette(directory: Path) -> tuple[dict[str, Any], list[dict[str, Any]], OrderedDict[str, list[dict[str, Any]]]]:
+    data = json.loads((directory / "colors.json").read_text(encoding="utf-8"))
+    if data.get("schema") != SCHEMA:
+        raise ValueError(f"{directory} colors.json is not {SCHEMA}")
+    info = {
+        "id": data["id"],
+        "title": data["title"],
+        "long_title": data.get("description", data["title"]),
+        "market": data.get("market", {}),
+    }
+    rows = normalize_rows(data.get("colors", []), data.get("sources", []))
+    groups = group_rows(rows)
+    for group_name, group in groups.items():
+        for row in group:
+            row["group"] = group_name
+    return info, rows, groups
 
 
 def make_index(manifest: list[dict[str, Any]]) -> None:
@@ -882,6 +849,8 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
         f"生成日期：{GENERATED_DATE}",
         "",
         "每个子目录包含：`colors.json`、`colors.xlsx`、`legend.pdf`、`README.md`。",
+        "",
+        "本仓库定位为拼豆色卡数据仓库，适合其他应用以 git submodule 方式挂载使用。维护脚本保留在 `scripts/`，后续调整 JSON 后可复用脚本重新生成 XLSX/PDF/README。",
         "",
         "## 系列清单",
         "",
@@ -916,55 +885,53 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
             "",
             "- `manifest.json`：所有子目录和统计的机器可读清单。",
             "- `Mard-221-source-differences.json`：MARD 221 两个公开来源之间的 HEX 差异。",
+            "",
+            "## 作为 Submodule 使用",
+            "",
+            "```bash",
+            "git submodule add https://github.com/HansBug/pindou-color-data.git data/pindou-color-data",
+            "```",
+            "",
+            "## 维护脚本",
+            "",
+            "- `scripts/generate_deliverables.py`：从 v2 `colors.json` 重生成各系列四件套。",
+            "- `scripts/build_tables.js`：上游采集/清洗辅助脚本。",
+            "- 依赖：`python -m pip install openpyxl pillow`。",
         ]
     )
-    (TARGET_DIR / "INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    (TARGET_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
 
 
 def main() -> None:
-    if TARGET_DIR.exists():
-        shutil.rmtree(TARGET_DIR)
-    TARGET_DIR.mkdir(parents=True)
-
     manifest = []
-    for info in SERIES:
-        raw_path = SOURCE_DIR / info["source"]
-        raw_rows = json.loads(raw_path.read_text(encoding="utf-8"))
-        rows = normalize_rows(raw_rows)
-        groups = group_rows(rows)
-        for group_name, group in groups.items():
-            for row in group:
-                row["group"] = group_name
-
-        out_dir = TARGET_DIR / info["id"]
-        out_dir.mkdir(parents=True)
+    skip_dirs = {".git", "scripts", "__pycache__"}
+    palette_dirs = sorted(
+        p for p in ROOT.iterdir()
+        if p.is_dir() and p.name not in skip_dirs and (p / "colors.json").exists()
+    )
+    for out_dir in palette_dirs:
+        info, rows, groups = read_palette(out_dir)
         make_json(out_dir, info, rows, groups)
         make_xlsx(out_dir, info, rows, groups)
         make_pdf(out_dir, info, rows, groups)
         make_readme(out_dir, info, rows, groups)
-
-        manifest.append(
-            {
-                "id": info["id"],
-                "title": info["title"],
-                "short_title": info["title"],
-                "long_title": info.get("long_title", info["title"]),
-                "original_query_name": info["original_query_name"],
-                "path": str(out_dir.relative_to(ROOT)),
-                "source_file": info["source"],
-                "count": len(rows),
-                "rows_with_rgb": sum(1 for row in rows if row["rgb"] is not None),
-                "rows_without_rgb": sum(1 for row in rows if row["rgb"] is None),
-                "mainstream_tier": MARKET_ASSESSMENTS.get(info["id"], {}).get("tier", "N/A"),
-                "mainstream_score": MARKET_ASSESSMENTS.get(info["id"], {}).get("score", 0),
-                "mainstream_label": MARKET_ASSESSMENTS.get(info["id"], {}).get("label", ""),
-                "mainstream_summary": MARKET_ASSESSMENTS.get(info["id"], {}).get("summary", ""),
-                "groups": {name: len(group) for name, group in groups.items()},
-            }
-        )
-
-    copy_extra_files()
+        market = info.get("market", {})
+        manifest.append({
+            "id": info["id"],
+            "title": info["title"],
+            "description": info.get("long_title", info["title"]),
+            "path": out_dir.name,
+            "count": len(rows),
+            "rows_with_rgb": sum(1 for row in rows if row["rgb"] is not None),
+            "rows_without_rgb": sum(1 for row in rows if row["rgb"] is None),
+            "mainstream_tier": market.get("tier", "N/A"),
+            "mainstream_score": market.get("score", 0),
+            "mainstream_label": market.get("label", ""),
+            "mainstream_summary": market.get("summary", ""),
+            "groups": {name: len(group) for name, group in groups.items()},
+        })
     make_index(manifest)
 
 

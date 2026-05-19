@@ -57,7 +57,6 @@ git submodule add https://github.com/HansBug/pindou-color-data.git data/pindou-c
 
 ## 维护脚本
 
-- `scripts/generate_deliverables.py`：从源数据重生成各系列四件套。
+- `scripts/generate_deliverables.py`：从 v2 `colors.json` 重生成各系列四件套。
 - `scripts/build_tables.js`：上游采集/清洗辅助脚本。
 - 依赖：`python -m pip install openpyxl pillow`。
-

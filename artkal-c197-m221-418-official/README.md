@@ -3,7 +3,7 @@
 > 完整标题：优肯 / Artkal 418色（C197 + M221 官方合并）
 
 - 生成日期：2026-05-19
-- 原始查询名：优肯418色
+- 系列短名：优肯418色
 - 总颜色数：418
 - 有 RGB：394
 - 无 RGB / 透明或未公开：24
@@ -12,7 +12,7 @@
 
 ## 文件
 
-- `colors.json`：脚本读取用，包含 metadata、groups、colors 数组；每个颜色含 `code`、`hex`、`rgb`、`source_quality`、`source_url`、`notes`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -53,17 +53,19 @@ CT03, CT04, CT05, CT06, CT07, CT08, CT09, MH1
 
 ```json
 {
-  "series_id": "artkal-c197-m221-418-official",
+  "schema": "pindou-color-palette/v2",
+  "id": "artkal-c197-m221-418-official",
+  "title": "优肯418色",
   "count": 418,
   "colors": [
     {
       "code": "C01",
       "hex": "#FFFFFF",
-      "rgb": {
-        "r": 255,
-        "g": 255,
-        "b": 255
-      },
+      "rgb": [
+        255,
+        255,
+        255
+      ],
       "group": "C"
     }
   ]

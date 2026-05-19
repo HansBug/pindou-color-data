@@ -3,7 +3,7 @@
 > 完整标题：优肯 174色（公开源码库旧表）
 
 - 生成日期：2026-05-19
-- 原始查询名：优肯197色（参考旧表）
+- 系列短名：优肯174色旧表
 - 总颜色数：174
 - 有 RGB：174
 - 无 RGB / 透明或未公开：0
@@ -12,7 +12,7 @@
 
 ## 文件
 
-- `colors.json`：脚本读取用，包含 metadata、groups、colors 数组；每个颜色含 `code`、`hex`、`rgb`、`source_quality`、`source_url`、`notes`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -47,17 +47,19 @@
 
 ```json
 {
-  "series_id": "youken-public-174",
+  "schema": "pindou-color-palette/v2",
+  "id": "youken-public-174",
+  "title": "优肯174色旧表",
   "count": 174,
   "colors": [
     {
       "code": "C01",
       "hex": "#FFFFFF",
-      "rgb": {
-        "r": 255,
-        "g": 255,
-        "b": 255
-      },
+      "rgb": [
+        255,
+        255,
+        255
+      ],
       "group": "C"
     }
   ]

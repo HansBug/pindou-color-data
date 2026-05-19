@@ -3,16 +3,16 @@
 > 完整标题：咪小窝 290色
 
 - 生成日期：2026-05-19
-- 原始查询名：咪小窝
+- 系列短名：咪小窝
 - 总颜色数：290
 - 有 RGB：290
 - 无 RGB / 透明或未公开：0
-- 分组：灰白黑(47), 红粉(52), 橙棕(49), 黄(25), 绿(30), 青蓝(52), 紫(35)
+- 分组：黄(25), 橙棕(49), 红粉(52), 灰白黑(47), 紫(35), 绿(30), 青蓝(52)
 - 国内手工小店主流度：B / 3.4 - 常见但偏工具/玩家圈
 
 ## 文件
 
-- `colors.json`：脚本读取用，包含 metadata、groups、colors 数组；每个颜色含 `code`、`hex`、`rgb`、`source_quality`、`source_url`、`notes`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -48,18 +48,20 @@
 
 ```json
 {
-  "series_id": "mixiaowo-290",
+  "schema": "pindou-color-palette/v2",
+  "id": "mixiaowo-290",
+  "title": "咪小窝",
   "count": 290,
   "colors": [
     {
       "code": "77",
       "hex": "#FAF5CD",
-      "rgb": {
-        "r": 250,
-        "g": 245,
-        "b": 205
-      },
-      "group": "灰白黑"
+      "rgb": [
+        250,
+        245,
+        205
+      ],
+      "group": "黄"
     }
   ]
 }

@@ -3,7 +3,7 @@
 > 完整标题：漫漫 278色
 
 - 生成日期：2026-05-19
-- 原始查询名：鷯担瞰漫家 / 漫漫家
+- 系列短名：漫漫家
 - 总颜色数：278
 - 有 RGB：278
 - 无 RGB / 透明或未公开：0
@@ -12,7 +12,7 @@
 
 ## 文件
 
-- `colors.json`：脚本读取用，包含 metadata、groups、colors 数组；每个颜色含 `code`、`hex`、`rgb`、`source_quality`、`source_url`、`notes`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette/v2`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -48,17 +48,19 @@
 
 ```json
 {
-  "series_id": "manman-278",
+  "schema": "pindou-color-palette/v2",
+  "id": "manman-278",
+  "title": "漫漫家",
   "count": 278,
   "colors": [
     {
       "code": "A1",
       "hex": "#FF9280",
-      "rgb": {
-        "r": 255,
-        "g": 146,
-        "b": 128
-      },
+      "rgb": [
+        255,
+        146,
+        128
+      ],
       "group": "A"
     }
   ]
