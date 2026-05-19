@@ -54,6 +54,16 @@ MARKET_RESEARCH_SOURCES = [
         "signal": "覆盖 Perler、Hama、Artkal、MARD、COCO、漫漫、盼盼、咪小窝等 8 大品牌。",
     },
     {
+        "name": "xiaoana 拼豆工具色号映射",
+        "url": "https://www.xiaoana.cn/",
+        "signal": "前端包内含 MARD、COCO、漫漫、盼盼、咪小窝的 HEX 到品牌色号映射，可用于交叉验证国内品牌色号身份。",
+    },
+    {
+        "name": "Zippland/perler-beads 公开源码",
+        "url": "https://github.com/Zippland/perler-beads",
+        "signal": "公开 `colorSystemMapping.json` 与 CSV 色号对应表，和 xiaoana 映射一致，用于校验漫漫/盼盼/咪小窝异常色号。",
+    },
+    {
         "name": "BeadPattern 拼豆图纸生成器",
         "url": "https://beadpattern.net/zh/about",
         "signal": "支持 MARD、COCO、漫漫、盼盼、Artkal 等 5 大品牌色号系统。",
@@ -454,9 +464,12 @@ def normalize_rows(raw_rows: list[dict[str, Any]], sources: list[dict[str, Any]]
         alpha = None if color is None or len(color) != 4 else color[3]
         source_ref = item.get("source") or ""
         source = source_map.get(source_ref, {})
+        source_notes = str(source.get("notes") or "")
+        row_notes = str(item.get("notes") or "")
         row = {
             "ordinal": idx,
             "code": str(item.get("code", "")).strip(),
+            "original_code": str(item.get("original_code", "") or ""),
             "hex": hex_from_color(color) if alpha is not None else explicit_hex or hex_from_color(color),
             "rgb": None if rgb is None else {"r": rgb[0], "g": rgb[1], "b": rgb[2]},
             "r": None if rgb is None else rgb[0],
@@ -467,8 +480,10 @@ def normalize_rows(raw_rows: list[dict[str, Any]], sources: list[dict[str, Any]]
             "source": source_ref,
             "source_quality": str(source.get("quality") or item.get("source_quality") or ""),
             "source_url": str(source.get("url") or item.get("source_url") or ""),
-            "notes": str(item.get("notes") or source.get("notes") or ""),
+            "source_notes": source_notes,
+            "notes": row_notes,
             "group": str(item.get("group") or ""),
+            "unidentified": bool(item.get("unidentified")),
         }
         rows.append(row)
     return rows
@@ -518,7 +533,7 @@ def compact_sources(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: OrderedDict[tuple[str, str, str], str] = OrderedDict()
     result = []
     for row in rows:
-        key = (row.get("source_url", ""), row.get("source_quality", ""), row.get("notes", ""))
+        key = (row.get("source_url", ""), row.get("source_quality", ""), row.get("source_notes", ""))
         if key not in seen:
             source_id = f"src{len(seen) + 1}"
             seen[key] = source_id
@@ -544,7 +559,11 @@ def make_json(out_dir: Path, info: dict[str, Any], rows: list[dict[str, Any]], g
         }
         if row.get("transparency"):
             item["transparency"] = row["transparency"]
-        if row.get("notes") and len(sources) > 1:
+        if row.get("unidentified"):
+            item["unidentified"] = True
+        if row.get("original_code"):
+            item["original_code"] = row["original_code"]
+        if row.get("notes"):
             item["notes"] = row["notes"]
         colors.append(item)
     payload = {
@@ -588,7 +607,8 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
     info_ws["A8"] = missing_count_label(rows)
     info_ws["B8"] = sum(1 for row in rows if row["rgb"] is None)
     info_ws["A9"] = "来源"
-    info_ws["A9"].font = Font(bold=True)
+    info_ws["A9"] = "不可辨认色号"
+    info_ws["B9"] = sum(1 for row in rows if row.get("unidentified"))
     info_ws["A10"] = "国内小店主流度"
     info_ws["B10"] = f"{market.get('tier', 'N/A')} / {market.get('score', 'N/A')} - {market.get('label', '')}"
     info_ws["A11"] = "评估摘要"
@@ -658,7 +678,7 @@ def make_xlsx(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]], g
             fields = [
                 ("HEX", row["hex"] or "N/A"),
                 ("RGB", "N/A" if row["rgb"] is None else ", ".join(str(v) for v in ([row["r"], row["g"], row["b"]] + ([] if row.get("a") is None else [row["a"]])))),
-                ("来源", row["source_quality"] or "N/A"),
+                ("状态", "不可辨认色号" if row.get("unidentified") else (row["source_quality"] or "N/A")),
             ]
             for offset, (label, value) in enumerate(fields, start=2):
                 r = block_row + offset
@@ -742,6 +762,7 @@ def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: Or
         f"总颜色数：{len(rows)}",
         f"有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
         f"{missing_count_label(rows)}：{sum(1 for row in rows if row['rgb'] is None)}",
+        f"不可辨认色号：{sum(1 for row in rows if row.get('unidentified'))}",
         f"分组：{', '.join(groups.keys())}",
         f"国内手工小店主流度：{market.get('tier', 'N/A')} / {market.get('score', 'N/A')} - {market.get('label', '')}",
     ]
@@ -773,6 +794,8 @@ def make_cover_page(info: dict[str, str], rows: list[dict[str, Any]], groups: Or
     ]
     if "official_chart_image_sampled" in quality_counts or "public_tool_display_hex" in quality_counts:
         notes.append("部分特殊材质 RGB 来自官方图例采样或公开工具站显示占位，只作屏幕显示/脚本兜底参考。")
+    if any(row.get("unidentified") for row in rows):
+        notes.append("不可辨认色号使用 UNKNOWN-* 占位并带 unidentified 标记；严格品牌色号场景建议过滤。")
     for note in notes:
         y = draw_wrapped(draw, f"- {note}", (110, y), FONT_BODY, "#333333", 1450, 6)
         y += 6
@@ -822,6 +845,8 @@ def make_color_pages(info: dict[str, str], groups: OrderedDict[str, list[dict[st
                 draw.text((x + 12, y + 78), rgb_text(row), font=FONT_TILE_SMALL, fill="#111111")
                 if row["transparency"]:
                     draw.text((x + 12, y + 96), "透明/特殊材质", font=FONT_TINY, fill="#666666")
+                elif row.get("unidentified"):
+                    draw.text((x + 12, y + 96), "不可辨认色号", font=FONT_TINY, fill="#9A3412")
 
             draw.line((margin_x, page_h - footer_h, page_w - margin_x, page_h - footer_h), fill="#DDDDDD", width=1)
             draw.text(
@@ -859,6 +884,7 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
     quality_counts = Counter(row["source_quality"] or "unknown" for row in rows)
     missing = [row["code"] for row in rows if row["rgb"] is None]
     duplicate_codes = [code for code, count in Counter(row["code"] for row in rows).items() if count > 1]
+    unidentified = [row["code"] for row in rows if row.get("unidentified")]
 
     lines = [
         f"# {info['title']}",
@@ -870,12 +896,13 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         f"- 总颜色数：{len(rows)}",
         f"- 有 RGB：{sum(1 for row in rows if row['rgb'] is not None)}",
         f"- {missing_count_label(rows)}：{len(missing)}",
+        f"- 不可辨认色号：{len(unidentified)}",
         f"- 分组：{', '.join(f'{name}({len(group)})' for name, group in groups.items())}",
         f"- 国内手工小店主流度：{market.get('tier', 'N/A')} / {market.get('score', 'N/A')} - {market.get('label', '')}",
         "",
         "## 文件",
         "",
-        "- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。",
+        "- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`，不可辨认色号会额外带 `unidentified: true`。",
         "- `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。",
         "- `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。",
         "- `README.md`：本说明。",
@@ -912,6 +939,8 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         lines.append("- RGBA 中的 alpha 用于让数据消费者明确识别透明项，并用于图例预览；它不是品牌官方发布的物理透光率。")
     if any(row["source_quality"].startswith("third_party") for row in rows):
         lines.append("- 本系列包含公开源码/工具站数据，不等同于品牌官方标准。")
+    if unidentified:
+        lines.append("- 本系列含不可辨认色号：JSON 使用 `unidentified: true` 明确标出，`code` 是本仓库分配的稳定占位 ID，`original_code` 保留上游原始值。下游需要严格品牌色号时应过滤这些颜色。")
     if "official_chart_image_sampled" in quality_counts:
         lines.append("- `official_chart_image_sampled` 表示从 Artkal 官方色卡图可见色块采样得到的参考 RGB；官方 RGB PDF 未发布这些特殊材质的数值。")
     if "public_tool_display_hex" in quality_counts:
@@ -923,6 +952,26 @@ def make_readme(out_dir: Path, info: dict[str, str], rows: list[dict[str, Any]],
         lines.append(f"- 下列色号没有可用 RGB 或属于透明/特殊材质未公开 RGB：{wrapped}")
     if duplicate_codes:
         lines.append(f"- 检测到重复色号：{', '.join(duplicate_codes)}。JSON 中按原始顺序保留所有记录。")
+    if unidentified:
+        lines.append(f"- 不可辨认色号占位 ID：{', '.join(unidentified)}。")
+
+    quality_marked = [
+        row for row in rows
+        if row.get("unidentified")
+        or row.get("original_code")
+        or str(row.get("notes") or "").startswith("原始上游页面")
+    ]
+    if quality_marked:
+        lines.extend(["", "## 数据质量标记", ""])
+        for row in quality_marked:
+            flags = []
+            if row.get("unidentified"):
+                flags.append("unidentified")
+            if row.get("original_code"):
+                flags.append(f"original_code={row['original_code']}")
+            flag_text = f"（{', '.join(flags)}）" if flags else ""
+            note = row.get("notes") or "该项保留了数据质量标记。"
+            lines.append(f"- `{row['code']}` {row['hex']} {flag_text}：{note}")
 
     lines.extend(["", "## JSON 结构简例", "", "```json"])
     example = {
@@ -965,6 +1014,14 @@ def read_palette(directory: Path) -> tuple[dict[str, Any], list[dict[str, Any]],
 
 
 RELATION_NOTES = [
+    {
+        "title": "上游错码、缺码与不可辨认色号处理",
+        "items": [
+            "`manman-278` 原始上游 HTML 中有 5 组重复色号；本仓库用 xiaoana、Zippland/perler-beads、PinDou 前端 colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证后修正色号，保留原始 HEX/RGB。",
+            "`panpan-289` 与 `mixiaowo-290` 原始上游 HTML 中各有 4 个色号为 `-` 的颜色；这些 HEX 只在对应上游页面自身出现，未能在 xiaoana、Zippland/perler-beads 或 PinDou colorSystemMapping 中确认真实品牌色号。",
+            "不可确认真实品牌色号的颜色不猜测、不套用相近 W 色号；JSON 使用稳定占位 `UNKNOWN-*`，并写入 `unidentified: true` 与 `original_code: \"-\"`，方便下游过滤。",
+        ],
+    },
     {
         "title": "MARD 221 两个来源不是完全重复",
         "items": [
@@ -1012,12 +1069,12 @@ def make_index(manifest: list[dict[str, Any]]) -> None:
         "",
         "## 系列清单",
         "",
-        "| 系列 | 主流度 | 说明 | 子目录 | 颜色数 | 有 RGB | 无 RGB |",
-        "| --- | --- | --- | --- | ---: | ---: | ---: |",
+        "| 系列 | 主流度 | 说明 | 子目录 | 颜色数 | 有 RGB | 无 RGB | 不可辨认 |",
+        "| --- | --- | --- | --- | ---: | ---: | ---: | ---: |",
     ]
     for item in sorted(manifest, key=lambda x: (-float(x.get("mainstream_score", 0)), x["id"])):
         lines.append(
-            f"| [{item['title']}]({item['id']}/) | {item['mainstream_tier']} / {item['mainstream_score']} | {item['mainstream_label']} | `{item['id']}` | {item['count']} | {item['rows_with_rgb']} | {item['rows_without_rgb']} |"
+            f"| [{item['title']}]({item['id']}/) | {item['mainstream_tier']} / {item['mainstream_score']} | {item['mainstream_label']} | `{item['id']}` | {item['count']} | {item['rows_with_rgb']} | {item['rows_without_rgb']} | {item['unidentified_count']} |"
         )
     lines.extend(["", "## 数据关系与去重说明", ""])
     for note in RELATION_NOTES:
@@ -1089,6 +1146,7 @@ def main() -> None:
             "count": len(rows),
             "rows_with_rgb": sum(1 for row in rows if row["rgb"] is not None),
             "rows_without_rgb": sum(1 for row in rows if row["rgb"] is None),
+            "unidentified_count": sum(1 for row in rows if row.get("unidentified")),
             "mainstream_tier": market.get("tier", "N/A"),
             "mainstream_score": market.get("score", 0),
             "mainstream_label": market.get("label", ""),

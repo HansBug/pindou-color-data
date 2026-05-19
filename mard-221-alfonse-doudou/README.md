@@ -7,12 +7,13 @@
 - 总颜色数：221
 - 有 RGB：221
 - 无 RGB / 透明或未公开：0
+- 不可辨认色号：0
 - 分组：A(26), B(32), C(29), D(26), E(24), F(25), G(21), H(23), M(15)
 - 国内手工小店主流度：S / 5.0 - 国内最主流/默认参考
 
 ## 文件
 
-- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`，不可辨认色号会额外带 `unidentified: true`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。

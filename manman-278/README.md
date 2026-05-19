@@ -7,12 +7,13 @@
 - 总颜色数：278
 - 有 RGB：278
 - 无 RGB / 透明或未公开：0
-- 分组：A(23), B(15), C(19), D(36), DH(15), E(25), F(12), G(15), IC(15), N(5), Q(15), R(15), YX(15), Y(5), L(3), P(23), T(7), S(15)
+- 不可辨认色号：0
+- 分组：A(25), B(15), C(19), D(36), DH(15), E(23), F(12), G(15), IC(15), N(5), Q(15), R(15), YX(15), Y(5), L(3), P(23), T(7), S(15)
 - 国内手工小店主流度：B+ / 3.7 - 老牌/图纸生态常见
 
 ## 文件
 
-- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`，不可辨认色号会额外带 `unidentified: true`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -42,7 +43,14 @@
 
 - RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。
 - 本系列包含公开源码/工具站数据，不等同于品牌官方标准。
-- 检测到重复色号：A10, E8, E9, G12, Q13。JSON 中按原始顺序保留所有记录。
+
+## 数据质量标记
+
+- `A20` #F893BF ：原始上游页面将该色误标为 A10；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A20，RGB/HEX 仍沿用原始页面采样值。
+- `A8` #F6BDE8 ：原始上游页面将该色误标为 E8；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A8，RGB/HEX 仍沿用原始页面采样值。
+- `A9` #E9639E ：原始上游页面将该色误标为 E9；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A9，RGB/HEX 仍沿用原始页面采样值。
+- `G1` #F8FBE6 ：原始上游页面将该色误标为 G12；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 G1，RGB/HEX 仍沿用原始页面采样值。
+- `Q1` #D7C6CE ：原始上游页面将该色误标为 Q13；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 Q1，RGB/HEX 仍沿用原始页面采样值。
 
 ## JSON 结构简例
 

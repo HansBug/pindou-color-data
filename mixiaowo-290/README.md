@@ -7,12 +7,13 @@
 - 总颜色数：290
 - 有 RGB：290
 - 无 RGB / 透明或未公开：0
+- 不可辨认色号：4
 - 分组：黄(25), 橙棕(49), 红粉(52), 灰白黑(47), 紫(35), 绿(30), 青蓝(52)
 - 国内手工小店主流度：B / 3.4 - 常见但偏工具/玩家圈
 
 ## 文件
 
-- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`。
+- `colors.json`：脚本读取用，采用 `pindou-color-palette`；每个颜色含 `code`、`hex`、`rgb`、`group`、`source`，不可辨认色号会额外带 `unidentified: true`。
 - `colors.xlsx`：人工查看用，不同色系分 sheet，色块 cell 已填充对应颜色。
 - `legend.pdf`：可直接转发的人类友好图例，包含色号、HEX、RGB 和实际色块。
 - `README.md`：本说明。
@@ -42,7 +43,15 @@
 
 - RGB 是屏幕参考值，不等于实物颜色；严谨对色请以实物色卡为准。
 - 本系列包含公开源码/工具站数据，不等同于品牌官方标准。
-- 检测到重复色号：-。JSON 中按原始顺序保留所有记录。
+- 本系列含不可辨认色号：JSON 使用 `unidentified: true` 明确标出，`code` 是本仓库分配的稳定占位 ID，`original_code` 保留上游原始值。下游需要严格品牌色号时应过滤这些颜色。
+- 不可辨认色号占位 ID：UNKNOWN-01, UNKNOWN-02, UNKNOWN-03, UNKNOWN-04。
+
+## 数据质量标记
+
+- `UNKNOWN-01` #F7D4E8 （unidentified, original_code=-）：上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。
+- `UNKNOWN-02` #F1FA7D （unidentified, original_code=-）：上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。
+- `UNKNOWN-03` #5EE88C （unidentified, original_code=-）：上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。
+- `UNKNOWN-04` #F8F5FE （unidentified, original_code=-）：上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。
 
 ## JSON 结构简例
 

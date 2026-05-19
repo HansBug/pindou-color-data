@@ -1115,7 +1115,7 @@
       "source": "src1"
     },
     {
-      "code": "-",
+      "code": "UNKNOWN-01",
       "hex": "#F7D4E8",
       "rgb": [
         247,
@@ -1123,10 +1123,13 @@
         232
       ],
       "group": "紫",
-      "source": "src1"
+      "source": "src1",
+      "unidentified": true,
+      "original_code": "-",
+      "notes": "上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。"
     },
     {
-      "code": "-",
+      "code": "UNKNOWN-02",
       "hex": "#F1FA7D",
       "rgb": [
         241,
@@ -1134,10 +1137,13 @@
         125
       ],
       "group": "黄",
-      "source": "src1"
+      "source": "src1",
+      "unidentified": true,
+      "original_code": "-",
+      "notes": "上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。"
     },
     {
-      "code": "-",
+      "code": "UNKNOWN-03",
       "hex": "#5EE88C",
       "rgb": [
         94,
@@ -1145,10 +1151,13 @@
         140
       ],
       "group": "绿",
-      "source": "src1"
+      "source": "src1",
+      "unidentified": true,
+      "original_code": "-",
+      "notes": "上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。"
     },
     {
-      "code": "-",
+      "code": "UNKNOWN-04",
       "hex": "#F8F5FE",
       "rgb": [
         248,
@@ -1156,7 +1165,10 @@
         254
       ],
       "group": "灰白黑",
-      "source": "src1"
+      "source": "src1",
+      "unidentified": true,
+      "original_code": "-",
+      "notes": "上游页面色号为 “-”，多路公开映射未能确认真实品牌色号；保留原始 HEX/RGB，使用稳定占位 ID。"
     },
     {
       "code": "ZG1",

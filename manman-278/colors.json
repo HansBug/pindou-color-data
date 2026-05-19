@@ -19,12 +19,12 @@
     ]
   },
   "groups": {
-    "A": 23,
+    "A": 25,
     "B": 15,
     "C": 19,
     "D": 36,
     "DH": 15,
-    "E": 25,
+    "E": 23,
     "F": 12,
     "G": 15,
     "IC": 15,
@@ -136,7 +136,7 @@
       "source": "src1"
     },
     {
-      "code": "A10",
+      "code": "A20",
       "hex": "#F893BF",
       "rgb": [
         248,
@@ -144,7 +144,8 @@
         191
       ],
       "group": "A",
-      "source": "src1"
+      "source": "src1",
+      "notes": "原始上游页面将该色误标为 A10；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A20，RGB/HEX 仍沿用原始页面采样值。"
     },
     {
       "code": "A11",
@@ -1313,15 +1314,16 @@
       "source": "src1"
     },
     {
-      "code": "E8",
+      "code": "A8",
       "hex": "#F6BDE8",
       "rgb": [
         246,
         189,
         232
       ],
-      "group": "E",
-      "source": "src1"
+      "group": "A",
+      "source": "src1",
+      "notes": "原始上游页面将该色误标为 E8；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A8，RGB/HEX 仍沿用原始页面采样值。"
     },
     {
       "code": "E8",
@@ -1335,15 +1337,16 @@
       "source": "src1"
     },
     {
-      "code": "E9",
+      "code": "A9",
       "hex": "#E9639E",
       "rgb": [
         233,
         99,
         158
       ],
-      "group": "E",
-      "source": "src1"
+      "group": "A",
+      "source": "src1",
+      "notes": "原始上游页面将该色误标为 E9；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 A9，RGB/HEX 仍沿用原始页面采样值。"
     },
     {
       "code": "E9",
@@ -1764,7 +1767,7 @@
       "source": "src1"
     },
     {
-      "code": "G12",
+      "code": "G1",
       "hex": "#F8FBE6",
       "rgb": [
         248,
@@ -1772,7 +1775,8 @@
         230
       ],
       "group": "G",
-      "source": "src1"
+      "source": "src1",
+      "notes": "原始上游页面将该色误标为 G12；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 G1，RGB/HEX 仍沿用原始页面采样值。"
     },
     {
       "code": "G13",
@@ -2116,7 +2120,7 @@
       "source": "src1"
     },
     {
-      "code": "Q13",
+      "code": "Q1",
       "hex": "#D7C6CE",
       "rgb": [
         215,
@@ -2124,7 +2128,8 @@
         206
       ],
       "group": "Q",
-      "source": "src1"
+      "source": "src1",
+      "notes": "原始上游页面将该色误标为 Q13；本仓库依据 xiaoana/Zippland/PinDou colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证修正为 Q1，RGB/HEX 仍沿用原始页面采样值。"
     },
     {
       "code": "Q14",

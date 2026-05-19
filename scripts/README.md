@@ -29,3 +29,4 @@ python -m pip install openpyxl==3.1.5 pillow==12.2.0
 - 常规小改：改对应系列 `colors.json`，然后同步更新 XLSX/PDF/README。
 - 大规模重建：确认各系列 `colors.json` 已符合 `pindou-color-palette` 后运行 `generate_deliverables.py`。
 - 如果新增系列，需要新增系列目录与 `colors.json`，并在 `generate_deliverables.py` 里补 `MARKET_ASSESSMENTS`。
+- 如果上游色号无法从多路公开来源确认，使用稳定占位 `UNKNOWN-*`，并在颜色对象上保留 `unidentified: true` 与 `original_code`，方便下游过滤。

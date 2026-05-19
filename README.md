@@ -8,21 +8,27 @@
 
 ## 系列清单
 
-| 系列 | 主流度 | 说明 | 子目录 | 颜色数 | 有 RGB | 无 RGB |
-| --- | --- | --- | --- | ---: | ---: | ---: |
-| [MARD家](mard-221-alfonse-doudou/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-alfonse-doudou` | 221 | 221 | 0 |
-| [MARD家源码版](mard-221-github/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-github` | 221 | 221 | 0 |
-| [MARD家291色](mard-291-github/) | S / 4.7 | 国内默认参考体系的完整版 | `mard-291-github` | 291 | 291 | 0 |
-| [优肯418色](artkal-c197-m221-418-official/) | A / 4.2 | 进阶全量/官方体系 | `artkal-c197-m221-418-official` | 418 | 418 | 0 |
-| [优肯197色](artkal-c-197-official/) | A / 4.1 | 官方稳定/进阶常用 | `artkal-c-197-official` | 197 | 197 | 0 |
-| [优肯M221色](artkal-m-221-official/) | A- / 3.9 | 官方 MARD 兼容新体系 | `artkal-m-221-official` | 221 | 221 | 0 |
-| [COCO](coco-291/) | A- / 3.9 | 常见性价比品牌 | `coco-291` | 291 | 291 | 0 |
-| [漫漫家](manman-278/) | B+ / 3.7 | 老牌/图纸生态常见 | `manman-278` | 278 | 278 | 0 |
-| [盼盼家](panpan-289/) | B+ / 3.6 | 工具生态常见品牌 | `panpan-289` | 289 | 289 | 0 |
-| [咪小窝](mixiaowo-290/) | B / 3.4 | 常见但偏工具/玩家圈 | `mixiaowo-290` | 290 | 290 | 0 |
-| [优肯174色旧表](youken-public-174/) | B- / 3.0 | 旧公开表/参考价值高于采购价值 | `youken-public-174` | 174 | 174 | 0 |
+| 系列 | 主流度 | 说明 | 子目录 | 颜色数 | 有 RGB | 无 RGB | 不可辨认 |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [MARD家](mard-221-alfonse-doudou/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-alfonse-doudou` | 221 | 221 | 0 | 0 |
+| [MARD家源码版](mard-221-github/) | S / 5.0 | 国内最主流/默认参考 | `mard-221-github` | 221 | 221 | 0 | 0 |
+| [MARD家291色](mard-291-github/) | S / 4.7 | 国内默认参考体系的完整版 | `mard-291-github` | 291 | 291 | 0 | 0 |
+| [优肯418色](artkal-c197-m221-418-official/) | A / 4.2 | 进阶全量/官方体系 | `artkal-c197-m221-418-official` | 418 | 418 | 0 | 0 |
+| [优肯197色](artkal-c-197-official/) | A / 4.1 | 官方稳定/进阶常用 | `artkal-c-197-official` | 197 | 197 | 0 | 0 |
+| [优肯M221色](artkal-m-221-official/) | A- / 3.9 | 官方 MARD 兼容新体系 | `artkal-m-221-official` | 221 | 221 | 0 | 0 |
+| [COCO](coco-291/) | A- / 3.9 | 常见性价比品牌 | `coco-291` | 291 | 291 | 0 | 0 |
+| [漫漫家](manman-278/) | B+ / 3.7 | 老牌/图纸生态常见 | `manman-278` | 278 | 278 | 0 | 0 |
+| [盼盼家](panpan-289/) | B+ / 3.6 | 工具生态常见品牌 | `panpan-289` | 289 | 289 | 0 | 4 |
+| [咪小窝](mixiaowo-290/) | B / 3.4 | 常见但偏工具/玩家圈 | `mixiaowo-290` | 290 | 290 | 0 | 4 |
+| [优肯174色旧表](youken-public-174/) | B- / 3.0 | 旧公开表/参考价值高于采购价值 | `youken-public-174` | 174 | 174 | 0 | 0 |
 
 ## 数据关系与去重说明
+
+### 上游错码、缺码与不可辨认色号处理
+
+- `manman-278` 原始上游 HTML 中有 5 组重复色号；本仓库用 xiaoana、Zippland/perler-beads、PinDou 前端 colorSystemMapping 和 get-colors-from-beans colorMap 交叉验证后修正色号，保留原始 HEX/RGB。
+- `panpan-289` 与 `mixiaowo-290` 原始上游 HTML 中各有 4 个色号为 `-` 的颜色；这些 HEX 只在对应上游页面自身出现，未能在 xiaoana、Zippland/perler-beads 或 PinDou colorSystemMapping 中确认真实品牌色号。
+- 不可确认真实品牌色号的颜色不猜测、不套用相近 W 色号；JSON 使用稳定占位 `UNKNOWN-*`，并写入 `unidentified: true` 与 `original_code: "-"`，方便下游过滤。
 
 ### MARD 221 两个来源不是完全重复
 
@@ -62,6 +68,8 @@
 - 比特拼豆色卡：https://bitbead.pomodiary.com/zh/colors；将 Perler、Hama、Artkal、MARD 称为四大主流品牌；称 MARD 221 是国内零售最常见版本。
 - 拼豆工具站 Mard 标准色卡/售卖页：https://www.pindou.online/colors；以 Mard 标准色卡作为站内核心色卡；售卖页说明豆子与 221 色卡完全对应。
 - PinDou 图纸生成器：https://pindou-e90.pages.dev/；覆盖 Perler、Hama、Artkal、MARD、COCO、漫漫、盼盼、咪小窝等 8 大品牌。
+- xiaoana 拼豆工具色号映射：https://www.xiaoana.cn/；前端包内含 MARD、COCO、漫漫、盼盼、咪小窝的 HEX 到品牌色号映射，可用于交叉验证国内品牌色号身份。
+- Zippland/perler-beads 公开源码：https://github.com/Zippland/perler-beads；公开 `colorSystemMapping.json` 与 CSV 色号对应表，和 xiaoana 映射一致，用于校验漫漫/盼盼/咪小窝异常色号。
 - BeadPattern 拼豆图纸生成器：https://beadpattern.net/zh/about；支持 MARD、COCO、漫漫、盼盼、Artkal 等 5 大品牌色号系统。
 - 爱拼豆 App Store：https://apps.apple.com/cn/app/%E7%88%B1%E6%8B%BC%E8%B1%86/id6756688364；支持 20+ 种主流拼豆品牌色板，列出 Artkal、MARD、可可、慢慢家、盼盼等。
 - 拼豆酱 Perler Chan：https://pindou.baby/；面向中国拼豆玩家，内置 Mard、优肯、黄豆豆色卡；页面标注 Mard 为国内主流，黄豆豆新手友好。
